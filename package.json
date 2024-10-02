@@ -1,6 +1,10 @@
 {
   "name": "helenchong-journal",
   "type": "module",
+  "scripts": {
+    "start": "bunx eleventy --serve --quiet",
+    "build": "bunx eleventy"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
