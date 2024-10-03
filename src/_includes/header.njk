@@ -1,6 +1,7 @@
 {% set activePage = page.url %}
 
 <header>
+    <h2>{{ sitemeta[page.lang].siteName | safe }}</h2>
     <nav aria-label="Primary">
         <ul>
             {% for item in navigation[page.lang] %}
