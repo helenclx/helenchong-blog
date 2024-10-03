@@ -1,12 +1,12 @@
-{% set activePage = page.url %}
-
 <header>
     <h2>{{ sitemeta[page.lang].siteName | safe }}</h2>
     <nav aria-label="Primary">
         <ul>
             {% for item in navigation[page.lang] %}
             <li>
-                <a href="{{ item.url }}">{{ item.text }}</a>
+                <a
+                    {% if item.url == page.url %}aria-current="page"{% endif %}
+                    href="{{ item.url }}">{{ item.text }}</a>
             </li>
             {% endfor %}
         </ul>
