@@ -1,5 +1,11 @@
 {
   "name": "helenchong-journal",
+  "description": "Helen Chong's personal blog.",
+  "author": "Helen Chong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helenclx/helenchong-journal.git"
+  },
   "type": "module",
   "scripts": {
     "start": "bunx eleventy --serve --quiet",
