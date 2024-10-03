@@ -1,3 +1,4 @@
 export default {
-    locale: "en"
+    locale: "en",
+    permalink: "/{{ locale }}/{{ page.fileSlug }}/"
 }
