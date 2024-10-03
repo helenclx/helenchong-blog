@@ -1,0 +1,19 @@
+---
+permalink: .htaccess
+eleventyExcludeFromCollections: true
+eleventyAllowMissingExtension: true
+---
+
+# Redirect visitors who request the root domain path to the appropriate language version
+# Fallback to English version if no matching browser language defined
+# Based on language version being at e.g. www.mywebsite.ch/zh/
+# This has no effect on any subpaths of the website, and therefore has no effect on e.g. WordPress admin.
+# Using a 302 temporary redirect header stops the redirection from being cached in the browser.
+# By Mark Howells-Mead: https://gist.github.com/markhowellsmead/0c414cea619727a3618b
+
+# language is ZH (Chinese)
+RewriteCond %{HTTP:Accept-Language} ^zh [NC]
+RewriteRule ^$ /zh/ [L,R=302]
+
+# else redirect to the English version
+RewriteRule ^$ /en/ [L,R=302]
