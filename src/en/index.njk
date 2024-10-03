@@ -1,6 +1,7 @@
 ---
-title: Helen Chong's Journal
-desc: Helen Chong's personal blog.
+eleventyComputed:
+    title: "{{ sitemeta.en.siteName | safe }}"
+    desc: "{{ sitemeta.en.siteDescription }}"
 ---
 
-Welcome to Helen Chong's Journal!
+Welcome to {{ sitemeta.en.siteName }}!
