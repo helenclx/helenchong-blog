@@ -1,7 +1,7 @@
 ---
 title: Home
 eleventyComputed:
-    desc: "{{ sitemeta.en.siteDescription }}"
+    desc: "{{ sitemeta[page.lang].siteDescription }}"
 ---
 
-Welcome to {{ sitemeta.en.siteName }}!
+Welcome to {{ sitemeta[page.lang].siteName }}!
