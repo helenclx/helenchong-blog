@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ title }} | {{ sitemeta[page.lang].siteName | safe }}</title>
+        <title>{{ title + " | " if title }}{{ sitemeta[page.lang].siteName | safe }}</title>
 
         <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta name="generator" content="{{ eleventy.generator }}">
@@ -24,7 +24,7 @@
     <body>
         {% include "header.njk" %}
         <main>
-            <h1>{{ title }}</h1>
+            <h1>{{ pageTitle or title }}</h1>
             {{ content | safe }}
         </main>
         {% include "footer.njk" %}
