@@ -4,6 +4,6 @@ export default {
         availableText: 'This page is also available in:'
     },
     zh: {
-        availableText: '此頁面也有此版本：'
+        availableText: '此頁面也有此語言版本：'
     }
 };
