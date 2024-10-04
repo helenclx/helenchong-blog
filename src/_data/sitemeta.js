@@ -4,8 +4,6 @@ export const siteAuthor = {
 	email: "helenchong@omg.lol",
 	url: siteUrl + "/about"
 };
-export const feedPath = "/feed.xml";
-export const feedUrl = siteUrl + feedPath;
 
 export const en = {
 	siteName: "Helen Chong's Journal",
