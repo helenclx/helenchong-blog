@@ -4,9 +4,7 @@
         <ul>
             {% for item in navigation[page.lang] %}
             <li>
-                <a
-                    {% if item.url == page.url %}aria-current="page"{% endif %}
-                    href="{{ item.url }}">{{ item.text }}</a>
+                <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.text }}</a>
             </li>
             {% endfor %}
         </ul>
