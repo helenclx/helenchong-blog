@@ -1,3 +1,4 @@
 export default {
-    locale: "zh"
+    locale: "zh",
+    layout: "base.njk"
 }
