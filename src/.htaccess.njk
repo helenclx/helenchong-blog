@@ -16,3 +16,10 @@ RewriteRule ^$ /zh/ [L,R=302]
 
 # else redirect to the English version
 RewriteRule ^$ /en/ [L,R=302]
+
+<FilesMatch "\.(ico|svg|avif|webp|jpg|png|gif|woff2)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+<FilesMatch "\.(css|js)$">
+Header set Cache-Control "no-cache, public"
+</FilesMatch>
