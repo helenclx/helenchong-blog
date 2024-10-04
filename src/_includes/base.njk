@@ -6,10 +6,11 @@
 
         <title>{{ title }} | {{ sitemeta[page.lang].siteName | safe }}</title>
 
+        <link rel="alternate" hreflang="{{ page.lang }}" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         {% for link in page.url | locale_links %}
-        <link rel="alternate" hreflang="{{ link.lang }}" href="{{ meta.url }}{{ link.url }}">
+        <link rel="alternate" hreflang="{{ link.lang }}" href="{{ sitemeta.siteUrl }}{{ link.url }}">
         {% endfor %}
-        <link rel="alternate" hreflang="x-default" href="{{ meta.url }}{{ page.url | locale_url('en') }}">
+        <link rel="alternate" hreflang="x-default" href="{{ sitemeta.siteUrl }}{{ page.url | locale_url('en') }}">
     </head>
     <body>
         {% include "header.njk" %}
