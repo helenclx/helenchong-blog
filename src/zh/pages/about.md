@@ -1,6 +1,6 @@
 ---
-title: 關於
-desc: 關於張海倫
+title: 关于
+desc: 关于本部落格和作者。
 ---
 
 你好！我是{{ sitemeta[page.lang].siteAuthor.name }}。

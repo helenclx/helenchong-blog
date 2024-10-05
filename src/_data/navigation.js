@@ -11,11 +11,11 @@ export const en = [
 
 export const zh = [
     {
-        text: "首頁",
+        text: "首页",
         url: "/zh/"
     },
     {
-        text: "關於",
+        text: "关于",
         url: "/zh/about/"
     }
 ];

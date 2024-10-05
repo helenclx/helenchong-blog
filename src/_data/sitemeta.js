@@ -14,10 +14,10 @@ export const en = {
 };
 
 export const zh = {
-	siteName: "銀河花園",
+	siteName: "银河花园",
 	siteAuthor: {
-		name: "張海倫",
+		name: "张海伦",
 		url: siteUrl + "/zh/about"
 	},
-	siteDescription: () => this.siteAuthor.name + "的個人部落格。"
+	siteDescription: () => this.siteAuthor.name + "的个人部落格。"
 };

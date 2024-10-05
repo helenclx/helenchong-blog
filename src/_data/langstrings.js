@@ -4,5 +4,5 @@ export const en = {
 };
 
 export const zh = {
-    availableText: '此頁面也有此語言版本：'
+    availableText: '此页面也有此语言版本：'
 };
