@@ -5,7 +5,7 @@ export const siteAuthor = {
 };
 
 export const en = {
-	siteName: "Helen Chong's Journal",
+	siteName: "Galaxy Garden",
 	siteAuthor: {
 		name: "Helen Chong",
 		url: siteUrl + "/en/about"
@@ -14,7 +14,7 @@ export const en = {
 };
 
 export const zh = {
-	siteName: "張海倫的日誌",
+	siteName: "銀河花園",
 	siteAuthor: {
 		name: "張海倫",
 		url: siteUrl + "/zh/about"
