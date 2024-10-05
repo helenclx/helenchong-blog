@@ -1,10 +1,10 @@
 {
-  "name": "helenchong-journal",
+  "name": "helenchong-blog",
   "description": "Helen Chong's personal blog.",
   "author": "Helen Chong",
   "repository": {
     "type": "git",
-    "url": "https://github.com/helenclx/helenchong-journal.git"
+    "url": "https://github.com/helenclx/helenchong-blog.git"
   },
   "type": "module",
   "scripts": {
