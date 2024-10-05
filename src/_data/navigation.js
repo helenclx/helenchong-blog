@@ -6,6 +6,10 @@ export const en = [
     {
         text: "About",
         url: "/en/about/"
+    },
+    {
+        text: "Posts",
+        url: "/en/posts/"
     }
 ];
 
@@ -15,7 +19,7 @@ export const zh = [
         url: "/zh/"
     },
     {
-        text: "关于",
-        url: "/zh/about/"
+        text: "文章",
+        url: "/zh/posts/"
     }
 ];
