@@ -21,6 +21,9 @@
         <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta property="og:locale" content="{{ page.lang }}">
 
+        {# Fonts #}
+        {% include "partials/fontsdefault.njk" %}
+        <link rel="stylesheet" href="/assets/fonts/atkinson-hyperlegible.css">
         {# CSS #}
         {% include "partials/css.njk" %}
     </head>
