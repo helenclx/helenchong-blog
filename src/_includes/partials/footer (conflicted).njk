@@ -1,7 +1,9 @@
 {% if page.lang === "zh" %}
-    {% set madeWithHeart %}{{ sitemeta[page.lang].siteName }}由{{ sitemeta[page.lang].siteAuthor.name }}用💜打造{% endset %}
+    {% set name %}
+
+    {% endset %}
 {% else %}
-    {% set madeWithHeart %}{{ sitemeta[page.lang].siteName }} is made with 💜 by {{ sitemeta[page.lang].siteAuthor.name }}{% endset %}
+
 {% endif %}
 
 {% if page.lang === "zh" %}
@@ -12,6 +14,5 @@
 
 <footer>
     <a href="/{{ page.lang }}/{{ sitemeta.feedPath }}">{{ langstrings[page.lang].rssFeed }}</a>
-    <p>{{ madeWithHeart }}</p>
     <p>{{ builtWith11ty | safe }} • <a href="https://github.com/helenclx/helenchong-journal">{{langstrings[page.lang].sourceCode  }}</a></p>
 </footer>
