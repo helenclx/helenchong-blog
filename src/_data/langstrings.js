@@ -6,6 +6,7 @@ export const en = {
     published: 'Published:',
     author: 'Author:',
     rssFeed: 'RSS Feed',
+    sourceCode: 'Source Code',
 };
 
 export const zh = {
@@ -15,4 +16,5 @@ export const zh = {
     published: '发布：',
     author: '作者：',
     rssFeed: 'RSS 订阅',
+    sourceCode: '源代码',
 };
