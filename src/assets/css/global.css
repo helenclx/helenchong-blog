@@ -4,7 +4,7 @@
 :root {
     --ff-regular: 'Atkinson Hyperlegible', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 
-    --fs-main: 1.25rem;
+    --fs-main: clamp(1.125rem, 1.0565rem + 0.3096vi, 1.25rem);
 }
 
 /* ------------------- */
