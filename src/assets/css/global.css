@@ -3,6 +3,8 @@
 /* ------------------- */
 :root {
     --ff-regular: 'Atkinson Hyperlegible', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+
+    --fs-main: 1.25rem;
 }
 
 /* ------------------- */
