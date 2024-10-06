@@ -1,9 +1,9 @@
 ---
 title: Welcome to Galaxy Garden
 desc: Introduction to Galaxy Garden and its blogger.
+date: 2024-10-06T09:24:13+0800
 tags: ["galaxy garden"]
 ---
-
 Hello, welcome to Galaxy Garden, my new personal blog!
 
 ## About the Blogger
