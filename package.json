@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-fetch": "^4.0.1"
+    "@11ty/eleventy-fetch": "^4.0.1",
+    "eleventy-plugin-wordcount-extended": "^0.2.1"
   }
 }

@@ -1,5 +1,6 @@
 // Plugins
 import { EleventyI18nPlugin } from "@11ty/eleventy";
+import wordcountPlugin from "eleventy-plugin-wordcount-extended";
 
 export default function(eleventyConfig) {
     // Plugins
@@ -7,6 +8,7 @@ export default function(eleventyConfig) {
         defaultLanguage: "en",
         errorMode: "allow-fallback"
     });
+    eleventyConfig.addPlugin(wordcountPlugin);
 
     // Passthrough File Copy
     eleventyConfig.addPassthroughCopy("./src/assets/");
