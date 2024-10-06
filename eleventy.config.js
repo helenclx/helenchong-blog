@@ -3,6 +3,7 @@ import { EleventyI18nPlugin } from "@11ty/eleventy";
 
 // Custom configurations
 import feedConfig from "./src/_config/feed.js";
+import filtersConfig from "./src/_config/filters.js";
 
 export default function(eleventyConfig) {
     // Plugins
@@ -13,6 +14,7 @@ export default function(eleventyConfig) {
 
     // Custom configurations
     eleventyConfig.addPlugin(feedConfig);
+    eleventyConfig.addPlugin(filtersConfig);
 
     // Passthrough File Copy
     eleventyConfig.addPassthroughCopy("./src/assets/");

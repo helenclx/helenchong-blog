@@ -4,7 +4,7 @@ layout: base
 <header>
     <h1>{{ title }}</h1>
     <p>{{ desc }}</p>
-    <p>{{ langstrings[page.lang].published }} <time datetime="{{ date }}">{{ date }}</time></p>
+    <p>{{ langstrings[page.lang].published }} <time datetime="{{ date }}">{{ date | formatDate(page.lang) }}</time></p>
     <p>{{ langstrings[page.lang].author }} {{ sitemeta[page.lang].siteAuthor.name }}</p>
 </header>
 <post-wrapper>
