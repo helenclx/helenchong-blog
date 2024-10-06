@@ -5,6 +5,7 @@ export const en = {
     mainNav: 'Main',
     published: 'Published:',
     author: 'Author:',
+    rssFeed: 'RSS Feed',
 };
 
 export const zh = {
@@ -13,4 +14,5 @@ export const zh = {
     mainNav: '主要',
     published: '发布：',
     author: '作者：',
+    rssFeed: 'RSS 订阅',
 };
