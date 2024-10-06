@@ -1,4 +1,4 @@
-# Helen Chong's Journal
+# Galaxy Garden
 
 Source code of my personal blog. Built with [Eleventy](https://www.11ty.dev/) and deployed to [Hostinger](https://www.hostinger.my/).
 
@@ -7,7 +7,7 @@ Recommended JavaScript runtime: [Bun](https://bun.sh).
 
 1. Clone this repository locally
     ```
-    git clone https://github.com/helenclx/helenchong.dev.git
+    git clone https://github.com/helenclx/helenchong-blog.git
     ```
 1. Install dependencies
     ```
