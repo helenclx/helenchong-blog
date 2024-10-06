@@ -1,11 +1,11 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
-import { siteUrl, en, zh } from "../_data/sitemeta.js";
+import { siteUrl, feedPath, en, zh } from "../_data/sitemeta.js";
 
 export default function(eleventyConfig) {
     // English feed
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
-		outputPath: "/en/feed.xml",
+		outputPath: "/en/" + feedPath,
 		collection: {
 			name: "posts_en",
 			limit: 10,
@@ -25,7 +25,7 @@ export default function(eleventyConfig) {
     // Chinese feed
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
-		outputPath: "/zh/feed.xml",
+		outputPath: "/zh/" + feedPath,
 		collection: {
 			name: "posts_zh",
 			limit: 10,

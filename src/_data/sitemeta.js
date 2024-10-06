@@ -3,6 +3,7 @@ export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
 export const siteAuthor = {
 	email: "helenchong@omg.lol",
 };
+export const feedPath = "feed.xml";
 
 export const en = {
 	siteName: "Galaxy Garden",
