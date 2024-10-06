@@ -5,7 +5,7 @@
     --ff-default: 'Atkinson Hyperlegible', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
-    --fs-main: clamp(1.125rem, 1.0565rem + 0.3096vi, 1.25rem);
+    --fs-main: clamp(1.125rem, 1.089rem + 0.179vw, 1.25rem);
 }
 
 /* ------------------- */
