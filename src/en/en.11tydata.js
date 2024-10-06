@@ -1,4 +1,4 @@
 export default {
     locale: "en",
-    layout: "base.njk"
+    layout: "layouts/base"
 }
