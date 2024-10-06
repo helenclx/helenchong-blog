@@ -1,4 +1,9 @@
 body {
-    font-family: var(--ff-regular);
+    font-family: var(--ff-default);
     font-size: var(--fs-main);
+}
+
+code {
+    font-family: var(--ff-monospace);
+    word-break: break-word;
 }
