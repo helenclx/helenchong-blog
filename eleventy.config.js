@@ -1,12 +1,18 @@
 // Plugins
 import { EleventyI18nPlugin } from "@11ty/eleventy";
 
+// Custom configurations
+import feedConfig from "./src/_config/feed.js";
+
 export default function(eleventyConfig) {
     // Plugins
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "en",
         errorMode: "allow-fallback"
     });
+
+    // Custom configurations
+    eleventyConfig.addPlugin(feedConfig);
 
     // Passthrough File Copy
     eleventyConfig.addPassthroughCopy("./src/assets/");

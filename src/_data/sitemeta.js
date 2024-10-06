@@ -10,7 +10,7 @@ export const en = {
 		name: "Helen Chong",
 		url: siteUrl + "/en/about"
 	},
-	siteDescription: () => this.siteAuthor.name + "'s personal blog."
+	siteDescription() { return this.siteAuthor.name + "'s personal blog."; }
 };
 
 export const zh = {
@@ -19,5 +19,5 @@ export const zh = {
 		name: "张海伦",
 		url: siteUrl + "/zh/about"
 	},
-	siteDescription: () => this.siteAuthor.name + "的个人部落格。"
+	siteDescription() { return this.siteAuthor.name + "的个人部落格。"; }
 };
