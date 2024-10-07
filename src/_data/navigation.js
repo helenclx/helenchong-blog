@@ -9,7 +9,7 @@ export const en = {
             url: "/en/about/"
         },
         {
-            text: "Posts",
+            text: "Blog",
             url: "/en/posts/"
         }
     ],
@@ -27,7 +27,7 @@ export const zh = {
             url: "/zh/about/"
         },
         {
-            text: "文章",
+            text: "部落格",
             url: "/zh/posts/"
         }
     ],
