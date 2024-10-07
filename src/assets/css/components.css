@@ -1,3 +1,24 @@
+/* Skip to content button */
+.skip-btn a {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: -1000px;
+    overflow: hidden;
+    transition: top 0.5s ease;
+    background: var(--clr-accent-1);
+    font-size: 1.25rem;
+    font-weight: 700;
+    z-index: 1000;
+    padding: 0.3em 0.7em;
+}
+
+.skip-btn a:focus {
+    top: 0;
+    transition: top 0.3s ease;
+}
+
 /* Inline lists */
 .inline-list {
     justify-self: center;
