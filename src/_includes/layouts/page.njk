@@ -1,5 +1,7 @@
 ---
 layout: layouts/base
 ---
-<h1>{{ pageTitle or title }}</h1>
-<article>{{ content | safe }}</article>
+<header class="main__header">
+    <h1>{{ pageTitle or title }}</h1>
+</header>
+<article class="prose">{{ content | safe }}</article>

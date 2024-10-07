@@ -7,7 +7,9 @@
 
     --fs-main: clamp(1.125rem, 1.089rem + 0.179vw, 1.25rem);
 
+    --sz-paragraph-margin: 1em;
     --sz-list-gap: 0.5em;
+    --sz-content-bottom: 4em;
 }
 
 /* ------------------- */

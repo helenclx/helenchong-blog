@@ -1,7 +1,7 @@
 ---
 layout: layouts/base
 ---
-<header>
+<header class="main__header">
     <h1>{{ title }}</h1>
     <p>{{ desc }}</p>
 </header>
@@ -15,7 +15,7 @@ layout: layouts/base
             <p>{{ langstrings[page.lang].author }} {{ sitemeta[page.lang].siteAuthor.name }}</p>
         </div>
     </aside>
-    <article>
+    <article class="prose">
         {{ content | safe }}
         {%- if collections.posts %}
         <nav aria-label="{{ langstrings[page.lang].nextPrev }}">
