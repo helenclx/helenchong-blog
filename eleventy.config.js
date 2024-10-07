@@ -1,5 +1,6 @@
 // Plugins
 import { EleventyI18nPlugin } from "@11ty/eleventy";
+import tocPlugin from '@uncenter/eleventy-plugin-toc';
 
 // Custom configurations
 import feedConfig from "./src/_config/feed.js";
@@ -12,6 +13,12 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "en",
         errorMode: "allow-fallback"
+    });
+    eleventyConfig.addPlugin(tocPlugin, {
+        tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
+        wrapper: function (toc) {
+            return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
+        },
     });
 
     // Custom configurations

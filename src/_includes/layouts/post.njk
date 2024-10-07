@@ -14,6 +14,14 @@ layout: layouts/base
             {% endif %}
             <p>{{ langstrings[page.lang].author }} {{ sitemeta[page.lang].siteAuthor.name }}</p>
         </div>
+        {% if toc %}
+        <details class="toc__wrapper">
+            <summary class="toc__heading" id="toc-heading">
+                {{ langstrings[page.lang].toc }}
+            </summary>
+            {{ content | toc | safe }}
+        </details>
+        {% endif %}
     </aside>
     <article class="prose">
         {{ content | safe }}

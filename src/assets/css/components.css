@@ -44,6 +44,27 @@ img.profilepic, .profilepic img {
     margin: 0.5em auto;
 }
 
+/* Heading Wrapper and Anchor */
+.heading-wrapper {
+    display: flex;
+    gap: 0.3em;
+    align-items: baseline;
+}
+
+* + .heading-wrapper { margin-top: 1.8em; }
+
+.heading-anchor {
+    order: -1;
+    text-underline-offset: 0.1em;
+}
+
+.heading-anchor:focus {
+    outline: 0.13em solid currentColor;
+    outline-offset: 0.05em;
+}
+
+.heading-anchor [hidden] { display: block; }
+
 /* Socials */
 .socials__links {
     list-style-type: "";
