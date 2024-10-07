@@ -4,6 +4,18 @@ export const siteAuthor = {
 	email: "helenchong@omg.lol",
 };
 export const feedPath = "feed.xml";
+export const siteLang = [
+    {
+      label: 'EN',
+      code: 'en',
+      long: 'English'
+    },
+    {
+      label: 'ZH',
+      code: 'zh',
+      long: '中文'
+    }
+];
 
 export const en = {
 	siteName: "Galaxy Garden",
