@@ -10,7 +10,7 @@
     {% set builtWith11ty %}Built with <a href="https://www.11ty.dev/">Eleventy</a> v{{ eleventy.version }}{% endset %}
 {% endif %}
 
-<footer>
+<footer class="footer">
     <nav aria-label="{{ langstrings[page.lang].footerNav }}">
         <ul class="inline-list">
             <li>
@@ -27,5 +27,5 @@
     <p>{{ madeWithHeart }}</p>
     <p>{{ builtWith11ty | safe }} • <a href="https://github.com/helenclx/helenchong-journal">{{langstrings[page.lang].sourceCode  }}</a></p>
 
-    <a href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="59" loading="lazy"></a>
+    <a class="grid-center" href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="59" loading="lazy"></a>
 </footer>

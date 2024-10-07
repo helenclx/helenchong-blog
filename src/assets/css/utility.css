@@ -6,6 +6,11 @@
 }
 a > .inline-icon { padding-inline-end: .25em; }
 
+.grid-center {
+    display: grid;
+    place-content: center;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;

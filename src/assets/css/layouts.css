@@ -24,6 +24,13 @@ post-wrapper {
     gap: 1rem;
 }
 
+.footer {
+    text-align: center;
+    display: grid;
+    gap: 0.5em;
+    padding: 1em;
+}
+
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     post-wrapper {
