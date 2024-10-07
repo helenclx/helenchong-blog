@@ -7,9 +7,9 @@
 
     --fs-main: clamp(1.125rem, 1.089rem + 0.179vw, 1.25rem);
 
-    --sz-paragraph-margin: 1em;
+    --sz-main-padding: clamp(1em, 5%, 1.5em);
+    --sz-paragraph-margin: 1.15em;
     --sz-list-gap: 0.5em;
-    --sz-content-bottom: 4em;
 }
 
 /* ------------------- */

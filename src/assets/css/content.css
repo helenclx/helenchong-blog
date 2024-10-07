@@ -1,11 +1,10 @@
 .main__header {
     text-align: center;
+    padding: 3em var(--sz-main-padding);
 }
 
 .prose {
-    font-size: var(--fs-main-txt);
-    color: var(--clr-slate-600);
-    padding: 0 var(--sz-main-padding) var(--sz-content-bottom);
+    padding: 1.5em var(--sz-main-padding) 4em;
 }
 
 .prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
@@ -15,6 +14,19 @@
 .prose > h4, .prose > h5, .prose > h6 { margin-top: 2em; }
 
 post-wrapper {
-    display: flex;
+    display: grid;
+    place-content: center;
     gap: 1rem;
+}
+
+/* Desktop main content layout */
+@media only screen and (min-width: 60rem) {
+    post-wrapper {
+        padding: 0 var(--sz-main-padding);
+        grid-template-areas: 'sidebar article';
+        grid-template-columns: 1fr minmax(min(80ch, 60vw), 3fr);
+    }
+
+    .prose { grid-area: article; }
+    .post__sidebar { grid-area: sidebar; }
 }

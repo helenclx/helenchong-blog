@@ -6,7 +6,7 @@ layout: layouts/base
     <p>{{ desc }}</p>
 </header>
 <post-wrapper>
-    <aside>
+    <aside class="post__sidebar">
         <div>
             <p>{{ langstrings[page.lang].published }} <time datetime="{{ date }}">{{ date | formatDate(page.lang) }}</time></p>
             {% if updated %}
