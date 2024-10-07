@@ -23,7 +23,7 @@
 }
 
 .prose {
-    padding: 1.5em var(--sz-main-padding) 4em;
+    padding: 1.5em var(--sz-main-padding) 3em;
     border: var(--bdr-layout);
     border-bottom: unset;
 }
