@@ -5,6 +5,9 @@ layout: layouts/base
     <h1>{{ title }}</h1>
     <p>{{ desc }}</p>
     <p>{{ langstrings[page.lang].published }} <time datetime="{{ date }}">{{ date | formatDate(page.lang) }}</time></p>
+    {% if updated %}
+    <p>{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>
+    {% endif %}
     <p>{{ langstrings[page.lang].author }} {{ sitemeta[page.lang].siteAuthor.name }}</p>
 </header>
 <post-wrapper>
