@@ -7,6 +7,20 @@ body {
 
 main { padding: 0 0.5em; }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--clr-accent-600);
+    font-family: var(--ff-heading);
+}
+
+h1 { font-size: var(--fs-h1); }
+h2, .h2 { font-size: var(--fs-h2); }
+h3, .h3 { font-size: var(--fs-h3); }
+h4 { font-size: var(--fs-h4); }
+
+h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
+h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.5em; }
+
 a { color: var(--clr-link); }
 a:hover { color: var(--clr-link-hover); }
 
@@ -46,3 +60,5 @@ a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture))::
 }
 
 :focus { outline: 0.15em solid currentColor; }
+details:focus { outline-offset: 0.2em; }
+summary { cursor: pointer; }

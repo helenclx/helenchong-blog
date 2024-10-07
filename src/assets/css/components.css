@@ -65,6 +65,49 @@ img.profilepic, .profilepic img {
 
 .heading-anchor [hidden] { display: block; }
 
+/* Table of Contents */
+.toc__wrapper {
+    max-height: 80vh;
+    overflow-x: auto;
+    padding: 1rem;
+    border: var(--bdr-layout);
+    position: sticky;
+    top: 6rem;
+}
+
+.toc__heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.toc ol, .toc ol ol {
+    display: grid;
+    gap: 0.3em;
+}
+
+.toc ol {
+    border-top: 0.1em solid currentColor;
+    padding-left: 1.3em;
+    padding-top: 1em;
+}
+
+.toc ol ol {
+    border-top: none;
+    list-style-type: disc;
+    padding-left: 1em;
+    padding-top: 0.3em;
+}
+
+.toc ol a {
+    font-size: 1.1rem;
+    padding-left: 0.3em;
+}
+
+.toc ol ol a {
+    padding: 0;
+    font-size: 1rem;
+}
+
 /* Socials */
 .socials__links {
     list-style-type: "";

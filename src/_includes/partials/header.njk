@@ -1,5 +1,5 @@
 <header class="header">
-    <h2>{{ sitemeta[page.lang].siteName | safe }}</h2>
+    <h2 class="header__title">{{ sitemeta[page.lang].siteName | safe }}</h2>
     <nav aria-label="{{ langstrings[page.lang].mainNav }}">
         <ul class="header__navlinks">
             {% for item in navigation[page.lang].header %}
@@ -10,7 +10,7 @@
         </ul>
     </nav>
     <nav class="header__lang" aria-describedby="lang-option">
-        <h3 id="lang-option">{{ langstrings[page.lang].langOptions }}</h3>
+        <h3 class="header__lang--heading" id="lang-option">{{ langstrings[page.lang].langOptions }}</h3>
         <a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">
             {{ page.lang | upper }}
         </a>
