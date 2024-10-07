@@ -9,7 +9,7 @@
     position: sticky;
     top: 0;
     padding: 1em;
-    z-index: 999;
+    z-index: 998;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +69,7 @@ post-wrapper {
     text-align: center;
     display: grid;
     gap: 0.7em;
-    padding: 1em;
+    padding: 1em 1em 3.5em;
     border-top: var(--bdr-layout);
 }
 

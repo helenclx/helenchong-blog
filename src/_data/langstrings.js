@@ -17,6 +17,7 @@ export const en = {
     plaintxtEmail: '(<a href="https://useplaintext.email/">Plain text email</a> encouraged)',
     sourceCode: 'Source Code',
     socialNav: 'Socials',
+    backToTop: 'Back to Top'
 };
 
 export const zh = {
@@ -37,4 +38,5 @@ export const zh = {
     plaintxtEmail: '（鼓励使用<a href="https://useplaintext.email/">纯文本电邮</a>）',
     sourceCode: '源代码',
     socialNav: '社交媒体',
+    backToTop: '返回顶端'
 };

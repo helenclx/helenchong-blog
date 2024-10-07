@@ -7,6 +7,8 @@
     --clr-border: #512b85;
     --clr-link: #7629db;
 	--clr-link-hover: #270e48;
+    --clr-top-btn-txt: #fff;
+    --clr-top-btn-bg: #512b85;
 
     --bdr-layout: 0.2em solid var(--clr-border);
 
@@ -31,6 +33,7 @@
         --clr-border: #dcdcdc;
         --clr-link: #ddaef2;
         --clr-link-hover: #a87ac9;
+        --clr-top-btn-bg: #7629db;
     }
 }
 
