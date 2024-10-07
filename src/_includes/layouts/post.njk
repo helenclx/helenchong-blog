@@ -11,5 +11,29 @@ layout: layouts/base
     <p>{{ langstrings[page.lang].author }} {{ sitemeta[page.lang].siteAuthor.name }}</p>
 </header>
 <post-wrapper>
-    {{ content | safe }}
+    <article>
+        {{ content | safe }}
+        {%- if collections.posts %}
+        <nav aria-label="{{ langstrings[page.lang].nextPrev }}">
+            {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+            {%- set nextPost = collections.posts | getNextCollectionItem %}
+            {%- if nextPost or previousPost %}
+            <ul>
+                {%- if previousPost %}
+                <li>
+                    <p>Previous Post:</p>
+                    <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+                </li>
+                {% endif %}
+                {%- if nextPost %}
+                <li>
+                    <p>Next Post:</p>
+                    <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+                </li>
+                {% endif %}
+            </ul>
+            {%- endif %}
+        </nav>
+        {%- endif %}
+    </article>
 </post-wrapper>
