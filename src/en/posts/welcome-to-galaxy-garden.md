@@ -12,6 +12,8 @@ I am Helen Chong, a Millennial queer, autistic Malaysian Chinese person who goes
 
 Professionally, I am a web developer with 8 years of experience as a graphic designer. My hobbies include coding, reading, video games, drawing and crocheting.
 
+I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent in Mandarin and English.
+
 ## About This Blog
 
 Galaxy Garden is my personal blog, built with the static site generator, [Eleventy](https://www.11ty.dev/), and hosted on [Hostinger](https://www.hostinger.my/).
