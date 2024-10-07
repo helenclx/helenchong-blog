@@ -13,6 +13,11 @@
 .prose > h3,  .prose > * + .h3,
 .prose > h4, .prose > h5, .prose > h6 { margin-top: 2em; }
 
+.page {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
 post-wrapper {
     display: grid;
     place-content: center;
