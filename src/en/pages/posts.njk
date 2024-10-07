@@ -1,0 +1,8 @@
+---
+title: Blog Posts
+eleventyComputed:
+    desc: "Archive of {{ sitemeta.en.aiteAuthor.name }}'s blog posts."
+---
+
+{% set postList = collections.posts_en | reverse %}
+{% include "partials/postlist.njk" %}
