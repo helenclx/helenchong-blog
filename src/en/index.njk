@@ -1,9 +1,13 @@
 ---
 layout: layouts/page
-pageTitle: Welcome!
+eleventyComputed:
+    pageTitle: "Welcome to {{ sitemeta[page.lang].siteName }}"
 ---
+<img class="profilepic" src="/assets/helenchong/profilepic.webp" alt="{{ sitemeta[page.lang].siteAuthor.name }}'s profile picture">
 
-<p>Welcome to {{ sitemeta[page.lang].siteName }}!</p>
+<p>Hello! Welcome to my personal blog!</p>
+
+<p>I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic Malaysian Chinese person who goes by <a href="{{ profilelinks.pronounsPage[page.lang] }}">they/them or she/her pronouns</a>.</p>
 
 <h2>Latest Posts</h2>
 {% set postList = collections.posts_en | reverse | itemLimit(3) %}
