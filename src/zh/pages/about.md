@@ -2,5 +2,12 @@
 title: 关于
 desc: 关于本部落格和作者。
 ---
+你好！我是{{ sitemeta[page.lang].siteAuthor.name }}，一个千禧世代的马来西亚华人酷儿兼自闭儿。[我的代称](https://zh.pronouns.page/@helenchong)包括他/你、tā/你、她/妳和粤语的佢/你。
 
-你好！我是{{ sitemeta[page.lang].siteAuthor.name }}。
+我的专业是网页开发人员，并拥有八年平面设计师的经验。我的爱好包括编码、阅读、电玩、绘画和钩针。
+
+我会说华语、英语、粤语和马来语，但我的华语和英语最为流利，这也是本部落格有英语和华语版本的原因。
+
+银河花园是是我的个人部落格。此部落格名字灵感源自我在 2000 年代期间部落格名字——星光盛宴。我一向都对太空有浓厚的喜爱，而我将部落格视为自己网络上的个人花园。银河花园的英文名 Galaxy Garden 因两个字还以 G 开头而押韵。银河花园和星光盛宴共享太空的主题，但又由不同词语组成，反映出我回归写部落格、我的网络创作根源的意愿，同时也是我的部落格旅程的新开始。
+
+联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 {{ sitemeta.siteAuthor.email }}。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。另外，你也可以在 Mastodon 上发私信给我至 [@helenchong@social.lol](https://social.lol/@helenchong)。
