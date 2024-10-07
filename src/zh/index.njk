@@ -3,7 +3,7 @@ layout: layouts/page
 pageTitle: 欢迎！
 ---
 
-欢迎光临{{ sitemeta[page.lang].siteName }}！
+<p>欢迎光临{{ sitemeta[page.lang].siteName }}！</p>
 
 <h2>最新文章</h2>
 {% set postList = collections.posts_zh | reverse | itemLimit(3) %}

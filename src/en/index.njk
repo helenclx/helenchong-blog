@@ -3,7 +3,7 @@ layout: layouts/page
 pageTitle: Welcome!
 ---
 
-Welcome to {{ sitemeta[page.lang].siteName }}!
+<p>Welcome to {{ sitemeta[page.lang].siteName }}!</p>
 
 <h2>Latest Posts</h2>
 {% set postList = collections.posts_en | reverse | itemLimit(3) %}
