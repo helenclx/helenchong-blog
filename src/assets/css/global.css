@@ -6,6 +6,8 @@
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
     --fs-main: clamp(1.125rem, 1.089rem + 0.179vw, 1.25rem);
+
+    --sz-list-gap: 0.5em;
 }
 
 /* ------------------- */
