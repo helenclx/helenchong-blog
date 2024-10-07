@@ -10,4 +10,4 @@ desc: 关于本部落格和作者。
 
 银河花园是是我的个人部落格。此部落格名字灵感源自我在 2000 年代期间部落格名字——星光盛宴。我一向都对太空有浓厚的喜爱，而我将部落格视为自己网络上的个人花园。银河花园的英文名 Galaxy Garden 因两个字还以 G 开头而押韵。银河花园和星光盛宴共享太空的主题，但又由不同词语组成，反映出我回归写部落格、我的网络创作根源的意愿，同时也是我的部落格旅程的新开始。
 
-联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 {{ sitemeta.siteAuthor.email }}。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。另外，你也可以在 Mastodon 上发私信给我至 [@helenchong@social.lol](https://social.lol/@helenchong)。
+联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.email }}](mailto:{{ sitemeta.siteAuthor.email }})。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。另外，你也可以在 Mastodon 上发私信给我至 [@helenchong@social.lol](https://social.lol/@helenchong)。

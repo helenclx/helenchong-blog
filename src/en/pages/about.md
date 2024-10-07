@@ -10,4 +10,4 @@ I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent 
 
 Galaxy Garden is my personal blog. The blog name is based on the name of my first blogs in the 2000s, Galaxy Park. I have always loved space, and I consider my personal blog my own garden on the web. Galaxy Garden being alliterative in English also helps. The name Galaxy Garden being similar but not the same as Galaxy Park reflects both my desire to return to my internet roots of blogging, and to start a new beginning of my blogging journey.
 
-The best way to contact me is through email. You can email me at {{ sitemeta.siteAuthor.email }}. Using [plain text email](https://useplaintext.email/) is encouraged. Alternately, you can ping me or send me a private mention on Mastodon at [@helenchong@social.lol](https://social.lol/@helenchong).
+The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.email }}](mailto:{{ sitemeta.siteAuthor.email }}). Using [plain text email](https://useplaintext.email/) is encouraged. Alternately, you can ping me or send me a private mention on Mastodon at [@helenchong@social.lol](https://social.lol/@helenchong).
