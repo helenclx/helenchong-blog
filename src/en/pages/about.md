@@ -2,7 +2,7 @@
 title: About
 desc: About Helen Chong
 ---
-{% imgFigure "/assets/helenchong/profilepic.webp", "Helen Chong's profile picture", "profilepic" %}
+{% imgFigure "/assets/helenchong/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }}'s profile picture", "profilepic" %}
 [Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
 {% endimgFigure %}
 
