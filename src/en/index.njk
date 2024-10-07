@@ -4,3 +4,6 @@ pageTitle: Welcome!
 ---
 
 Welcome to {{ sitemeta[page.lang].siteName }}!
+
+{% set postList = collections.posts_en | reverse | itemLimit(3) %}
+{% include "partials/postlist.njk" %}

@@ -4,3 +4,6 @@ pageTitle: 欢迎！
 ---
 
 欢迎光临{{ sitemeta[page.lang].siteName }}！
+
+{% set postList = collections.posts_zh | reverse | itemLimit(3) %}
+{% include "partials/postlist.njk" %}
