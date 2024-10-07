@@ -27,5 +27,18 @@
     <p>{{ madeWithHeart }}</p>
     <p>{{ builtWith11ty | safe }} • <a href="https://github.com/helenclx/helenchong-journal">{{langstrings[page.lang].sourceCode  }}</a></p>
 
-    <a class="grid-center" href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="59" loading="lazy"></a>
+    <nav class="grid-center" aria-label="{{ langstrings[page.lang].socialNav }}">
+        <ul class="inline-list">
+            {% for social, values in profilelinks.socials %}
+            <li class="socials__item">
+                <a class="socials__link" href="{{ values.url }}">
+                    <img class="socials__icon" src="{{ values.icon }}" alt="{{ values.name }}">
+                    {{ values.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <a class="block margin-center" href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="59" loading="lazy"></a>
 </footer>

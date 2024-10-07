@@ -13,6 +13,7 @@ export const en = {
     emailContact: 'Contact me by email',
     plaintxtEmail: '(<a href="https://useplaintext.email/">Plain text email</a> encouraged)',
     sourceCode: 'Source Code',
+    socialNav: 'Socials',
 };
 
 export const zh = {
@@ -29,4 +30,5 @@ export const zh = {
     emailContact: '电子邮件联系我',
     plaintxtEmail: '（鼓励使用<a href="https://useplaintext.email/">纯文本电邮</a>）',
     sourceCode: '源代码',
+    socialNav: '社交媒体',
 };

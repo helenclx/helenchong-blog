@@ -27,7 +27,7 @@ post-wrapper {
 .footer {
     text-align: center;
     display: grid;
-    gap: 0.5em;
+    gap: 0.7em;
     padding: 1em;
 }
 

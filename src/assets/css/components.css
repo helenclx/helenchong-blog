@@ -22,3 +22,25 @@
     width: 15rem;
     margin: 0.5em auto;
 }
+
+/* Socials */
+.socials__links {
+    list-style-type: "";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.socials__link {
+    display: inline-flex;
+    gap: 0.3em;
+}
+
+.socials__item {
+    display: flex;
+    align-items: center;
+}
+
+.socials__icon { height: 2rem; }
