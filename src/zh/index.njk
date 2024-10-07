@@ -1,14 +1,6 @@
 ---
-layout: layouts/page
-eleventyComputed:
-    pageTitle: "欢迎光临{{ sitemeta[page.lang].siteName }}"
+layout: layouts/home
 ---
-<img class="profilepic" src="/assets/helenchong/profilepic.webp" alt="{{ sitemeta[page.lang].siteAuthor.name }}的个人肖像">
-
 <p>你好！欢迎光临我的个人部落格！</p>
 
 <p>我是{{ sitemeta[page.lang].siteAuthor.name }}，一个千禧世代的马来西亚华人酷儿兼自闭儿。<a href="{{ profilelinks.pronounsPage[page.lang] }}">我的代称</a>包括他/你、tā/你、她/妳和粤语的佢/你。</p>
-
-<h2>最新文章</h2>
-{% set postList = collections.posts_zh | reverse | itemLimit(3) %}
-{% include "partials/postlist.njk" %}

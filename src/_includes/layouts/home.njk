@@ -1,0 +1,18 @@
+---
+layout: layouts/page
+eleventyComputed:
+    pageTitle: "{{ langstrings[page.lang].welcome }}{{ sitemeta[page.lang].siteName }}"
+---
+{% if page.lang === "zh" %}
+{% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + "的个人肖像" %}
+{% else %}
+{% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + "'s profile picture" %}
+{% endif %}
+
+<img class="profilepic" src="/assets/helenchong/profilepic.webp" alt="{{ profilePicAlt }}">
+
+{{ content | safe }}
+
+<h2>{{ langstrings[page.lang].latestPosts }}</h2>
+{% set postList = collections["posts_" + page.lang] | reverse | itemLimit(3) %}
+{% include "partials/postlist.njk" %}
