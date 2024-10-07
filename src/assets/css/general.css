@@ -1,7 +1,14 @@
 body {
     font-family: var(--ff-default);
     font-size: var(--fs-main);
+    background-color: var(--clr-accent-1);
+    color: var(--clr-body-txt);
 }
+
+main { padding: 0 0.5em; }
+
+a { color: var(--clr-link); }
+a:hover { color: var(--clr-link-hover); }
 
 figure {
     display: grid;

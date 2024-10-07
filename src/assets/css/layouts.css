@@ -1,3 +1,22 @@
+.header, .header__navlinks {
+    display: flex;
+}
+
+.header {
+    border-bottom: var(--bdr-layout);
+    background-color: var(--clr-accent-1);
+    position: sticky;
+    top: 0;
+    padding: 1em;
+    z-index: 999;
+}
+
+.header__navlinks {
+    list-style-type: "";
+    margin: 0;
+    padding: 0;
+}
+
 .main__header {
     text-align: center;
     padding: 3em var(--sz-main-padding);
@@ -5,6 +24,8 @@
 
 .prose {
     padding: 1.5em var(--sz-main-padding) 4em;
+    border: var(--bdr-layout);
+    border-bottom: unset;
 }
 
 .prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
@@ -24,11 +45,17 @@ post-wrapper {
     gap: 1rem;
 }
 
+.post__meta {
+    border: var(--bdr-layout);
+    padding: 1.5em 1em;
+}
+
 .footer {
     text-align: center;
     display: grid;
     gap: 0.7em;
     padding: 1em;
+    border-top: var(--bdr-layout);
 }
 
 /* Desktop main content layout */

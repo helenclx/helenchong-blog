@@ -7,7 +7,7 @@ layout: layouts/base
 </header>
 <post-wrapper>
     <aside class="post__sidebar">
-        <div>
+        <div class="post__meta">
             <p>{{ langstrings[page.lang].published }} <time datetime="{{ date }}">{{ date | formatDate(page.lang) }}</time></p>
             {% if updated %}
             <p>{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>

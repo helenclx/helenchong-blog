@@ -1,7 +1,7 @@
-<header>
+<header class="header">
     <h2>{{ sitemeta[page.lang].siteName | safe }}</h2>
     <nav aria-label="{{ langstrings[page.lang].mainNav }}">
-        <ul>
+        <ul class="header__navlinks">
             {% for item in navigation[page.lang].header %}
             <li>
                 <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.text }}</a>

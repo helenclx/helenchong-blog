@@ -2,6 +2,14 @@
 /* Custom Properties   */
 /* ------------------- */
 :root {
+    --clr-body-txt: #222;
+    --clr-accent-1: #f3e8ff;
+    --clr-border: #512b85;
+    --clr-link: #7629db;
+	--clr-link-hover: #270e48;
+
+    --bdr-layout: 0.2em solid var(--clr-border);
+
     --ff-default: 'Atkinson Hyperlegible', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
@@ -10,6 +18,16 @@
     --sz-main-padding: clamp(1em, 5%, 1.5em);
     --sz-paragraph-margin: 1.15em;
     --sz-list-gap: 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-body-txt: #fff;
+        --clr-accent-1: #511065;
+        --clr-border: #dcdcdc;
+        --clr-link: #ddaef2;
+        --clr-link-hover: #a87ac9;
+    }
 }
 
 /* ------------------- */
