@@ -3,6 +3,18 @@ body {
     font-size: var(--fs-main);
 }
 
+figure {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 0.2em;
+}
+
 code {
     font-family: var(--ff-monospace);
     word-break: break-word;

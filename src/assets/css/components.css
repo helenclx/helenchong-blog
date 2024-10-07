@@ -1,0 +1,6 @@
+/* Profile picture */
+.profilepic img {
+    border-radius: 50%;
+    width: 15rem;
+    margin: 0.5em auto;
+}

@@ -2,6 +2,10 @@
 title: About
 desc: About Helen Chong
 ---
+{% imgFigure "/assets/helenchong/profilepic.webp", "Helen Chong's profile picture", "profilepic" %}
+[Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
+{% endimgFigure %}
+
 Hello! I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic Malaysian Chinese person who goes by [they/them or she/her pronouns](https://en.pronouns.page/@helenchong).
 
 Professionally, I am a web developer with 8 years of experience as a graphic designer. My hobbies include coding, reading, video games, drawing and crocheting.

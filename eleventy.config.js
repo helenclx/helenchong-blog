@@ -4,6 +4,8 @@ import { EleventyI18nPlugin } from "@11ty/eleventy";
 // Custom configurations
 import feedConfig from "./src/_config/feed.js";
 import filtersConfig from "./src/_config/filters.js";
+import markdownItConfig from "./src/_config/markdown-it.js";
+import shortCodesConfig from "./src/_config/shortcodes.js";
 
 export default function(eleventyConfig) {
     // Plugins
@@ -15,6 +17,8 @@ export default function(eleventyConfig) {
     // Custom configurations
     eleventyConfig.addPlugin(feedConfig);
     eleventyConfig.addPlugin(filtersConfig);
+    eleventyConfig.addPlugin(markdownItConfig);
+    eleventyConfig.addPlugin(shortCodesConfig);
 
     // Passthrough File Copy
     eleventyConfig.addPassthroughCopy("./src/assets/");
