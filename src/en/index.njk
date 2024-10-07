@@ -5,5 +5,6 @@ pageTitle: Welcome!
 
 Welcome to {{ sitemeta[page.lang].siteName }}!
 
+<h2>Latest Posts</h2>
 {% set postList = collections.posts_en | reverse | itemLimit(3) %}
 {% include "partials/postlist.njk" %}
