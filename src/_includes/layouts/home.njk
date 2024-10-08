@@ -9,7 +9,7 @@ eleventyComputed:
 {% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + "'s profile picture" %}
 {% endif %}
 
-<img class="profilepic" src="/assets/helenchong/profilepic.webp" alt="{{ profilePicAlt }}">
+<img fetchpriority="high" class="profilepic" src="/assets/helenchong/profilepic.webp" alt="{{ profilePicAlt }}">
 
 {{ content | safe }}
 
