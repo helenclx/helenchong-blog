@@ -2,7 +2,7 @@ export const en = {
     dir: '', // stands for the direction of the language set in the head, defaults to LTR (left to right)
     skipToContent: 'Skip to Content',
     availableLang: 'This page is also available in:',
-    langOptions: 'Language:',
+    langOptions: 'Language Options:',
     mainNav: 'Main',
     footerNav: 'Footer',
     welcome: 'Welcome to ',
@@ -25,7 +25,7 @@ export const en = {
 export const zh = {
     skipToContent: '跳至内容区',
     availableLang: '此页面也有此语言版本:',
-    langOptions: '语言:',
+    langOptions: '语言选项:',
     mainNav: '主要',
     footerNav: '页脚',
     welcome: '欢迎光临',

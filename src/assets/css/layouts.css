@@ -1,13 +1,13 @@
+/* Navigation Header */
 .header, .header__navlinks, .header__lang {
     display: flex;
     gap: 0.5em;
+    flex-wrap: wrap;
 }
 
 .header {
     border-bottom: var(--bdr-layout);
     background-color: var(--clr-accent-1);
-    position: sticky;
-    top: 0;
     padding: 1em;
     z-index: 998;
     flex-wrap: wrap;
@@ -16,7 +16,8 @@
 }
 
 .header__title { font-size: 2rem; }
-.header__lang--heading { font-size: 1.5rem; }
+.header__lang { align-items: center; }
+.header__lang--icon { height: 1.5rem; }
 
 .header__navlinks {
     list-style-type: "";
@@ -26,6 +27,7 @@
     font-size: 1.1em;
 }
 
+/* Main Content */
 .main__header {
     text-align: center;
     padding: 3em var(--sz-main-padding);
@@ -67,6 +69,7 @@ post-wrapper {
     gap: 1rem;
 }
 
+/* Footer */
 .footer {
     text-align: center;
     display: grid;
