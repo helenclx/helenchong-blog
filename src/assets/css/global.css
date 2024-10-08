@@ -9,6 +9,7 @@
 	--clr-accent-4: #270e48;
     --clr-white: #fff;
     --clr-link-btn: #7629db;
+    --clr-code-bg: #dcdcdc;
     --clr-link-btn-hover: #270e48;
     --clr-top-btn-bg: var(--clr-accent-2);
 
@@ -35,6 +36,7 @@
         --clr-accent-2: #dcdcdc;
         --clr-accent-3: #ddaef2;
         --clr-accent-4: #a87ac9;
+        --clr-code-bg: #2a0032;
         --clr-top-btn-bg: #7629db;
     }
 }
