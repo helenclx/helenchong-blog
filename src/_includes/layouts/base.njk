@@ -14,8 +14,8 @@
 
         <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta name="generator" content="{{ eleventy.generator }}">
-        <meta property="og:site_name" content="{{ sitemeta.siteName }}" />
-        <meta property="og:title" content="{{ title if title else sitemeta.siteName }}">
+        <meta property="og:site_name" content="{{ sitemeta[page.lang].siteName }}" />
+        <meta property="og:title" content="{{ title if title else sitemeta[page.lang].siteName }}">
         <meta property="og:type" content="website">
         <meta property="og:description" content="{{ desc or sitemeta[page.lang].siteDescription() | safe }}">
         <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url }}">
