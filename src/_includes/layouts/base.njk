@@ -12,8 +12,11 @@
         {% endfor %}
         <link rel="alternate" hreflang="x-default" href="{{ sitemeta.siteUrl }}{{ page.url | locale_url('en') }}">
 
+        {# Metadata #}
         <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta name="generator" content="{{ eleventy.generator }}">
+        <meta name="author" content="{{ sitemeta[page.lang].siteAuthor.name }}">
+        <meta name="description" content="{{ desc or sitemeta[page.lang].siteDescription() | safe }}">
         <meta property="og:site_name" content="{{ sitemeta[page.lang].siteName }}" />
         <meta property="og:title" content="{{ title if title else sitemeta[page.lang].siteName }}">
         <meta property="og:type" content="{{ "article" if tags and tags.includes("posts") else "website" }}">
