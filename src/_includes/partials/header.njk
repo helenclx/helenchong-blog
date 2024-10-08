@@ -12,13 +12,13 @@
     <nav class="header__lang" aria-describedby="lang-option">
         <h3 class="header__lang--heading" id="lang-option">{{ langstrings[page.lang].langOptions }}</h3>
         <a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">
-            {{ page.lang | upper }}
+            <strong>{{ sitemeta.siteLang[page.lang].long }}</strong>
         </a>
 
         {% for link in page.url | locale_links %}
         <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
-            {{ link.lang | upper }}</a
-        >
+            <span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span>
+        </a>
         {% endfor %}
     </nav>
 </header>
