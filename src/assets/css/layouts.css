@@ -17,7 +17,10 @@
 
 .header__title { font-size: 2rem; }
 .header__lang { align-items: center; }
-.header__lang--icon { height: 1.5rem; }
+.header__lang--icon {
+    height: 1.5rem;
+    fill: currentColor;
+}
 
 .header__navlinks {
     list-style-type: "";
