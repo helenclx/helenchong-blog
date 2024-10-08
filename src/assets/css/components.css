@@ -89,12 +89,12 @@ img.profilepic, .profilepic img {
 
 /* Table of Contents */
 .toc__wrapper {
-    max-height: 80vh;
+    max-height: 90vh;
     overflow-x: auto;
     padding: 1rem;
     border: var(--bdr-layout);
     position: sticky;
-    top: 6rem;
+    top: 1rem;
 }
 
 .toc__heading {
