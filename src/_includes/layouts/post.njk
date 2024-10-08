@@ -43,8 +43,9 @@ layout: layouts/base
 
         {%- if collections.posts %}
         <nav aria-label="{{ langstrings[page.lang].nextPrev }}">
-            {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-            {%- set nextPost = collections.posts | getNextCollectionItem %}
+            {%- set postCollection = collections["posts_" + page.lang] %}
+            {%- set previousPost = postCollection | getPreviousCollectionItem %}
+            {%- set nextPost = postCollection | getNextCollectionItem %}
             {%- if nextPost or previousPost %}
             <ul>
                 {%- if previousPost %}
