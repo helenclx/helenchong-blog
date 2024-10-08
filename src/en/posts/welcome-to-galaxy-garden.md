@@ -1,7 +1,7 @@
 ---
 title: Welcome to Galaxy Garden
 desc: Introduction to Galaxy Garden and its blogger.
-date: 2024-10-06T09:24:13+0800
+date: 2024-10-08T12:23:06+0800
 tags: ["galaxy garden"]
 toc: true
 ---
