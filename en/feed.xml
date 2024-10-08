@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Galaxy Garden</title>
+  <subtitle>Helen Chong&#39;s personal blog.</subtitle>
+  <link href="https://blog.helenchong.omg.lol/en/feed.xml" rel="self" />
+  <link href="https://blog.helenchong.omg.lol/en/" />
+  <updated>2024-10-08T04:23:06Z</updated>
+  <id>https://blog.helenchong.omg.lol/en/</id>
+  <author>
+    <name>Helen Chong</name>
+  </author>
+  <entry>
+    <title>Welcome to Galaxy Garden</title>
+    <link href="https://blog.helenchong.omg.lol/en/posts/welcome-to-galaxy-garden/" />
+    <updated>2024-10-08T04:23:06Z</updated>
+    <id>https://blog.helenchong.omg.lol/en/posts/welcome-to-galaxy-garden/</id>
+    <content type="html">&lt;p&gt;Hello, welcome to Galaxy Garden, my new personal blog!&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;about-the-blogger&quot;&gt;About the Blogger&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://blog.helenchong.omg.lol/en/posts/welcome-to-galaxy-garden/#about-the-blogger&quot; aria-labelledby=&quot;about-the-blogger&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I am Helen Chong, a Millennial queer, autistic Malaysian Chinese person who goes by &lt;a href=&quot;https://en.pronouns.page/@helenchong&quot;&gt;they/them or she/her pronouns&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Professionally, I am a web developer with 8 years of experience as a graphic designer. My hobbies include coding, reading, video games, drawing and crocheting.&lt;/p&gt;
+&lt;p&gt;I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent in Mandarin and English.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;about-this-blog&quot;&gt;About This Blog&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://blog.helenchong.omg.lol/en/posts/welcome-to-galaxy-garden/#about-this-blog&quot; aria-labelledby=&quot;about-this-blog&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Galaxy Garden is my personal blog, built with the static site generator, &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;, and hosted on &lt;a href=&quot;https://www.hostinger.my/&quot;&gt;Hostinger&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The blog name, Galaxy Garden, is based on the name of my first blogs in the 2000s, Galaxy Park. I have always loved space, and I consider my personal blog my own garden on the web. Galaxy Garden being alliterative in English also helps. The name Galaxy Garden being similar but not the same as Galaxy Park reflects both my desire to return to my internet roots of blogging, and to start a new beginning of my blogging journey.&lt;/p&gt;
+&lt;p&gt;The blog&#39;s address, &lt;code&gt;blog.helenchong.omg.lol&lt;/code&gt; is a subdomain of &lt;code&gt;helenchong.omg.lol&lt;/code&gt;, which I registered and purchased on &lt;a href=&quot;https://home.omg.lol/&quot;&gt;omg.lol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Galaxy Garden is available in two languages: English and Simplified Chinese. I choose support these two languages because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I was raised to be equally proficient in Mandarin Chinese (my native language) and English;&lt;/li&gt;
+&lt;li&gt;I want more practice in writing in Chinese, since I have been doing most of my digital writing in English throughout my adulthood. Incidentally, this is also why I write my pen and paer journal in Chinese;&lt;/li&gt;
+&lt;li&gt;I wrote my very first blogs in the 2000s in Chinese;&lt;/li&gt;
+&lt;li&gt;I want to learn to build and manage a multilingual website. Galaxy Garden is in fact the first multilingual website I have ever built.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;a-new-beginning-of-my-personal-blogging-journey&quot;&gt;A New Beginning of My Personal Blogging Journey&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://blog.helenchong.omg.lol/en/posts/welcome-to-galaxy-garden/#a-new-beginning-of-my-personal-blogging-journey&quot; aria-labelledby=&quot;a-new-beginning-of-my-personal-blogging-journey&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I created this blog to restart my personal blogging journey. My first foray into creating things on the World Wide Web began with blogging in the 2000s when I was only a teenager. I have always enjoyed expressing myself through writing, so the idea of having a personal journal on the internet fascinated me.&lt;/p&gt;
+&lt;p&gt;Unfortunately, the rise of social media led to many bloggers I knew migrating to social media and gradually stopped blogging. That said, my blogging continued with Tumblr, which ended up being the social media platform I became active on for the longest time.&lt;/p&gt;
+&lt;p&gt;I got inspired to have my own personal blog again after discovering the resurgence of personal websites and blogs, starting with my discovery of &lt;a href=&quot;https://neocities.org/&quot;&gt;Neocities&lt;/a&gt; through Tumblr in 2022. The resurgence of personal websites also inspired me to code my own website from scratch for the first time, which led to me learning web development more seriously and switching my career path from graphic design to web development.&lt;/p&gt;
+&lt;p&gt;I do have another blog on &lt;a href=&quot;https://helenchong.dev/&quot;&gt;my developer website&lt;/a&gt;, though that blog focuses on tech, so I wanted a personal blog to give myself more freedom to write about more variety of topics.&lt;/p&gt;
+&lt;p&gt;If you are reading this, I am grateful you are here to witness this new beginning of my personal blogging journey.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

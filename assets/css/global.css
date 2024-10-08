@@ -1,0 +1,100 @@
+/* ------------------- */
+/* Custom Properties   */
+/* ------------------- */
+:root {
+    --clr-body-txt: #222;
+    --clr-accent-1: #f3e8ff;
+    --clr-accent-2: #512b85;
+    --clr-accent-3: #7629db;
+	--clr-accent-4: #270e48;
+    --clr-white: #fff;
+    --clr-link-btn: #7629db;
+    --clr-code-bg: #dcdcdc;
+    --clr-link-btn-hover: #270e48;
+    --clr-top-btn-bg: var(--clr-accent-2);
+
+    --bdr-layout: 0.2em solid var(--clr-accent-2);
+
+    --ff-default: 'Atkinson Hyperlegible', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+    --fs-main: clamp(1.125rem, 1.089rem + 0.179vw, 1.25rem);
+    --fs-h1: clamp(2.2rem, 2.057rem + 0.714vw, 2.7rem);
+    --fs-h2: clamp(1.9rem, 1.786rem + 0.571vw, 2.3rem);
+    --fs-h3: clamp(1.7rem, 1.614rem + 0.429vw, 2rem);
+    --fs-h4: clamp(1.6rem, 1.543rem + 0.286vw, 1.8rem);
+
+    --sz-main-padding: clamp(1em, 5%, 1.5em);
+    --sz-paragraph-margin: 1.15em;
+    --sz-list-gap: 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-body-txt: #fff;
+        --clr-accent-1: #511065;
+        --clr-accent-2: #dcdcdc;
+        --clr-accent-3: #ddaef2;
+        --clr-accent-4: #a87ac9;
+        --clr-code-bg: #2a0032;
+        --clr-top-btn-bg: #7629db;
+    }
+}
+
+/* ------------------- */
+/* CSS Reset           */
+/* ------------------- */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd { margin: 0; }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] { list-style: none; }
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label { line-height: 1.1; }
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 { text-wrap: balance; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) { text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select { font: inherit; }
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) { min-height: 10em; }
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target { scroll-margin-block: 5ex; }
