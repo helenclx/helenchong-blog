@@ -65,6 +65,23 @@ img.profilepic, .profilepic img {
 
 .heading-anchor [hidden] { display: block; }
 
+/* Reply by Email button */
+.post__emailreply {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: var(--clr-link);
+    color: #fff;
+    border-radius: 0.5em;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+.post__emailreply:focus {
+    outline: 0.2em solid var(--clr-link);
+    outline-offset: 0.15em;
+}
+
 /* Table of Contents */
 .toc__wrapper {
     max-height: 80vh;
