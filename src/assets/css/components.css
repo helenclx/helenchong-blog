@@ -19,24 +19,6 @@
     transition: top 0.3s ease;
 }
 
-/* Inline lists */
-.inline-list {
-    justify-self: center;
-    list-style-type: "";
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 0 var(--sz-list-gap);
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.inline-list li:not(:last-child)::after {
-    content: '•';
-    padding-left: 0.5em;
-}
-
 /* Profile picture */
 img.profilepic, .profilepic img {
     border-radius: 50%;
