@@ -1,0 +1,78 @@
+/***
+ 🟣 SmolCSS Snippet Styles
+ */
+
+:root {
+    --clr-body-txt: #222;
+    --clr-body-bg: #fff;
+    --clr-link: navy;
+    --clr-footer-bdr: #ccc;
+    --clr-footer-txt: #767676;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-body-txt: #fff;
+        --clr-body-bg: #222;
+        --clr-link: rgb(172, 172, 255);
+    --clr-footer-bdr: #f0f0f0;
+    --clr-footer-txt: #bebebe;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    line-height: 1.5;
+    color: var(--clr-body-txt);
+    background-color: var(--clr-body-bg);
+}
+
+body > * {
+    --layout-spacing: max(8vh, 3rem);
+    --max-width: 70ch;
+    width: min(100%, var(--max-width));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    margin-top: var(--layout-spacing);
+}
+
+footer {
+    margin-top: auto;
+    padding-top: var(--layout-spacing);
+}
+
+footer p {
+    border-top: 1px solid var(--clr-footer-bdr);
+    padding-top: 0.25em;
+    font-size: 0.9rem;
+    color: var(--clr-footer-txt);
+}
+
+:is(h1, h2, h3) {
+    line-height: 1.2;
+}
+
+:is(h2, h3):not(:first-child) {
+    margin-top: 2em;
+}
+
+article * + * {
+    margin-top: 1em;
+}
+
+a {
+    color: var(--clr-link);
+    text-underline-offset: 0.15em;
+}
