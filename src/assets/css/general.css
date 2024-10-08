@@ -21,25 +21,8 @@ h4 { font-size: var(--fs-h4); }
 h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
 h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.5em; }
 
-a { color: var(--clr-link); }
-a:hover { color: var(--clr-link-hover); }
-
-figure {
-    display: grid;
-    place-content: center;
-    justify-items: center;
-}
-
-figcaption {
-    text-align: center;
-    font-size: 0.9em;
-    margin-top: 0.2em;
-}
-
-code {
-    font-family: var(--ff-monospace);
-    word-break: break-word;
-}
+a { color: var(--clr-accent-3); }
+a:hover { color: var(--clr-accent-4); }
 
 a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture)),
 .external-link { padding-right: 1.1em; }
@@ -59,6 +42,23 @@ a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture))::
     transform: translateY(0.28em);
 }
 
+figure {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 0.2em;
+}
+
+code {
+    font-family: var(--ff-monospace);
+    word-break: break-word;
+}
+
+summary { cursor: pointer; }
 :focus { outline: 0.15em solid currentColor; }
 details:focus { outline-offset: 0.2em; }
-summary { cursor: pointer; }

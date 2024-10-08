@@ -4,13 +4,15 @@
 :root {
     --clr-body-txt: #222;
     --clr-accent-1: #f3e8ff;
-    --clr-border: #512b85;
-    --clr-link: #7629db;
-	--clr-link-hover: #270e48;
-    --clr-top-btn-txt: #fff;
-    --clr-top-btn-bg: #512b85;
+    --clr-accent-2: #512b85;
+    --clr-accent-3: #7629db;
+	--clr-accent-4: #270e48;
+    --clr-white: #fff;
+    --clr-link-btn: #7629db;
+    --clr-link-btn-hover: #270e48;
+    --clr-top-btn-bg: var(--clr-accent-2);
 
-    --bdr-layout: 0.2em solid var(--clr-border);
+    --bdr-layout: 0.2em solid var(--clr-accent-2);
 
     --ff-default: 'Atkinson Hyperlegible', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
@@ -30,9 +32,9 @@
     :root {
         --clr-body-txt: #fff;
         --clr-accent-1: #511065;
-        --clr-border: #dcdcdc;
-        --clr-link: #ddaef2;
-        --clr-link-hover: #a87ac9;
+        --clr-accent-2: #dcdcdc;
+        --clr-accent-3: #ddaef2;
+        --clr-accent-4: #a87ac9;
         --clr-top-btn-bg: #7629db;
     }
 }

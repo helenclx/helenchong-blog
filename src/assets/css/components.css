@@ -69,16 +69,21 @@ img.profilepic, .profilepic img {
 .post__emailreply {
     display: inline-block;
     padding: 0.5em 1em;
-    background-color: var(--clr-link);
-    color: #fff;
+    background-color: var(--clr-link-btn);
+    color: var(--clr-white);
     border-radius: 0.5em;
     font-weight: 700;
     text-decoration: none;
     margin-top: 2em;
 }
 
+.post__emailreply:hover {
+    background-color: var(--clr-link-btn-hover);
+    color: var(--clr-white);
+}
+
 .post__emailreply:focus {
-    outline: 0.2em solid var(--clr-link);
+    outline: 0.2em solid var(--clr-link-btn);
     outline-offset: 0.15em;
 }
 
@@ -149,7 +154,7 @@ img.profilepic, .profilepic img {
 
 .top-btn,
 .top-btn:hover {
-    color: var(--clr-top-btn-txt);
+    color: var(--clr-white);
     text-decoration: none;
 }
 
