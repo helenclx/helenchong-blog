@@ -57,6 +57,8 @@ post-wrapper {
 .post__meta {
     border: var(--bdr-layout);
     padding: 1.5em 1em;
+    list-style-type: "";
+    margin: 0;
 }
 
 .post__sidebar {
