@@ -41,22 +41,22 @@ layout: layouts/base
             {{ langstrings[page.lang].replyByEmail }}
         </a>
 
-        {%- if collections.posts %}
-        <nav aria-label="{{ langstrings[page.lang].nextPrev }}">
+        {%- if collections["posts_" + page.lang] > 1 %}
+        <nav class="post__pagination" aria-label="{{ langstrings[page.lang].nextPrev }}">
             {%- set postCollection = collections["posts_" + page.lang] %}
             {%- set previousPost = postCollection | getPreviousCollectionItem %}
             {%- set nextPost = postCollection | getNextCollectionItem %}
             {%- if nextPost or previousPost %}
-            <ul>
+            <ul class="post__nextprev">
                 {%- if previousPost %}
-                <li>
-                    <p>Previous Post:</p>
+                <li class="post__prev">
+                    <p>{{ langstrings[page.lang].prevPost }}</p>
                     <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
                 </li>
                 {% endif %}
                 {%- if nextPost %}
-                <li>
-                    <p>Next Post:</p>
+                <li class="post__next">
+                    <p>{{ langstrings[page.lang].nextPost }}</p>
                     <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
                 </li>
                 {% endif %}
