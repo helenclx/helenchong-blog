@@ -6,6 +6,8 @@
 
         <link rel="canonical" href="{{ sitemeta.siteUrl }}/">
         <meta name="generator" content="{{ eleventy.generator }}">
+        <meta name="author" content="{{ sitemeta[page.lang].siteAuthor.name }}">
+        <meta name="description" content="{{ desc or sitemeta[page.lang].siteDescription() | safe }}">
         <meta property="og:site_name" content="{{ sitemet.en.siteName }}" />
         <meta property="og:title" content="{{ sitemeta.en.siteName }}">
         <meta property="og:type" content="website">
