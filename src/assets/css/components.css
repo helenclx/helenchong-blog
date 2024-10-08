@@ -65,8 +65,8 @@ img.profilepic, .profilepic img {
 
 .heading-anchor [hidden] { display: block; }
 
-/* Reply by Email button */
-.post__emailreply {
+/* Link Button */
+.link-btn {
     display: inline-block;
     padding: 0.5em 1em;
     background-color: var(--clr-link-btn);
@@ -77,12 +77,12 @@ img.profilepic, .profilepic img {
     margin-top: 2em;
 }
 
-.post__emailreply:hover {
+.link-btn:hover {
     background-color: var(--clr-link-btn-hover);
     color: var(--clr-white);
 }
 
-.post__emailreply:focus {
+.link-btn:focus {
     outline: 0.2em solid var(--clr-link-btn);
     outline-offset: 0.15em;
 }
