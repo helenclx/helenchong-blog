@@ -26,6 +26,12 @@ img.profilepic, .profilepic img {
     margin: 0.5em auto;
 }
 
+/* Post list */
+.postlist__item--title {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
 /* Heading Wrapper and Anchor */
 .heading-wrapper {
     display: flex;
