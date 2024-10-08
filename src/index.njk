@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="canonical" href="{{ sitemeta.siteUrl }}/">
+        <meta name="generator" content="{{ eleventy.generator }}">
+        <meta property="og:site_name" content="{{ sitemet.en.siteName }}" />
+        <meta property="og:title" content="{{ sitemeta.en.siteName }}">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="{{ sitemeta.en.siteDescription() | safe }}">
+        <meta property="og:url" content="{{ sitemeta.siteUrl }}">
+        <meta property="og:locale" content="en">
+
+        <link rel="stylesheet" href="/assets/css/splash.css">
+
+        <title>{{ sitemeta.en.siteName }} {{ sitemeta.zh.siteName }}</title>
+    </head>
+    <body>
+        <header>
+            <h1>{{ sitemeta.en.siteName }} <span lang="zh">{{ sitemeta.zh.siteName }}</span></h1>
+        </header>
+        <main>
+            <article>
+                <p>Welcome to {{ sitemeta.en.siteAuthor.name }}'s personal blog!</p>
+                <h2>This blog is available in the following languages:</h2>
+                <ul>
+                    {% for lang, values in sitemeta.siteLang %}
+                    <li>
+                        <a href="/{{ values.code }}/">
+                            <strong><span lang="{{ values.code }}">{{ values.long }}</span></strong>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </article>
+        </main>
+        <footer>
+            <p>Made with 💜 by <a href="https://helenchong.omg.lol/">{{ sitemeta.en.siteAuthor.name }}</a></p>
+        </footer>
+    </body>
+</html>
