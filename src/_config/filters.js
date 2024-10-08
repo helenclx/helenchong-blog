@@ -14,4 +14,9 @@ export default function(eleventyConfig) {
     eleventyConfig.addFilter("itemLimit", function(array, itemLimit) {
         return array.slice(0, itemLimit);
     });
+
+    // Filter tag list
+    eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
+		return (tags || []).filter(tag => ["all", "posts", "posts_en", "posts_zh"].indexOf(tag) === -1);
+	});
 }
