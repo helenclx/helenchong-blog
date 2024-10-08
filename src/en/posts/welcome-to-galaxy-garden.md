@@ -40,3 +40,5 @@ I got inspired to have my own personal blog again after discovering the resurgen
 I do have another blog on [my developer website](https://helenchong.dev/), though that blog focuses on tech, so I wanted a personal blog to give myself more freedom to write about more variety of topics.
 
 If you are reading this, I am grateful you are here to witness this new beginning of my personal blogging journey.
+
+Coincidentally, October 8 is also International Lesbian Day. As a lesbian myself, this is such a perfect timing to launch my personal project like a personal blog hand-coded from scratch! ❤️🧡🤍
