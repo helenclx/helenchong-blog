@@ -1,5 +1,5 @@
 // Plugins
-import { EleventyI18nPlugin } from "@11ty/eleventy";
+import { EleventyI18nPlugin, InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import tocPlugin from '@uncenter/eleventy-plugin-toc';
 
 // Custom configurations
@@ -14,6 +14,7 @@ export default function(eleventyConfig) {
         defaultLanguage: "en",
         errorMode: "allow-fallback"
     });
+    eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addPlugin(tocPlugin, {
         tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
         wrapper: function (toc) {
