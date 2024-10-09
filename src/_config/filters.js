@@ -2,7 +2,7 @@ import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
     // Log into the console
-    eleventyConfig.addFilter('sonsolelog', value => {
+    eleventyConfig.addFilter('consolelog', value => {
         console.log(value)
     })
 
