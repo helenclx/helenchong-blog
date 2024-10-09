@@ -4,7 +4,7 @@ desc: Inspired by Robert Birming's post to build my blog at my own pace.
 date: 2024-10-09T20:43:04+0800
 ---
 
-Coincidentally, mere hours after [officially launching Galaxy Garden](2024-10-08-welcome-to-galaxy-garden.md), Robert Birming published a blog post titled ["Blog Like a Painter"](https://birming.com/blog-painter/) [(Archived)](https://web.archive.org/web/20241009/https://birming.com/blog-painter/), sharing insights about treating blogging like painting a house to build your blog on your own terms at your own pace.
+Coincidentally, mere hours after [officially launching Galaxy Garden](2024-10-08-welcome-to-galaxy-garden.md), Robert Birming published a blog post titled ["Blog Like a Painter"](https://birming.com/blog-painter/) ([Archived](https://web.archive.org/web/20241009/https://birming.com/blog-painter/)), sharing insights about treating blogging like painting a house to build your blog on your own terms at your own pace.
 
 The timing of Robert‘s post was perfect to serve as a reminder for me to not feel overwhelmed by how many things I need or want to do with this blog right away.
 
