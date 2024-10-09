@@ -33,13 +33,13 @@
 /* Main Content */
 .main__header {
     text-align: center;
-    padding: 3em var(--sz-main-padding);
+    padding: 3em var(--sz-prose-padding);
     display: grid;
     gap: 1em;
 }
 
 .prose {
-    padding: 1.5em var(--sz-main-padding) 3em;
+    padding: 1.5em var(--sz-prose-padding) 3em;
     border: var(--bdr-layout);
     border-bottom: unset;
 }
@@ -57,8 +57,8 @@
 
 post-wrapper {
     display: grid;
-    place-content: center;
     gap: 1rem;
+    margin: 0 auto;
 }
 
 .post__pagination {
@@ -105,9 +105,10 @@ post-wrapper {
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     post-wrapper {
-        padding: 0 var(--sz-main-padding);
+        padding: 0 var(--sz-prose-padding);
         grid-template-areas: 'sidebar article';
         grid-template-columns: 1fr minmax(min(80ch, 60vw), 3fr);
+        max-width: 88rem;
     }
 
     .prose { grid-area: article; }
