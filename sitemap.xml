@@ -1,68 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://blog.helenchong.omg.lol/en/posts/welcome-to-galaxy-garden/</loc>
+        <loc>https://blog.helenchong.omg.lol/en/posts/2024-10-08-welcome-to-galaxy-garden/</loc>
         <lastmod>2024-10-08T04:23:06.000Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
-        <loc>https://blog.helenchong.omg.lol/zh/posts/welcome-to-galaxy-garden/</loc>
+        <loc>https://blog.helenchong.omg.lol/zh/posts/2024-10-08-welcome-to-galaxy-garden/</loc>
         <lastmod>2024-10-08T04:23:15.000Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
+        <loc>https://blog.helenchong.omg.lol/en/posts/2024-10-09-re-blog-like-a-painter/</loc>
+        <lastmod>2024-10-09T12:43:04.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://blog.helenchong.omg.lol/zh/posts/2024-10-09-re-blog-like-a-painter/</loc>
+        <lastmod>2024-10-09T12:44:40.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://blog.helenchong.omg.lol/en/</loc>
-        <lastmod>2024-10-09T09:38:46.897Z</lastmod>
+        <lastmod>2024-10-09T12:48:02.606Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/en/about/</loc>
-        <lastmod>2024-10-09T09:38:46.897Z</lastmod>
+        <lastmod>2024-10-09T12:48:02.606Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/en/posts/</loc>
-        <lastmod>2024-10-09T09:38:46.897Z</lastmod>
+        <lastmod>2024-10-09T12:48:02.606Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/</loc>
-        <lastmod>2024-10-09T09:38:46.897Z</lastmod>
+        <lastmod>2024-10-09T12:48:02.606Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/</loc>
-        <lastmod>2024-10-09T09:38:46.897Z</lastmod>
+        <lastmod>2024-10-09T12:48:02.606Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/about/</loc>
-        <lastmod>2024-10-09T09:38:46.897Z</lastmod>
+        <lastmod>2024-10-09T12:48:02.606Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/posts/</loc>
-        <lastmod>2024-10-09T09:38:46.897Z</lastmod>
+        <lastmod>2024-10-09T12:48:02.606Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/feed.xml</loc>
-        <lastmod>2024-10-09T09:38:51.935Z</lastmod>
+        <lastmod>2024-10-09T12:48:11.734Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/en/feed.xml</loc>
-        <lastmod>2024-10-09T09:38:51.935Z</lastmod>
+        <lastmod>2024-10-09T12:48:11.734Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
