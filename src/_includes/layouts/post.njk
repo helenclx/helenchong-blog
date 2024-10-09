@@ -41,7 +41,7 @@ layout: layouts/base
             {{ langstrings[page.lang].replyByEmail }}
         </a>
 
-        {%- if collections["posts_" + page.lang] > 1 %}
+        {%- if collections["posts_" + page.lang].length > 1 %}
         <nav class="post__pagination" aria-label="{{ langstrings[page.lang].nextPrev }}">
             {%- set postCollection = collections["posts_" + page.lang] %}
             {%- set previousPost = postCollection | getPreviousCollectionItem %}
