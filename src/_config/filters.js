@@ -1,6 +1,11 @@
 import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
+    // Log into the console
+    eleventyConfig.addFilter('sonsolelog', value => {
+        console.log(value)
+    })
+
     // Format dates
     eleventyConfig.addFilter("formatDate", (date, pageLang="en") => {
         const dateFormat = pageLang === "zh" ? "yyyy 年 L 月 d 日" : "d LLLL yyyy";
