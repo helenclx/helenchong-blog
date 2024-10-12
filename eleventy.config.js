@@ -4,6 +4,7 @@ import tocPlugin from '@uncenter/eleventy-plugin-toc';
 
 // Custom configurations
 import feedConfig from "./src/_config/feed.js";
+import filesConfig from "./src/_config/files.js";
 import filtersConfig from "./src/_config/filters.js";
 import markdownItConfig from "./src/_config/markdown-it.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
@@ -24,16 +25,10 @@ export default function(eleventyConfig) {
 
     // Custom configurations
     eleventyConfig.addPlugin(feedConfig);
+    eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(markdownItConfig);
     eleventyConfig.addPlugin(shortCodesConfig);
-
-    // Passthrough File Copy
-    eleventyConfig.addPassthroughCopy("./src/assets/");
-    eleventyConfig.addWatchTarget("./src/assets/");
-    eleventyConfig.addPassthroughCopy({
-        "./src/assets/icons/favicon/favicon.ico": "/favicon.ico"
-    });
 
     return {
         markdownTemplateEngine: "njk",
