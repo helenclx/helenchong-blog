@@ -153,6 +153,7 @@ img.profilepic, .profilepic img {
     right: 0.5rem;
     z-index: 999;
     font-weight: 700;
+    font-size: 1rem;
 
     background-color: var(--clr-top-btn-bg);
     display: flex;

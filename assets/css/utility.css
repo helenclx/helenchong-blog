@@ -1,5 +1,6 @@
 .block { display: block; }
 .margin-center { margin: 0 auto; }
+.p-margin-top { margin-top: var(--sz-paragraph-margin); }
 
 .inline-icon {
     display: inline-block;
