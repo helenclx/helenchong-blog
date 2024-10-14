@@ -13,6 +13,10 @@ eleventyComputed:
 
 {{ content | safe }}
 
+<div class="grid-center p-margin-top">
+    <a href="https://ko-fi.com/s/798b83fbcc"><img src="/assets/badges/coffee-powered.png" alt="Coffee powered" width="88" height="31" loading="lazy"></a>
+</div>
+
 <h2>{{ langstrings[page.lang].latestPosts }}</h2>
 {% set postList = collections["posts_" + page.lang] | reverse | itemLimit(3) %}
 {% include "partials/postlist.njk" %}
