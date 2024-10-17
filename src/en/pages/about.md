@@ -12,8 +12,14 @@ Professionally, I am a [web developer]({{ profilelinks.devSite }}) with 8 years 
 
 I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent in Mandarin and English, which is why this blog is available in English and Mandarin.
 
+## About This Blog
+
 {{ sitemeta[page.lang].siteName }} is my personal blog, launched on 8 October 2024.
 
 The blog name is based on the name of my first blogs in the 2000s, Galaxy Park. I have always loved space, and I consider my personal blog my own garden on the web. Galaxy Garden being alliterative in English also helps. The name Galaxy Garden being similar but not the same as Galaxy Park reflects both my desire to return to my internet roots of blogging, and to start a new beginning of my blogging journey.
+
+{{ sitemeta[page.lang].siteName }} is built with the static site generator [Eleventy](https://www.11ty.dev/), and hosted on [Hostinger](https://www.hostinger.my/).
+
+## Contact
 
 The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.email }}](mailto:{{ sitemeta.siteAuthor.email }}). Using [plain text email](https://useplaintext.email/) is encouraged. Alternately, you can ping me or send me a private mention on Mastodon at [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }}).
