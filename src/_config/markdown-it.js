@@ -2,25 +2,13 @@
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 
-// Configure slug filter
-import slugify from "slugify";
+// Configure URL slug generation
+import slug from 'limax';
 
 // Enable exporting markdown-it library to another module
 export let markdownLibrary;
 
 export default function(eleventyConfig) {
-    // Configure slug filter
-    eleventyConfig.addFilter("slug", (str) => {
-        if (!str) {
-            return;
-        }
-
-        return slugify(str, {
-            lower: true,
-            remove: /["]/g,
-        });
-    });
-
     // Configure markdown-it-anchor plugins
     eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
@@ -30,12 +18,7 @@ export default function(eleventyConfig) {
     });
     const markdownItAnchorOptions = {
         level: [2, 3, 4, 5],
-        slugify: (str) =>
-            slugify(str, {
-                lower: true,
-                strict: true,
-                remove: /["]/g,
-            }),
+        slugify: (str) => slug(str),
         tabIndex: false,
         permalink(slug, opts, state, idx) {
             state.tokens.splice(idx, 0,

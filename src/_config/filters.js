@@ -1,4 +1,5 @@
 import { DateTime } from "luxon";
+import slug from 'limax';
 
 export default function(eleventyConfig) {
     // Log into the console
@@ -16,7 +17,12 @@ export default function(eleventyConfig) {
     });
 
     // Limit number of items displayed
-    eleventyConfig.addFilter("itemLimit", function(array, itemLimit) {
+    eleventyConfig.addFilter("itemLimit", (array, itemLimit) => {
         return array.slice(0, itemLimit);
+    });
+
+    // URL slug generation with more language support tha slugify
+    eleventyConfig.addFilter("slug", (str) => {
+        return slug(str);
     });
 }
