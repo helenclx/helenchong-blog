@@ -1,5 +1,5 @@
 ---
-title: Happy One Month Anniversary of My omg.lol Membership
+title: Happy One-Month Anniversary of My omg.lol Membership
 desc: It has been a month since I joined omg.lol, and I am glad to be part of it.
 date: 2024-10-19T00:11:15+0800
 ---
