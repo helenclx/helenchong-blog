@@ -7,7 +7,7 @@
                 {% else %}<code>{{ post.url }}</code>{% endif %}
             </a>
         </p>
-        <time datetime="{{ post.date }}">{{ post.date | formatDate }}</time>
+        <time datetime="{{ post.date }}">{{ post.date | formatDate(page.lang) }}</time>
     </li>
     {% endfor %}
 </ul>
