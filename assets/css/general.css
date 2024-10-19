@@ -23,6 +23,7 @@ h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.
 
 a { color: var(--clr-accent-3); }
 a:hover { color: var(--clr-accent-4); }
+a:focus, a:hover > img { outline: 0.15em solid currentColor; }
 
 a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture)),
 .external-link { padding-right: 1.1em; }
