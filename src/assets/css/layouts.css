@@ -44,11 +44,11 @@
     border-bottom: unset;
 }
 
-.prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
+.prose > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
 
 .prose > * + h2, .prose > * + .h2,
 .prose > h3,  .prose > * + .h3,
-.prose > h4, .prose > h5, .prose > h6 { margin-top: 2em; }
+.prose > h4, .prose > h5, .prose > h6 { margin-block-start: 2em; }
 
 .page {
     max-width: 60rem;
@@ -63,7 +63,7 @@ post-wrapper {
 
 .post__pagination {
     padding-top: 0.8em;
-    margin-top: 2.5em;
+    margin-block-start: 2.5em;
     border-top: 0.15em solid var(--clr-accent-2);
 }
 
