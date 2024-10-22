@@ -26,7 +26,7 @@
 
     --sz-prose-padding: clamp(1em, 5%, 1.5em);
     --sz-paragraph-margin: 1.15em;
-    --sz-list-gap: 0.5em;
+    --sz-list-gap: 0.7em;
 }
 
 @media (prefers-color-scheme: dark) {
