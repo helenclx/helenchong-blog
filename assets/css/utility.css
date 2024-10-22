@@ -28,7 +28,7 @@ a > .inline-icon { padding-inline-end: .25em; }
 }
 .inline-list li:not(:last-child)::after {
     content: '•';
-    padding-left: 0.5em;
+    padding-left: 0.3em;
 }
 
 .visually-hidden {
