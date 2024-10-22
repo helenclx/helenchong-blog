@@ -1,11 +1,12 @@
-/***
- 🟣 SmolCSS Snippet Styles
+/*
+    Based on SmolCSS Document Style:
+    https://smolcss.dev/#smol-document-styles
  */
 
 :root {
     --clr-body-txt: #222;
-    --clr-body-bg: #fff;
-    --clr-link: navy;
+    --clr-body-bg: #f3e8ff;
+    --clr-link: #7629db;
     --clr-footer-bdr: #ccc;
     --clr-footer-txt: #767676;
     --fs-body: 1.2rem;
@@ -16,8 +17,8 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --clr-body-txt: #fff;
-        --clr-body-bg: #222;
-        --clr-link: rgb(172, 172, 255);
+        --clr-body-bg: #511065;
+        --clr-link: #ddaef2;
         --clr-footer-bdr: #f0f0f0;
         --clr-footer-txt: #bebebe;
     }
