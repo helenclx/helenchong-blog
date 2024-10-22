@@ -5,7 +5,7 @@ eleventyComputed:
     titleZh: "{{ sitemeta.zh.siteName }}"
 ---
 <p>Welcome to {{ sitemeta.en.siteAuthor.name }}'s personal blog!</p>
-<h2>This blog is available in the following languages:</h2>
+<h2>This blog is available in these languages:</h2>
 <ul>
     {% for lang, values in sitemeta.siteLang %}
     <li>
