@@ -128,14 +128,10 @@ img.profilepic, .profilepic img {
     gap: 0.5em;
 }
 
-.socials__link {
-    display: inline-flex;
-    gap: 0.3em;
-}
-
 .socials__item {
     display: flex;
     align-items: center;
+    gap: 0.3em;
 }
 
 .socials__icon { height: 2rem; }

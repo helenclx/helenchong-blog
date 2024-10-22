@@ -31,8 +31,8 @@
         <ul class="inline-list">
             {% for social, values in profilelinks.socials %}
             <li class="socials__item">
+                <img class="socials__icon" src="{{ values.icon }}" alt="">
                 <a class="socials__link" href="{{ values.url }}" rel="me">
-                    <img class="socials__icon" src="{{ values.icon }}" alt="">
                     {{ values.name }}
                 </a>
             </li>
