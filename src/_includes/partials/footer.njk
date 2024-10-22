@@ -32,7 +32,11 @@
             {% for social, values in profilelinks.socials %}
             <li class="socials__item">
                 <img class="socials__icon" src="{{ values.icon }}" alt="">
-                <a class="socials__link" href="{{ values.url }}" rel="me">
+                <a
+                    class="socials__link{% if values.isExternalLink %} external-link{% endif %}"
+                    href="{{ values.url }}"
+                    rel="me"
+                >
                     {{ values.name }}
                 </a>
             </li>

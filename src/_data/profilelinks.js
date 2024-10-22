@@ -18,5 +18,12 @@ export const socials = {
         user: "@helenchong@social.lol",
         url: "https://social.lol/@helenchong",
         icon: "/assets/icons/socials/mastodon.svg"
+    },
+    bluesky: {
+        name: "Bluesky",
+        user: "helenchong.omg.lol",
+        url: "https://bsky.app/profile/helenchong.omg.lol",
+        icon: "/assets/icons/socials/bluesky.svg",
+        isExternalLink: true
     }
 };
