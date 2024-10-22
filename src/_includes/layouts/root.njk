@@ -18,11 +18,11 @@
         <link rel="stylesheet" href="/assets/css/splash.css">
         {% include "partials/favicon.njk" %}
 
-        <title>{{ title }} {{ titleZh }}</title>
+        <title>{{ title }}{% if titleZh %} {{ titleZh }}{% endif %}</title>
     </head>
     <body>
         <header>
-            <h1>{{ title }} <span lang="zh">{{ titleZh }}</span></h1>
+            <h1>{{ title }}{% if titleZh %} <span lang="zh">{{ titleZh }}</span>{% endif %}</h1>
         </header>
         <main>
             <article>
