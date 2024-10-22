@@ -22,7 +22,7 @@ a > .inline-icon { padding-inline-end: .25em; }
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 0 var(--sz-list-gap);
+    gap: 0.5em var(--sz-list-gap);
     flex-wrap: wrap;
     justify-content: center;
 }
