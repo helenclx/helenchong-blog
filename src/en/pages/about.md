@@ -22,4 +22,4 @@ The blog name is based on the name of my first blogs in the 2000s, Galaxy Park. 
 
 ## Contact
 
-The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.email }}](mailto:{{ sitemeta.siteAuthor.email }}). Using [plain text email](https://useplaintext.email/) is encouraged. Alternately, you can ping me or send me a private mention on Mastodon at [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }}).
+The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded | safe }}](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }}). Using [plain text email](https://useplaintext.email/) is encouraged. Alternately, you can ping me or send me a private mention on Mastodon at [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }}).
