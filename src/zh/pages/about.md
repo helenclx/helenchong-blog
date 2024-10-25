@@ -22,4 +22,8 @@ desc: 关于本部落格和作者。
 
 ## 联系方式
 
-联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.emailEncoded | safe }}](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }})。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。另外，你也可以在 Mastodon 上发私信给我至 [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }})。
+联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.emailEncoded | safe }}](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }})。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。
+
+另外，如果你想在社交媒体上关注我，你也可以在以下平台找我：
+- Mastodon: [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }})
+- Bluesky: [{{ profilelinks.socials.bluesky.user }}]({{ profilelinks.socials.bluesky.url }})
