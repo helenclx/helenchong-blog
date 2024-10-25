@@ -25,5 +25,11 @@ desc: 关于本部落格和作者。
 联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.emailEncoded | safe }}](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }})。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。
 
 另外，如果你想在社交媒体上关注我，你也可以在以下平台找我：
-- {{ profilelinks.socials.mastodon.inlineSvg | safe }} Mastodon: [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }})
-- {{ profilelinks.socials.bluesky.inlineSvg | safe }} Bluesky: [{{ profilelinks.socials.bluesky.user }}]({{ profilelinks.socials.bluesky.url }}){.external-link}
+<ul>
+    {% for social, values in profilelinks.socials %}
+    <li>
+        {{ values.inlineSvg | safe }} {{ values.name }}:
+        <a{% if values.isExternalLink %} class="external-link"{% endif %} href="{{ values.url }}">{{ values.user }}</a>
+    </li>
+    {% endfor %}
+</ul>

@@ -25,5 +25,11 @@ The blog name is based on the name of my first blogs in the 2000s, Galaxy Park. 
 The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded | safe }}](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }}). Using [plain text email](https://useplaintext.email/) is encouraged.
 
 Alternately, if you want to follow me on social media, you can find me on the following platforms:
-- {{ profilelinks.socials.mastodon.inlineSvg | safe }} Mastodon: [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }})
-- {{ profilelinks.socials.bluesky.inlineSvg | safe }} Bluesky: [{{ profilelinks.socials.bluesky.user }}]({{ profilelinks.socials.bluesky.url }}){.external-link}
+<ul>
+    {% for social, values in profilelinks.socials %}
+    <li>
+        {{ values.inlineSvg | safe }} {{ values.name }}:
+        <a{% if values.isExternalLink %} class="external-link"{% endif %} href="{{ values.url }}">{{ values.user }}</a>
+    </li>
+    {% endfor %}
+</ul>

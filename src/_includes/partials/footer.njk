@@ -28,6 +28,12 @@
 
     <nav class="grid-center" aria-label="{{ langstrings[page.lang].socialNav }}">
         <ul class="inline-list">
+            <li class="socials__item">
+                <img class="socials__icon" src="{{ profilelinks.omgLol.icon }}" alt="">
+                <a class="socials__link" href="{{ profilelinks.omgLol.url }}" rel="me">
+                    {{ profilelinks.omgLol.name }}
+                </a>
+            </li>
             {% for social, values in profilelinks.socials %}
             <li class="socials__item">
                 <img class="socials__icon" src="{{ values.icon }}" alt="">
