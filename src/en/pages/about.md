@@ -26,4 +26,4 @@ The best way to contact me is through email. You can email me at [{{ sitemeta.si
 
 Alternately, if you want to follow me on social media, you can find me on the following platforms:
 - Mastodon: [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }})
-- Bluesky: [{{ profilelinks.socials.bluesky.user }}]({{ profilelinks.socials.bluesky.url }})
+- Bluesky: [{{ profilelinks.socials.bluesky.user }}]({{ profilelinks.socials.bluesky.url }}){.external-link}

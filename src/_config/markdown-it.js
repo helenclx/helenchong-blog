@@ -1,6 +1,8 @@
 // markdown-it plugins
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
+import markdownItBracketedSpans from "markdown-it-bracketed-spans";
 
 // Configure URL slug generation
 import slug from 'limax';
@@ -44,7 +46,9 @@ export default function(eleventyConfig) {
         html: true,
         linkify: true,
     })
-        .use(markdownItAnchor, markdownItAnchorOptions);
+        .use(markdownItAnchor, markdownItAnchorOptions)
+        .use(markdownItAttrs)
+        .use(markdownItBracketedSpans);
 
     // Configure linkify
     markdownLibrary.linkify.set({ fuzzyLink: false });

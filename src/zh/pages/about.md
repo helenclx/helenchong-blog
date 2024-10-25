@@ -26,4 +26,4 @@ desc: 关于本部落格和作者。
 
 另外，如果你想在社交媒体上关注我，你也可以在以下平台找我：
 - Mastodon: [{{ profilelinks.socials.mastodon.user }}]({{ profilelinks.socials.mastodon.url }})
-- Bluesky: [{{ profilelinks.socials.bluesky.user }}]({{ profilelinks.socials.bluesky.url }})
+- Bluesky: [{{ profilelinks.socials.bluesky.user }}]({{ profilelinks.socials.bluesky.url }}){.external-link}
