@@ -2,26 +2,17 @@
     Based on SmolCSS Document Style:
     https://smolcss.dev/#smol-document-styles
  */
+ html { color-scheme: light dark; }
 
 :root {
-    --clr-body-txt: #222;
-    --clr-body-bg: #f3e8ff;
-    --clr-link: #7629db;
-    --clr-footer-bdr: #ccc;
-    --clr-footer-txt: #767676;
+    --clr-body-txt: light-dark(#222, #fff);
+    --clr-body-bg: light-dark(#f3e8ff, #511065);
+    --clr-link: light-dark(#7629db, #ddaef2);
+    --clr-footer-bdr: light-dark(#ccc, #f0f0f0);
+    --clr-footer-txt: light-dark(#767676, #bebebe);
     --fs-body: 1.2rem;
     --fs-footer: 0.9rem;
     --ff-body: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --clr-body-txt: #fff;
-        --clr-body-bg: #511065;
-        --clr-link: #ddaef2;
-        --clr-footer-bdr: #f0f0f0;
-        --clr-footer-txt: #bebebe;
-    }
 }
 
 * {

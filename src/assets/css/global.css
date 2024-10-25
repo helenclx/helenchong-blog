@@ -1,17 +1,19 @@
+html { color-scheme: light dark; }
+
 /* ------------------- */
 /* Custom Properties   */
 /* ------------------- */
 :root {
-    --clr-body-txt: #222;
-    --clr-accent-1: #f3e8ff;
-    --clr-accent-2: #512b85;
-    --clr-accent-3: #7629db;
-	--clr-accent-4: #270e48;
+    --clr-body-txt: light-dark(#222, #fff);
+    --clr-accent-1: light-dark(#f3e8ff, #511065);
+    --clr-accent-2: light-dark(#512b85, #dcdcdc);
+    --clr-accent-3: light-dark(#7629db, #ddaef2);
+	--clr-accent-4: light-dark(#270e48, #a87ac9);
     --clr-white: #fff;
     --clr-link-btn: #7629db;
-    --clr-code-bg: #dcdcdc;
+    --clr-code-bg: light-dark(#dcdcdc, #2a0032);
     --clr-link-btn-hover: #270e48;
-    --clr-top-btn-bg: var(--clr-accent-2);
+    --clr-top-btn-bg: light-dark(var(--clr-accent-2), #7629db);
 
     --bdr-layout: 0.2em solid var(--clr-accent-2);
 
@@ -27,18 +29,6 @@
     --sz-prose-padding: clamp(1em, 5%, 1.5em);
     --sz-paragraph-margin: 1.15em;
     --sz-list-gap: 0.7em;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --clr-body-txt: #fff;
-        --clr-accent-1: #511065;
-        --clr-accent-2: #dcdcdc;
-        --clr-accent-3: #ddaef2;
-        --clr-accent-4: #a87ac9;
-        --clr-code-bg: #2a0032;
-        --clr-top-btn-bg: #7629db;
-    }
 }
 
 /* ------------------- */
