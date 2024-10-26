@@ -1,9 +1,9 @@
-html { color-scheme: light dark; }
-
 /* ------------------- */
 /* Custom Properties   */
 /* ------------------- */
 :root {
+    color-scheme: light dark;
+
     --clr-body-txt: light-dark(#222, #fff);
     --clr-accent-1: light-dark(#f3e8ff, #511065);
     --clr-accent-2: light-dark(#512b85, #dcdcdc);
