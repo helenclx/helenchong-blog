@@ -43,6 +43,15 @@ a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture))::
     transform: translateY(0.28em);
 }
 
+blockquote {
+	padding: 0.8em 1em;
+	border-inline-start: 0.15em solid var(--clr-accent-2);
+    background-color: var(--clr-quote-bg);
+    margin-bottom: 1em;
+}
+
+blockquote > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
+
 figure {
     display: grid;
     place-content: center;
@@ -60,7 +69,7 @@ code {
     word-break: break-word;
 }
 :not(pre) > code { padding: 0.125em 0.25em; }
-:not(pre) > code, pre { background-color: var(--clr-code-bg); }
+:not(pre) > code, pre { background-color: var(--clr-quote-bg); }
 
 summary { cursor: pointer; }
 :focus { outline: 0.15em solid currentColor; }

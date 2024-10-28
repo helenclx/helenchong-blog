@@ -11,7 +11,7 @@
 	--clr-accent-4: light-dark(#270e48, #a87ac9);
     --clr-white: #fff;
     --clr-link-btn: #7629db;
-    --clr-code-bg: light-dark(#dcdcdc, #2a0032);
+    --clr-quote-bg: light-dark(#dcdcdc, #2a0032);
     --clr-link-btn-hover: #270e48;
     --clr-top-btn-bg: light-dark(var(--clr-accent-2), #7629db);
 
