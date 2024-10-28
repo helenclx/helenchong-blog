@@ -4,7 +4,7 @@ desc: 我对 “社交媒体是否扼杀了个人部落格 ”这一问题的思
 date: 2024-10-28T18:31:01+0800
 ---
 
-[Jim Mitchell](https://jimmitchell.org/) 写了一篇部落格文 ["Social Media Hasn't Killed the Personal Blog Just Yet"](https://jimmitchell.org/2024/09/21/social-media-hasnt.html)（“社交媒体还没有扼杀个人博客”），讨论了社交媒体兴起后个人部落格的衰落，以及社交媒体是否扼杀了个人部落格和个人部落格能否卷土重来的问题。发现这篇文章时，我感到大吃一惊，因为近期内我在反思着自己的部落格历史，还有社交媒体如何改变了它，结果我的想法和 Jim 非常相似。
+[Jim Mitchell](https://jimmitchell.org/) 写了一篇部落格文 ["Social Media Hasn't Killed the Personal Blog Just Yet"](https://jimmitchell.org/2024/09/21/social-media-hasnt.html)（“社交媒体还没有扼杀个人博客”）（[存档](https://archive.is/G89vw)），讨论了社交媒体兴起后个人部落格的衰落，以及社交媒体是否扼杀了个人部落格和个人部落格能否卷土重来的问题。发现这篇文章时，我感到大吃一惊，因为近期内我在反思着自己的部落格历史，还有社交媒体如何改变了它，结果我的想法和 Jim 非常相似。
 
 部落格在我心中和我的网络历史中一直占有特殊的地位，因为早在 2000 年代，我还是一个十几岁的少年时，是通过写部落格第一次在网络上搞创作和分享自己的事物。少年时的我对在网络上书写个人日志，并通过阅读和评论他人的网络日志与他人建立联系的概念深深着迷。我从小就喜欢写作与通过文字表达自己，因此写部落格对我而言似乎是一个很好的方式。
 
