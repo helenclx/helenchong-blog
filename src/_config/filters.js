@@ -9,7 +9,7 @@ export default function(eleventyConfig) {
 
     // Format dates
     eleventyConfig.addFilter("formatDate", (date, pageLang="en") => {
-        const dateFormat = pageLang === "zh" ? "yyyy年L月d日" : "d LLLL yyyy";
+        const dateFormat = pageLang === "zh" ? "yyyy 年 L 月 d 日" : "d LLLL yyyy";
         if (typeof date === "object") {
             return DateTime.fromJSDate(date).setLocale(pageLang).toFormat(dateFormat);
         }
