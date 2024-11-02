@@ -1,5 +1,5 @@
 ---
-title: WeblogPhoMo October 2024 Photo Challenge Roundup
+title: WeblogPhoMo October 2024 Photo Challenge Round-up
 desc: My participation in the first WeblogPhoMo photo challenge in October 2024.
 date: 2024-11-02T10:15:26+0800
 ---
