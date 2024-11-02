@@ -2,6 +2,7 @@
 title: "IndieWeb Carnival：全球网络中的多种语言"
 desc: 我对 2024 年 10 月的 IndieWeb Carnival 的投稿文，讲述我的线上和线下生活如何受到多种语言的影响。
 date: 2024-10-25T10:39:12+0800
+updated: 2024-11-02T23:50:45+0800
 ---
 
 此文为我向 2024 年 10 月的 [IndieWeb Carnival](https://indieweb.org/indieweb-carnival) 的投稿，主题为[《Multilingualism in a Global Web》](https://tilde.team/~zinricky/multilingualism/)，由 [Riccardo](https://tilde.team/~zinricky/) 主持。这也是我首次参与 IndieWeb Carnival。我会受激发参，是因为我的日常生活受多种语言的影响。
@@ -33,3 +34,27 @@ Tumblr 自我于 2011 年加入以来成为了我活跃时间最长的社交媒�
 几个月前我开始意识到，我需要找到能鼓励我继续练习用华文写作的方法。因此，我决定从 2024 年开始用华文写日记，并在近期决定[建立自己的新个人部落格](2024-10-08-welcome-to-galaxy-garden.md)时，会用英文和简体中文双语撰写部落格文章。银河花园也是我第一次建立多语言网站，因此建立这个部落格也是一次技术方面的学习经历。
 
 我为自己精通多种语言而感到自豪，也感激我作为马来西亚华人的生活和成长经历能鼓励我学习并掌握多种语言。学习多种语言让我了解了不同的文化，包括不同的华人文化，拓宽了我的视野，并与更多来自世界各地的人建立了联系。
+
+---
+
+**2024 年 11 月 2 日更新：**
+
+Riccardo 为 2024 年 10 月的 IndieWeb Carnival 撰写了一篇[综述文章](https://tilde.team/~zinricky/indieweb-carnival-roundup-multilingualism/)，其中汇集了所有投稿文章并附加简短评论。以下是 Riccardo 对我的投稿文章的评论：
+
+> Thank you, [Helen](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/), for posting from the part of the world I know less about. If my old friend Hai Xin read my blog, I would tell him to check the [Chinese](https://blog.helenchong.omg.lol/zh/posts/2024-10-25-indieweb-carnival-multilingualism/) version.
+>
+> > Galaxy Garden also marked my first time building a multilingual website, so setting up this blog has been quite a learning experience on the technical side too.
+>
+> I, too, noticed that maintaining a multi-language site isn’t trivial; in addition, many site generators don’t help at all, or at most provide some rudimentary tool.
+
+中文翻译：
+
+> [Helen](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/)，谢谢你从这世界里我所知较少的一个地方的观点分享这篇文章。如果我的老朋友 Hai Xin 看到我的部落格，我会告诉他去阅读此文章的[中文](https://blog.helenchong.omg.lol/zh/posts/2024-10-25-indieweb-carnival-multilingualism/)版本。
+>
+> > 银河花园也是我第一次建立多语言网站，因此建立这个部落格也是一次技术方面的学习经历。
+>
+> 我也注意到，维护一个多语种网站并非易事；此外，许多网站生成器在这方面根本帮不上忙，或者最多提供一些初级的工具。
+
+不客气，Riccardo。我很欣喜地听到你觉得我的文章很有趣。作为一个从小就学习多种语文的马来西亚华人，我对语言有很多话要说，所以我写了这篇文章，并投稿至 2024 年 10 月的 IndieWeb Carnival，以提供我自己对这一主题的看法。
+
+我建议大家也去阅读其它被包括在 Riccardo 的综述文章内的的投稿文章。了解全球各地人们对多语种的不同观点是非常有趣的！

@@ -2,6 +2,7 @@
 title: "IndieWeb Carnival: Multilingualism in a Global Web"
 desc: My contribution to the October 2024 IndieWeb Carnival, about how my online and offline lives are affected by multiple languages.
 date: 2024-10-25T10:39:06+0800
+updated: 2024-11-02T23:50:40+0800
 ---
 
 This post is my contribution to the October 2024 [IndieWeb Carnival](https://indieweb.org/indieweb-carnival), themed ["Multilingualism in a Global Web"](https://tilde.team/~zinricky/multilingualism/) and hosted by [Riccardo](https://tilde.team/~zinricky/). This is also my first time participating in the IndieWeb Carnival. I am motivated to participate because my daily life is affected by multiple languages.
@@ -33,3 +34,19 @@ Since joining Tumblr in 2011, Tumblr became the social media platform I was most
 In recent months, I began to realise that I need to find ways to continue practising writing in Mandarin. Therefore, I decided to journal in Mandarin since the start of 2024, and recently I decided to [start this new personal blog](2024-10-08-welcome-to-galaxy-garden.md) by writing in both English and Simplified Chinese. Galaxy Garden also marked my first time building a multilingual website, so setting up this blog has been quite a learning experience on the technical side too.
 
 I am proud to be multilingual, and I am grateful that my life and upbringing as a Chinese person in Malaysia actively encourages me to be multilingual. Learning multiple languages has allowed me to learn about different cultures, including different Chinese cultures, broaden my horizon, and connect with more people from different parts of the world.
+
+---
+
+**UPDATE, 2 November 2024:**
+
+Riccardo has written a [round-up article](https://tilde.team/~zinricky/indieweb-carnival-roundup-multilingualism/) for the October 2024 IndieWeb Carnival, which compiles all submissions with short commentaries. Here is Riccardo 's comment on my entry:
+
+> Thank you, [Helen](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/), for posting from the part of the world I know less about. If my old friend Hai Xin read my blog, I would tell him to check the [Chinese](https://blog.helenchong.omg.lol/zh/posts/2024-10-25-indieweb-carnival-multilingualism/) version.
+>
+> > Galaxy Garden also marked my first time building a multilingual website, so setting up this blog has been quite a learning experience on the technical side too.
+>
+> I, too, noticed that maintaining a multi-language site isn’t trivial; in addition, many site generators don’t help at all, or at most provide some rudimentary tool.
+
+You are welcome, Riccardo. I am pleased to hear that you found my post interesting. As a Malaysian Chinese person who was raised to be multilingual, I have a lot to say about languages and multilingualism, so I wrote this post and submitted to the October 2024 IndieWeb Carnival to offer my own perspective on the subject.
+
+I recommend checking out and reading the other submitted articles included in Riccardo's round-up article as well. It is interesting to learn about the different points of view on multilingualism from people across the globe!
