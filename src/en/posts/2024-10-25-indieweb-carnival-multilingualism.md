@@ -47,6 +47,6 @@ Riccardo has written a [round-up article](https://tilde.team/~zinricky/indieweb-
 >
 > I, too, noticed that maintaining a multi-language site isn’t trivial; in addition, many site generators don’t help at all, or at most provide some rudimentary tool.
 
-You are welcome, Riccardo. I am pleased to hear that you found my post interesting. As a Malaysian Chinese person who was raised to be multilingual, I have a lot to say about languages and multilingualism, so I wrote this post and submitted to the October 2024 IndieWeb Carnival to offer my own perspective on the subject.
+You are welcome, Riccardo. I am pleased to hear that you found my article interesting. As a Malaysian Chinese person who was raised to be multilingual, I have a lot to say about languages and multilingualism, so I wrote this article and submitted it to the October 2024 IndieWeb Carnival to offer my own perspective on the subject.
 
 I recommend checking out and reading the other submitted articles included in Riccardo's round-up article as well. It is interesting to learn about the different points of view on multilingualism from people across the globe!
