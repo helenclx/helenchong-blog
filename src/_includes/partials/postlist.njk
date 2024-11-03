@@ -7,7 +7,9 @@
                 {% else %}<code>{{ post.url }}</code>{% endif %}
             </a>
         </p>
-        <time class="postlist__item--date" datetime="{{ post.date }}">{{ post.date | formatDate(page.lang) }}</time>
+        <p>
+            <time class="postlist__item--date" datetime="{{ post.date }}">{{ post.date | formatDate(page.lang) }}</time>
+        </p>
         <p>{{ post.data.desc }}</p>
     </li>
     {% endfor %}
