@@ -1,6 +1,6 @@
 ---
 title: "WeblogPoMo AMA: First Movie that Left a Huge Impact on Me"
-desc: Kickstarting my participation in WeblogPoMo AMA by talking about the first movie ever watched that made a big impact on me.
+desc: Starting my participation in WeblogPoMo AMA by talking about the first movie ever watched that made a big impact on me.
 date: 2024-11-04T11:30:28+0800
 ---
 

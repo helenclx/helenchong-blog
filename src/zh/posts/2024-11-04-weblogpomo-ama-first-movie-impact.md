@@ -1,6 +1,6 @@
 ---
 title: "WeblogPoMo AMA：第一部给我留下深刻印象的电影"
-desc: 通过讲述我看过的第一部对我产生重大影响的电影，开启了我参与 WeblogPoMo AMA 的序幕。
+desc: 通过讲述我看过的第一部对我产生重大影响的电影，开启了我在 WeblogPoMo AMA 的参与。
 date: 2024-11-04T11:30:33+0800
 ---
 
