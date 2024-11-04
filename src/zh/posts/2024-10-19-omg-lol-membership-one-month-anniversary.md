@@ -31,7 +31,7 @@ updated: 2024-11-04T23:57:29+0800
 
 ![omg.lol终身会员礼品的照片，其中双面 Prami 杯垫显示的是苦恼表情的 Prami](https://cdn.some.pics/helenchong/6728b8092e3ad.jpg)
 
-这些礼品包括印有普通表情和苦恼表情的 Prami 的双面杯垫、一枚搪瓷 Prami 胸针、两枚用聚乳酸长丝制作的 3D 打印 Prami 令牌，以及 10 张贴纸，分别印有心形 Prami、病态 Prami、变形 Prami、恼人 Prami 和普通 Prami。
+这些礼品包括印有普通表情和苦恼表情的 Prami 的双面杯垫、一枚搪瓷 Prami 胸针、两枚用聚乳酸纤维制作的 3D 打印 Prami 标志，以及 10 张贴纸，分别印有心形 Prami、病态 Prami、变形 Prami、恼人 Prami 和普通 Prami。
 
 ![一张印有 omg.lol创始人 Adam Newbold 的信息的浅黄色智障的照片](https://cdn.some.pics/helenchong/6728b81b68b5a.jpg)
 
