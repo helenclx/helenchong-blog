@@ -2,6 +2,7 @@
 title: 祝我的 omg.lol 会员资格一个月纪念日快乐
 desc: 我加入 omg.lol 已经有一个月了，而且我很高兴能成为其中的一员。
 date: 2024-10-19T00:11:20+0800
+updated: 2024-11-04T23:57:29+0800
 ---
 
 2024 年 10 月 19 日是我加入 [omg.lol](https://home.omg.lol/) 的一个月纪念日。
@@ -19,3 +20,31 @@ date: 2024-10-19T00:11:20+0800
 为了更好地利用我的 omg.lol 网址，以及可以自由配置 omg.lol 网址的域名系统（Domain Name System，缩写为 DNS）的事实，我还创建了一个 [blog.helenchong.omg.lol](https://blog.helenchong.omg.lol/) 子域名，并将其用作我的新个人部落格——银河花园——的网址。值得一提的是，我重新建立自己的个人部落格的决定，也是收到 omg.lol 社区里的其他部落客的启发。
 
 我对像 omg.lol 这样的服务的存在感到无比的感激——它让我们重新找回在网络上开辟自己的天地的乐趣。我也为自己成为 omg.lol 及其美好的社区的一员而感到自豪。我持续关注着 omg.lol 的发展，并期待着它的未来。
+
+---
+
+**更新，2023 年 11 月 4 日：**
+
+在等待物品从美国运输到马来西亚之后，我的终生 omg.lol 会员资格礼品终于抵达我家了！
+
+![omg.lol 终身会员礼品的照片，其中双面 Prami 杯垫显示的是普通表情的 Prami](https://cdn.some.pics/helenchong/6728b7f709104.jpg)
+
+![omg.lol终身会员礼品的照片，其中双面 Prami 杯垫显示的是苦恼表情的 Prami](https://cdn.some.pics/helenchong/6728b8092e3ad.jpg)
+
+这些礼品包括印有普通表情和苦恼表情的 Prami 的双面杯垫、一枚搪瓷 Prami 胸针、两枚用 PLA 长丝制作的 3D 打印 Prami 令牌，以及 10 张贴纸，分别印有心形 Prami、病态 Prami、变形 Prami、恼人 Prami 和普通 Prami。
+
+![一张印有 omg.lol创始人 Adam Newbold 的信息的浅黄色智障的照片](https://cdn.some.pics/helenchong/6728b81b68b5a.jpg)
+
+这些好东西的包装里还有来自 omg.lol 创始人 Adam Newbold 的信息：
+
+> Thank you so much for being an amazing lifetime member of omg.lol!
+>
+> Enjoy these goodies, and let me know if there's ever anything I can do for you.
+>
+> 非常感谢您成为 omg.lol 的终身会员！
+>
+> 请享受这些礼品。如果有什么需要我帮忙的，尽管告诉我。
+>
+> — Adam
+
+谢谢你，Adam，谢谢你赠送的这些可爱的 Prami 礼品，也再次感谢你在 omg.lol 和其他网站上所做的一切努力！
