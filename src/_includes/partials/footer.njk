@@ -1,5 +1,5 @@
 {% if page.lang === "zh" %}
-    {% set madeWithHeart %}{{ sitemeta[page.lang].siteName }}由{{ sitemeta[page.lang].siteAuthor.name }}用💜打造{% endset %}
+    {% set madeWithHeart %}{{ sitemeta[page.lang].siteName }}由 {{ sitemeta[page.lang].siteAuthor.name }} 用💜打造{% endset %}
 {% else %}
     {% set madeWithHeart %}{{ sitemeta[page.lang].siteName }} is made with 💜 by {{ sitemeta[page.lang].siteAuthor.name }}{% endset %}
 {% endif %}
