@@ -30,7 +30,7 @@ export const en = {
 export const zh = {
 	siteName: "银河花园",
 	siteAuthor: {
-		name: "张海伦",
+		name: "Helen Chong",
 		url: siteUrl + "/zh/about"
 	},
 	siteDescription() { return this.siteAuthor.name + "的个人部落格。"; }

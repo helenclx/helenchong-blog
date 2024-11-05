@@ -4,7 +4,7 @@ eleventyComputed:
     pageTitle: "{{ langstrings[page.lang].welcome }}{{ sitemeta[page.lang].siteName }}"
 ---
 {% if page.lang === "zh" %}
-{% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + "的个人肖像" %}
+{% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + " 的个人肖像" %}
 {% else %}
 {% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + "'s profile picture" %}
 {% endif %}
