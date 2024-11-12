@@ -26,6 +26,18 @@ img.profilepic, .profilepic img {
     margin: 0.5em auto;
 }
 
+/* Web graphics */
+.web-graphics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    list-style-type: "";
+    padding: 0;
+    margin: 0;
+}
+
 /* Heading Wrapper and Anchor */
 .heading-wrapper {
     display: flex;
