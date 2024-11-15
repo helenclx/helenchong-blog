@@ -19,7 +19,7 @@ h3, .h3 { font-size: var(--fs-h3); }
 h4 { font-size: var(--fs-h4); }
 
 h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
-h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.5em; }
+h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.7em; }
 
 a { color: var(--clr-accent-3); }
 a:hover { color: var(--clr-accent-4); }
