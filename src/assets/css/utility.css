@@ -1,20 +1,3 @@
-.block { display: block; }
-.margin-center { margin: 0 auto; }
-.p-margin-top { margin-top: var(--sz-paragraph-margin); }
-
-.inline-icon {
-    display: inline-block;
-    vertical-align: -10%;
-    height: 0.9em;
-    fill: currentColor;
-}
-a > .inline-icon { padding-inline-end: .25em; }
-
-.grid-center {
-    display: grid;
-    place-content: center;
-}
-
 .inline-list {
     justify-self: center;
     list-style-type: "";
@@ -29,6 +12,25 @@ a > .inline-icon { padding-inline-end: .25em; }
 .inline-list li:not(:last-child)::after {
     content: '•';
     padding-left: 0.3em;
+}
+
+.inline-icon {
+    display: inline-block;
+    vertical-align: -10%;
+    height: 0.9em;
+    fill: currentColor;
+}
+a > .inline-icon { padding-inline-end: .25em; }
+
+.block { display: block; }
+.text-center { text-align: center; }
+.margin-center { margin: 0 auto; }
+.p-margin-top { margin-top: var(--sz-paragraph-margin); }
+.list-margin-top { margin-top: var(--sz-list-gap); }
+
+.grid-center {
+    display: grid;
+    place-content: center;
 }
 
 .visually-hidden {

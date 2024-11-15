@@ -18,6 +18,14 @@ eleventyComputed:
     <a href="https://fightfascism.glitch.me/"><img src="/assets/badges/fight-fascism.jpg" title="Fight Fascism sticker by Angus Johnston" alt="Fight fascism" width="220" height="37" loading="lazy"></a>
 </div>
 
-<h2>{{ langstrings[page.lang].latestPosts }}</h2>
+<h2 class="text-center">{{ langstrings[page.lang].latestPosts }}</h2>
 {% set postList = collections["posts_" + page.lang] | reverse | itemLimit(3) %}
 {% include "partials/postlist.njk" %}
+
+<h2 class="text-center">{{ langstrings[page.lang].webDirectories }}</h2>
+<p class="text-center">{{ sitemeta[page.lang].siteName }}{{ langstrings[page.lang].directoryDesc }}</p>
+<ul class="inline-list" style="margin-top: 0.7em;">
+    <li><a href="https://blogroll.club/">blogroll.club</a></li>
+    <li><a href="https://www.11ty.dev/authors/">Eleventy Authors</a></li>
+    <li><a href="https://indieblog.page/">indieblog.page</a></li>
+</ul>
