@@ -26,7 +26,7 @@ desc: 关于本部落格和作者。
 
 另外，如果你想在社交媒体上关注我，你也可以在以下平台找我：
 <ul>
-    {% for social, values in profilelinks.socials %}
+    {% for social, values in profilelinks.socials -%}
     <li>
         {{ values.inlineSvg | safe }} {{ values.name }}:
         <a{% if values.isExternalLink %} class="external-link"{% endif %} href="{{ values.url }}">{{ values.user }}</a>

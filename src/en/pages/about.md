@@ -26,7 +26,7 @@ The best way to contact me is through email. You can email me at [{{ sitemeta.si
 
 Alternately, if you want to follow me on social media, you can find me on the following platforms:
 <ul>
-    {% for social, values in profilelinks.socials %}
+    {% for social, values in profilelinks.socials -%}
     <li>
         {{ values.inlineSvg | safe }} {{ values.name }}:
         <a{% if values.isExternalLink %} class="external-link"{% endif %} href="{{ values.url }}">{{ values.user }}</a>
