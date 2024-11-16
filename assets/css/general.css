@@ -43,6 +43,11 @@ a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture))::
     transform: translateY(0.28em);
 }
 
+ul:not([class]), ol:not([class]) {
+    display: grid;
+    gap: var(--sz-list-gap);
+}
+
 blockquote {
 	padding: 0.8em 1em;
 	border-inline-start: 0.15em solid var(--clr-accent-2);
