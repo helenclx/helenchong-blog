@@ -4,7 +4,7 @@ desc: My answer to the November 2024 WeblogPoMo AMA question about my best music
 date: 2024-11-10T21:53:51+0800
 ---
 
-The question from the November 2024 [WeblogPoMo AMA](https://weblogpomo.club/challenges) blogging challenge that I would like to answer today is: **"What’s the best music-related experience of your life so far?"** This question was originally asked by [Hiro](https://www.hiro.report/) and [answered]((https://gabz.blog/posts/the-best-music-related-experience) by [Gabz](https://gabz.blog/).
+The question from the November 2024 [WeblogPoMo AMA](https://weblogpomo.club/challenges) blogging challenge that I would like to answer today is: **"What’s the best music-related experience of your life so far?"** This question was originally asked by [Hiro](https://www.hiro.report/) and [answered](https://gabz.blog/posts/the-best-music-related-experience) by [Gabz](https://gabz.blog/).
 
 The best and most unforgettable music experience and memory in my life was attending Sam Hui's 2008 concert in the Arena of Stars in Genting Highlands, Malaysia, which was also the first concert I ever attended.
 
