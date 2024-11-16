@@ -18,7 +18,7 @@ I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent 
 
 The blog name is based on the name of my first blogs in the 2000s, Galaxy Park. I have always loved space, and I consider my personal blog my own garden on the web. Galaxy Garden being alliterative in English also helps. The name Galaxy Garden being similar but not the same as Galaxy Park reflects both my desire to return to my internet roots of blogging, and to start a new beginning of my blogging journey.
 
-{{ sitemeta[page.lang].siteName }} is built with the static site generator [Eleventy](https://www.11ty.dev/), and hosted on [Hostinger](https://www.hostinger.my/).
+Technical information about {{ sitemeta[page.lang].siteName }} can be found on the [Colophon](colophon.md) page.
 
 ## Contact
 

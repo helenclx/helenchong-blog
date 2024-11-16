@@ -18,7 +18,7 @@ desc: 关于本部落格和作者。
 
 此部落格名字灵感源自我在 2000 年代期间部落格名字——星光盛宴。我一向都对太空有浓厚的喜爱，而我将部落格视为自己网络上的个人花园。银河花园的英文名 Galaxy Garden 因两个字还以 G 开头而押韵。银河花园和星光盛宴共享太空的主题，但又由不同词语组成，反映出我回归写部落格、我的网络创作根源的意愿，同时也是我的部落格旅程的新开始。
 
-{{ sitemeta[page.lang].siteName }}使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 构建, 并由 [Hostinger](https://www.hostinger.my/) 托管。
+有关{{ sitemeta[page.lang].siteName }}的技术信息，可参见[网站建立](colophon.md)页面。
 
 ## 联系方式
 

@@ -13,7 +13,12 @@ export const en = {
             url: "/en/posts/"
         }
     ],
-    footer: []
+    footer: [
+        {
+            text: "Colophon",
+            url: "/en/colophon"
+        },
+    ]
 };
 
 export const zh = {
@@ -31,5 +36,10 @@ export const zh = {
             url: "/zh/posts/"
         }
     ],
-    footer: []
+    footer: [
+        {
+            text: "网站建立",
+            url: "/zh/colophon"
+        },
+    ]
 };
