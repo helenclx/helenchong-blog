@@ -13,7 +13,7 @@ desc: 本部落格是如何建立的。
 
 ## 托管与域名
 * 通过 GitHub action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)
-* 本部落格网址 `{{ sitemeta.siteDomain }}` 是我的 [omg.lol](https://home.omg.lol/) 网址 [`helenchong.omg.lol`](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
+* 本部落格网址 {{ sitemeta.siteDomain }} 是我的 [omg.lol](https://home.omg.lol/) 网址 [helenchong.omg.lol](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
 
 ## 插件
 * Eleventy 的官方 [RSS](https://www.11ty.dev/docs/plugins/rss/) 插件

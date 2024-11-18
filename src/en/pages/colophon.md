@@ -13,7 +13,7 @@ desc: How this blog is built.
 
 ## Host and Domain
 * Deployed to [Hostinger](https://www.hostinger.my/) from this blog's GitHub repository with a GitHub action
-* The address, `{{ sitemeta.siteDomain }}`, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [`helenchong.omg.lol`](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol
+* The address, {{ sitemeta.siteDomain }}, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [helenchong.omg.lol](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol
 
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
