@@ -6,9 +6,9 @@ desc: 关于本部落格和作者。
 【图片描述： 一名浅色皮肤、黑色头发、戴着一副红色眼镜，并穿着一件紫色 Polo 衫的华人，位于浅紫色背景的卡通数字插画。描述结束。】
 {% endimgFigure %}
 
-你好！我是 {{ sitemeta[page.lang].siteAuthor.name }}（中文姓氏：张），一个千禧世代的马来西亚华人酷儿兼自闭儿。[我的代称]({{ profilelinks.pronounsPage[page.lang] }})包括他/你、tā/你、她/妳和粤语的佢/你。
+你好！我是 {{ sitemeta[page.lang].siteAuthor.name }}（中文姓氏：张），一个千禧世代的马来西亚华人酷儿兼自闭儿。[我的代称]({{ profileitems.pronounsPage[page.lang] }})包括他/你、tā/你、她/妳和粤语的佢/你。
 
-我的专业是[网页开发人员]({{ profilelinks.devSite }})，并拥有八年平面设计师的经验。我的爱好包括编码、阅读、电玩、绘画和钩针。
+我的专业是[网页开发人员]({{ profileitems.devSite }})，并拥有八年平面设计师的经验。我的爱好包括编码、阅读、电玩、绘画和钩针。
 
 我会说华语、英语、粤语和马来语，但我的华语和英语最为流利，这也是本部落格有英语和华语版本的原因。
 
@@ -26,7 +26,7 @@ desc: 关于本部落格和作者。
 
 另外，如果你想在社交媒体上关注我，你也可以在以下平台找我：
 <ul>
-    {% for social, values in profilelinks.socials -%}
+    {% for social, values in profileitems.socials -%}
     <li>
         {{ values.inlineSvg | safe }} {{ values.name }}:
         <a{% if values.isExternalLink %} class="external-link"{% endif %} href="{{ values.url }}">{{ values.user }}</a>

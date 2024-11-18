@@ -6,9 +6,9 @@ desc: About this blog and its author.
 [Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
 {% endimgFigure %}
 
-Hello! I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic Malaysian Chinese person who goes by [they/them or she/her pronouns]({{ profilelinks.pronounsPage[page.lang] }}).
+Hello! I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic Malaysian Chinese person who goes by [they/them or she/her pronouns]({{ profileitems.pronounsPage[page.lang] }}).
 
-Professionally, I am a [web developer]({{ profilelinks.devSite }}) with 8 years of experience as a graphic designer. My hobbies include coding, reading, video games, drawing and crocheting.
+Professionally, I am a [web developer]({{ profileitems.devSite }}) with 8 years of experience as a graphic designer. My hobbies include coding, reading, video games, drawing and crocheting.
 
 I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent in Mandarin and English, which is why this blog is available in English and Mandarin.
 
@@ -26,7 +26,7 @@ The best way to contact me is through email. You can email me at [{{ sitemeta.si
 
 Alternately, if you want to follow me on social media, you can find me on the following platforms:
 <ul>
-    {% for social, values in profilelinks.socials -%}
+    {% for social, values in profileitems.socials -%}
     <li>
         {{ values.inlineSvg | safe }} {{ values.name }}:
         <a{% if values.isExternalLink %} class="external-link"{% endif %} href="{{ values.url }}">{{ values.user }}</a>
