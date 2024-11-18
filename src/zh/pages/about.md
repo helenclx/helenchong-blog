@@ -24,7 +24,9 @@ desc: 关于本部落格和作者。
 
 联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.emailEncoded | safe }}](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }})。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。
 
-另外，如果你想在社交媒体上关注我，你也可以在以下平台找我：
+如果你想以尽安全的方式与我聊天，你可在 Matrix 上发送私讯至 `{{ sitemeta.siteAuthor.matrix }}` 或在 Signal 上发送私讯至 `{{ sitemeta.siteAuthor.signal }}`。
+
+如果你想在社交媒体上关注我，你也可以在以下平台找我：
 <ul>
     {% for social, values in profileitems.socials -%}
     <li>
