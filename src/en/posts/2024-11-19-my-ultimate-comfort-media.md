@@ -27,7 +27,7 @@ As for why {% cite "Cassette Beasts" %} is my number one comfort media and favou
 - Excellent soundtrack
 - And more!
 
-I was invested in {% cite "Cassette Beasts" %} to the extent that not only I had beaten the game twice, I ended up unlocking all 123 achievements on Steam. Very few RPGs make me want to unlock all the achievements, so it is telling how much I love {% cite "Cassette Beasts" %} that I am willing to spend time and effort to work for all the achievements.
+I was invested in {% cite "Cassette Beasts" %} to the extent that not only I had beaten the game twice, I ended up unlocking all 123 achievements on Steam. Very few RPGs make me want to unlock all the achievements, so it is telling how much I love {% cite "Cassette Beasts" %} that I am willing to spend time and effort to work for all the achievements. I enjoy every moment of {% cite "Cassette Beasts" %}, a sentiment I can genuinely apply to only a very few games.
 
 {% cite "Cassette Beasts" %} has the distinct honour of being one of my favourite entertainment media because not only I like it and find it entertaining, but also I genuinely consider it a well-made masterpiece. The more I played and explored {% cite "Cassette Beasts" %}, the more amazed I was for how much thought was clearly put into making the game, which only got reinforced after reading trivia about the game [on its official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
 
