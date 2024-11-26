@@ -7,7 +7,7 @@ updated: 2024-11-04T23:57:29+0800
 
 2024 年 10 月 19 日是我加入 [omg.lol](https://home.omg.lol/) 的一个月纪念日。
 
-我是在 2022 年意识到个人网站再度兴起之后，于 2023 年更加积极地探索个人网站，并在此时首次发现 omg.lol 的存在。omg.lol 有趣的名字（OMG 和 LOL 分别为英文 Oh My God——意即“我的天哪”——和 Laugh Out Loud——意即放声大笑——的缩写，因此 OMG LOL 可被诠释为“我的天哪！哈哈哈！”）、可爱的标志（名为 [Prami](https://prami.omg.lol/)）以及提供的各种网站服务（包括网址、个人主页、状态更新日志、Mastodon 账户、PURLs、pastebin、聊天群等等）让我很快对它产生了兴趣，而每年20 美元的价格也很实惠。
+我是在 2022 年意识到个人网站再度兴起之后，于 2024 年上半年更加积极地探索个人网站，并在此时首次发现 omg.lol 的存在。omg.lol 有趣的名字（OMG 和 LOL 分别为英文 Oh My God——意即“我的天哪”——和 Laugh Out Loud——意即放声大笑——的缩写，因此 OMG LOL 可被诠释为“我的天哪！哈哈哈！”）、可爱的标志（名为 [Prami](https://prami.omg.lol/)）以及提供的各种网站服务（包括网址、个人主页、状态更新日志、Mastodon 账户、PURLs、pastebin、聊天群等等）让我很快对它产生了兴趣，而每年20 美元的价格也很实惠。
 
 此外，由于我当时已经开始用静态网页生成器 [Eleventy](https://www.11ty.dev/) 来建立自己的网站，omg.lol 另一件因我注意的事实是，一些 Eleventy 用户同时也是 omg.lol 成员，包括也身为 omg.lol 工作人员之一的 [Robb Knight](https://rknight.me/)。
 
