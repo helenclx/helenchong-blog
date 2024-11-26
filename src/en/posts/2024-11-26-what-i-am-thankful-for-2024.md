@@ -1,5 +1,5 @@
 ---
-title: "WeblogPoMo AMA: What I Am Thankful For in 2024"
+title: "WeblogPoMo AMA: What I Am Thankful For In 2024"
 desc: Taking the opportunity of answering a question from WeblogPoMo AMA to list the things I am grateful for in 2024.
 date: 2024-11-26T23:19:39+0800
 ---
