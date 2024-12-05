@@ -15,6 +15,13 @@
     align-items: center;
 }
 
+.header__sitename {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    align-items: center;
+}
+
 .header__title { font-size: 2rem; }
 .header__lang { align-items: center; }
 .header__lang--icon {

@@ -1,5 +1,8 @@
 <header class="header">
-    <h2 class="header__title">{{ sitemeta[page.lang].siteName | safe }}</h2>
+    <div class="header__sitename">
+        <img src="/assets/helenchong/galaxy-garden-logo.webp" alt="" width="35" height="35">
+        <h2 class="header__title">{{ sitemeta[page.lang].siteName | safe }}</h2>
+    </div>
     <nav aria-label="{{ langstrings[page.lang].mainNav }}">
         <ul class="header__navlinks">
             {% for item in navigation[page.lang].header %}
