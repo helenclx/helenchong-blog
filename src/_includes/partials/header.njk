@@ -1,7 +1,14 @@
+{% set currentUrl %}{{ page.url }}{% endset %}
+
 <header class="header">
     <div class="header__sitename">
         <img src="/assets/helenchong/galaxy-garden-logo.webp" alt="" width="35" height="35">
-        <h2 class="header__title">{{ sitemeta[page.lang].siteName | safe }}</h2>
+        <h2 class="header__title">
+            <a
+                {% if currentUrl === "/" | locale_url %}aria-current="page"{% endif %}
+                href="{{ "/" | locale_url }}"
+            >{{ sitemeta[page.lang].siteName | safe }}</a>
+        </h2>
     </div>
     <nav aria-label="{{ langstrings[page.lang].mainNav }}">
         <ul class="header__navlinks">
