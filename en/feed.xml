@@ -4,11 +4,23 @@
   <subtitle>Helen Chong&#39;s personal blog.</subtitle>
   <link href="https://blog.helenchong.omg.lol/en/feed.xml" rel="self" />
   <link href="https://blog.helenchong.omg.lol/en/" />
-  <updated>2024-11-26T15:19:39Z</updated>
+  <updated>2024-12-05T12:34:28Z</updated>
   <id>https://blog.helenchong.omg.lol/en/</id>
   <author>
     <name>Helen Chong</name>
   </author>
+  <entry>
+    <title>Logo for Galaxy Garden</title>
+    <link href="https://blog.helenchong.omg.lol/en/posts/2024-12-05-galaxy-garden-logo/" />
+    <updated>2024-12-05T12:34:28Z</updated>
+    <id>https://blog.helenchong.omg.lol/en/posts/2024-12-05-galaxy-garden-logo/</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://blog.helenchong.omg.lol/assets/helenchong/galaxy-garden-logo.webp&quot; alt=&quot;Logo of my personal blog, Galaxy Garden&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I have designed a logo for Galaxy Garden, my personal blog!&lt;/p&gt;
+&lt;p&gt;The Galaxy Garden logo consists of a light yellow minimalist shape of a galaxy resembling the capital G, the first letter of both the &amp;quot;Galaxy&amp;quot; and &amp;quot;Garden&amp;quot;, on top of a purple background. The colours were chosen because purple is my favourite colour (along with black) and I find yellow complement purple well.&lt;/p&gt;
+&lt;p&gt;I made this logo for Galaxy Garden in Affinity Designer 2. The galaxy shape that resembles the capital G was modified from a &lt;a href=&quot;https://www.svgrepo.com/svg/54167/galaxy&quot;&gt;galaxy SVG vector&lt;/a&gt; from &lt;a href=&quot;https://www.svgrepo.com/&quot;&gt;SVG Repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Designing a logo is not necessary for a personal blog, but I still want to make use of my graphic design skills that I learned from my previous profession as a graphic designer to give my websites and blogs my own identity.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>WeblogPoMo AMA: What I Am Thankful For In 2024</title>
     <link href="https://blog.helenchong.omg.lol/en/posts/2024-11-26-what-i-am-thankful-for-2024/" />
@@ -248,35 +260,6 @@
 &lt;/blockquote&gt;
 &lt;p&gt;You are welcome, Riccardo. I am pleased to hear that you found my article interesting. As a Malaysian Chinese person who was raised to be multilingual, I have a lot to say about languages and multilingualism, so I wrote this article and submitted it to the October 2024 IndieWeb Carnival to offer my own perspective on the subject.&lt;/p&gt;
 &lt;p&gt;I recommend checking out and reading the other submitted articles included in Riccardo&#39;s round-up article as well. It is interesting to learn about the different points of view on multilingualism from people across the globe!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Happy One-Month Anniversary of My omg.lol Membership</title>
-    <link href="https://blog.helenchong.omg.lol/en/posts/2024-10-19-omg-lol-membership-one-month-anniversary/" />
-    <updated>2024-10-18T16:11:15Z</updated>
-    <id>https://blog.helenchong.omg.lol/en/posts/2024-10-19-omg-lol-membership-one-month-anniversary/</id>
-    <content type="html">&lt;p&gt;19 October 2024 marks my one-month anniversary of joining &lt;a href=&quot;https://home.omg.lol/&quot;&gt;omg.lol&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I discovered the existence of omg.lol for the first time when I became more active in exploring personal websites during the first half of 2024, after I learned about the resurgence of personal websites in 2022. I was quickly intrigued by omg.lol for its fun name (OMG LOL!), cute logo (named &lt;a href=&quot;https://prami.omg.lol/&quot;&gt;Prami&lt;/a&gt;), and the offer of various web services including a web address, a profile page, status update log, a Mastodon account, PURLs, pastebin, community chat, and more, for an affordable price of US $20 per year.&lt;/p&gt;
-&lt;p&gt;Furthermore, since I already started using the static site generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; to build my own websites at the time, another fact about omg.lol that caught my attention was the fact that a few Eleventy users are also omg.lol members, including &lt;a href=&quot;https://rknight.me/&quot;&gt;Robb Knight&lt;/a&gt;, who is also part of &lt;a href=&quot;https://home.omg.lol/staff&quot;&gt;omg.lol&#39;s staff&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;At first, however, I did not feel that I had a use of an omg.lol membership yet, since I already had my own websites and at least one Mastodon account. Therefore, I did not immediately join omg.lol, though I still checked out the platform from time to time, because I did find what omg.lol does interesting, by offering people to claim their own space on the internet. Learning that omg.lol also offered &lt;a href=&quot;https://home.omg.lol/info/sponsorships&quot;&gt;membership sponsorships&lt;/a&gt; for members of marginalised groups made me respect omg.lol even more.&lt;/p&gt;
-&lt;p&gt;Then, in September 2024, I learned that omg.lol was hosting a &lt;a href=&quot;https://omglol.news/2024/08/28/supporting-st-jude-with-a-month-of-awesomeness&quot;&gt;fundraising campaign for the St. Jude Children’s Research Hospital&lt;/a&gt;, which includes discounts for omg.lol membership fee and daily auction for lifetime omg.lol address. This time, I began to seriously consider joining omg.lol for real, as this was an opportunity to not only obtain an omg.lol membership, but also support a good cause for children. At last, I joined omg.lol after successfully bidding a lifetime address in the auction and registering my &lt;code&gt;helenchong.omg.lol&lt;/code&gt; address!&lt;/p&gt;
-&lt;p&gt;After setting up my &lt;a href=&quot;https://helenchong.omg.lol/&quot;&gt;omg.lol profile page&lt;/a&gt;, I began to connect with the omg.lol community by joining the community chat, Discourse forum and the &lt;a href=&quot;https://social.lol/&quot;&gt;social.lol&lt;/a&gt; Mastodon instance, and I have been enjoying my time in omg.lol&#39;s wonderful community since. &lt;a href=&quot;https://adam.omg.lol/&quot;&gt;Adam Newbold&lt;/a&gt;, the founder of omg.lol himself, is also a really nice guy who is pleasant to talk to.&lt;/p&gt;
-&lt;p&gt;To make more good use out of my omg.lol address, and the fact that you can configure the DNS of your omg.lol address, I have also created a &lt;a href=&quot;https://blog.helenchong.omg.lol/&quot;&gt;blog.helenchong.omg.lol&lt;/a&gt; subdomain to use it as the address of my new personal blog, Galaxy Garden. It is worth noting that I was inspired to have a personal blog again by other bloggers in the omg.lol community.&lt;/p&gt;
-&lt;p&gt;I am incredibly grateful that services like omg.lol exist to bring back the fun of carving your own corner on the web, and I am proud to be a member of omg.lol and its delightful community. I am following omg.lol&#39;s development and looking forward to what it has in store for the future.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;UPDATE, 4 November 2023:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;After waiting for the items to ship from the U.S. to Malaysia, my lifetime omg.lol membership goodies have arrived at my home at last!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.some.pics/helenchong/6728b7f709104.jpg&quot; alt=&quot;Photo of omg.lol lifetime membership goodies, in which the double-sided Prami coaster shows regular Prami&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.some.pics/helenchong/6728b8092e3ad.jpg&quot; alt=&quot;Photo of omg.lol lifetime membership goodies, in which the double-sided Prami coaster shows distressed Prami&quot;&gt;&lt;/p&gt;
-&lt;p&gt;These goodies include a double-sided Prami coaster printed with regular and distressed Prami, an enamel Prami pin, two 3D printed Prami tokens made of polylactic acid (PLA) filament, and 10 pieces of stickers featuring hearts Prami, sick Prami, distressed Prami, annoyed Prami, and regular Prami.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.some.pics/helenchong/6728b81b68b5a.jpg&quot; alt=&quot;Photo of a piece of light yellow paper containing a message from the Adam Newbold, the founder of omg.lol&quot;&gt;&lt;/p&gt;
-&lt;p&gt;The package of these goodies also included a message from the founder Adam Newbold:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Thank you so much for being an amazing lifetime member of omg.lol!&lt;/p&gt;
-&lt;p&gt;Enjoy these goodies, and let me know if there&#39;s ever anything I can do for you.&lt;/p&gt;
-&lt;p&gt;— Adam&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Thank you, Adam, for these adorable Prami goodies, and again for all your work on omg.lol and more!&lt;/p&gt;
 </content>
   </entry>
 </feed>
