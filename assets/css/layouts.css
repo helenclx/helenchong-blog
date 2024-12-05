@@ -15,6 +15,11 @@
     align-items: center;
 }
 
+.header a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .header__sitename {
     display: flex;
     flex-wrap: wrap;
@@ -23,18 +28,26 @@
 }
 
 .header__title { font-size: 2rem; }
+
+.header__navlinks {
+    list-style-type: "";
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
 .header__lang { align-items: center; }
 .header__lang--icon {
     height: 1.5rem;
     fill: currentColor;
 }
 
-.header__navlinks {
-    list-style-type: "";
-    margin: 0;
-    padding: 0;
+.header__lang--curr,
+.header__navlinks [aria-current="page"],
+.link--active {
     font-weight: 700;
-    font-size: 1.1em;
+    color: var(--clr-accent-4);
+    border-bottom: 0.125em solid currentColor;
 }
 
 /* Main Content */
