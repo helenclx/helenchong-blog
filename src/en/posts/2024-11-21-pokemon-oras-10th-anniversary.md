@@ -2,6 +2,7 @@
 title: Happy 10th Birthday to Pokémon Omega Ruby and Alpha Sapphire
 desc: Celebrating the ten-year anniversary of the release of Pokémon Omega Ruby and Alpha Sapphire, my favourite Pokémon games.
 date: 2024-11-21T09:02:09+0800
+toc: true
 ---
 
 21 November 2024 is the tenth anniversary of the release of {% cite "Pokémon Omega Ruby" %} and {% cite "Pokémon Alpha Sapphire" %}, my favourite Pokémon games and the Nintendo 3DS remakes of {% cite "Pokémon Ruby" %} and {% cite "Pokémon Sapphire" %}, which were released in 2002 for Game Boy Advance.
