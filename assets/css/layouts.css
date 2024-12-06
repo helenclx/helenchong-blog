@@ -42,10 +42,10 @@
     fill: currentColor;
 }
 
+.header a:hover,
 .header__lang--curr,
 .header__navlinks [aria-current="page"],
 .link--active {
-    font-weight: 700;
     color: var(--clr-accent-4);
     border-bottom: 0.125em solid currentColor;
 }
