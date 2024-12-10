@@ -27,6 +27,7 @@ a > .inline-icon { padding-inline-end: .25em; }
 .margin-center { margin: 0 auto; }
 .p-margin-top { margin-top: var(--sz-paragraph-margin); }
 .list-margin-top { margin-top: var(--sz-list-gap); }
+.email-encoded b { display: none; }
 
 .grid-center {
     display: grid;
