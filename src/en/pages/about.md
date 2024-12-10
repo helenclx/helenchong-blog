@@ -26,7 +26,7 @@ Technical information about {{ sitemeta[page.lang].siteName }} can be found on t
 
 ## Contact
 
-The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded | safe }}](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }}). Using [plain text email](https://useplaintext.email/) is encouraged.
+The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded | safe }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}). Using [plain text email](https://useplaintext.email/) is encouraged.
 
 If you want to chat with me securely, you may message `{{ sitemeta.siteAuthor.matrix }}` on Matrix or `{{ sitemeta.siteAuthor.signal }}` on Signal.
 
