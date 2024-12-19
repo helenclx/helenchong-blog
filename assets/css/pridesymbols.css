@@ -3,11 +3,10 @@
 
 .flag {
     display: inline-block;
-    width: 300px;
+    width: 100%;
     aspect-ratio: 14 / 9;
 }
 
-.flag.full-width { width: 100%; }
 .flag.icon { width: 3em; }
 .flag.icon.large { width: 4em; }
 
