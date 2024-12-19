@@ -5,14 +5,14 @@ desc: 本部落格是如何建立的。
 
 ## 科技
 * 使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 版本 {{ eleventy.version }} 构建
-* JavaScript 运行环境：[Bun](https://bun.sh)
-* 模板语言：Nunjucks 和 Markdown
-* 使用 Visual Studio Code 编写代码
-* 测试浏览器：Mozilla Firefox、Vivaldi 和 Lynx
-* 源代码可在 [GitHub](https://github.com/helenclx/helenchong-blog) 上获取
+* JavaScript 运行环境：[Bun](https://bun.sh)。
+* 模板语言：Nunjucks 和 Markdown。
+* 使用 Visual Studio Code 编写代码。
+* 测试浏览器：Mozilla Firefox、Vivaldi 和 Lynx。
+* 源代码可在 [GitHub](https://github.com/helenclx/helenchong-blog) 上获取。
 
 ## 托管与域名
-* 通过 GitHub action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)
+* 通过 GitHub action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)。
 * 本部落格网址 {{ sitemeta.siteDomain }} 是我的 [omg.lol](https://home.omg.lol/) 网址 [helenchong.omg.lol](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
 
 ## 插件

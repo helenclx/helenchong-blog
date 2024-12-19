@@ -4,16 +4,16 @@ desc: How this blog is built.
 ---
 
 ## Technology
-* Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}
-* JavaScript runtime: [Bun](https://bun.sh)
-* Templating languages: Nunjucks and Markdown
-* Code written with Visual Studio Code
-* Tested browsers: Mozilla Firefox, Vivaldi and Lynx
-* Source code available on [GitHub](https://github.com/helenclx/helenchong-blog)
+* Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
+* JavaScript runtime: [Bun](https://bun.sh).
+* Templating languages: Nunjucks and Markdown.
+* Code written with Visual Studio Code.
+* Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
+* Source code available on [GitHub](https://github.com/helenclx/helenchong-blog).
 
 ## Host and Domain
-* Deployed to [Hostinger](https://www.hostinger.my/) from this blog's GitHub repository with a GitHub action
-* The address, {{ sitemeta.siteDomain }}, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [helenchong.omg.lol](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol
+* Deployed to [Hostinger](https://www.hostinger.my/) from this blog's GitHub repository with a GitHub action.
+* The address, {{ sitemeta.siteDomain }}, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [helenchong.omg.lol](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol.
 
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
