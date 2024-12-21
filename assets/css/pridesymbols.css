@@ -73,6 +73,7 @@
 
 /* Coded by me */
 .flag.disability-pride {
+    aspect-ratio: 4 / 3;
     background:
         linear-gradient(37deg, #595959 0 35%,#CF7280 30% 41%, #EEDE77 30% 47%, #E8E8E8 30% 53%, #7bc2e0 30% 59%,#3BB07D 30% 65%, #595959 0);
 }
