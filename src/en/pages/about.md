@@ -6,7 +6,7 @@ desc: About this blog and its author.
 [Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
 {% endimgFigure %}
 
-Hello! I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic Malaysian Chinese person who goes by [they/them or she/her pronouns]({{ profileitems.pronounsPage[page.lang] }}).
+Hello! I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic and visually impaired Malaysian Chinese person who goes by [they/them or she/her pronouns]({{ profileitems.pronounsPage[page.lang] }}).
 
 Professionally, I am a [web developer]({{ profileitems.devSite }}) with 8 years of experience as a graphic designer. My hobbies include coding, reading, video games, drawing and crocheting.
 
