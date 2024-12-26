@@ -28,6 +28,7 @@ a > .inline-icon { padding-inline-end: .25em; }
 .p-margin-top { margin-top: var(--sz-paragraph-margin); }
 .list-margin-top { margin-top: var(--sz-list-gap); }
 .email-encoded b { display: none; }
+.updated { margin-top: 3em; }
 
 .grid-center {
     display: grid;
