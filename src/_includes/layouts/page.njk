@@ -5,4 +5,11 @@ layout: layouts/base
     <h1>{{ pageTitle or title }}</h1>
     <p>{{ desc }}</p>
 </header>
-<article class="prose page">{{ content | safe }}</article>
+<article class="prose page">
+    {{ content | safe }}
+    {% if updated %}
+    <p class="updated">
+        {{ "（" if page.lang === "zh" else "(" }}{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated | formatDate }}</time>{{ "）" if page.lang === "zh" else ")" }}
+    </p>
+    {% endif %}
+</article>

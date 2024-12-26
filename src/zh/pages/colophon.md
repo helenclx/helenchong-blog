@@ -1,6 +1,7 @@
 ---
 title: 网站建立
 desc: 本部落格是如何建立的。
+updated: 2024-12-26T11:48:42+0800
 ---
 
 ## 科技
@@ -30,3 +31,8 @@ Eleventy 内置了 Markdown 解析器 [markdown-it](https://www.npmjs.com/packag
 ## 字体
 * [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/)——拉丁字母和数字的默认字体。CSS 样式表和 WOFF2 字体格式由 [google-webfonts-helper](https://gwfh.mranftl.com/fonts) 生成。
 * [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)——单行距字体。
+
+## 品牌
+
+* 我用 Affinity Designer 2 设计{{ sitemeta[page.lang].siteName }}的标志。
+* 我用 Adobe Illustrator CS5 绘制自己的卡通插图头像，绘画风格晾干源自 [Andy Carolan](https://www.andycarolan.com/)。
