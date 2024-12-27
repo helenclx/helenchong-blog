@@ -12,6 +12,8 @@ Even after my brother moved out of our hometown to work and live in Singapore, h
 
 On my brother's birthday, we had our lunch in a restaurant together, and visited a bakery store to buy a birthday cake for my brother, who chose a fruit cake. We had a birthday celebration at home for my brother with the fruit cake later in the evening after our dinner at home.
 
+My brother returned to Singapore after spending five days and four nights in our hometown during this Christmas season.
+
 I am grateful of the moments of my immediately family gathering and talking together, especially when my brother takes a break and returns from Singapore to visit us.
 
 Hope you have a pleasant holiday season!
