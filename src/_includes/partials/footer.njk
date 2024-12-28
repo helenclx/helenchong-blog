@@ -11,7 +11,8 @@
 {% endif %}
 
 <footer class="footer">
-    <nav aria-label="{{ langstrings[page.lang].footerNav }}">
+    <nav aria-labelledby="footer-nav">
+        <p id="footer-nav" class="visually-hidden">{{ langstrings[page.lang].footerNav }}</p>
         <ul class="inline-list">
             <li>
                 <a href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
@@ -31,7 +32,8 @@
     <p>{{ madeWithHeart }}</p>
     <p>{{ builtWith11ty | safe }} • <a href="https://github.com/helenclx/helenchong-journal">{{langstrings[page.lang].sourceCode  }}</a></p>
 
-    <nav class="grid-center" aria-label="{{ langstrings[page.lang].socialNav }}">
+    <nav class="grid-center" aria-labelledby="social-nav">
+        <p id="social-nav" class="visually-hidden">{{ langstrings[page.lang].socialNav }}</p>
         <ul class="inline-list">
             <li class="socials__item">
                 <img class="socials__icon" src="{{ profileitems.omgLol.icon }}" alt="">

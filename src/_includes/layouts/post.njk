@@ -42,7 +42,8 @@ layout: layouts/base
 
         {%- set postCollection = collections.posts %}
         {%- if postCollection.length > 1 %}
-        <nav class="post__pagination" aria-label="{{ langstrings[page.lang].nextPrev }}">
+        <nav class="post__pagination" aria-labelledby="post-pagination">
+            <h2 id="post-pagination">{{ langstrings[page.lang].nextPrev }}</h2>
             {%- set previousPost = postCollection | getPreviousCollectionItem %}
             {%- set nextPost = postCollection | getNextCollectionItem %}
             {%- if nextPost or previousPost %}
