@@ -1,17 +1,31 @@
-/* Lexica Ultralegible */
+/* IBM Plex Sans */
 @font-face {
     font-display: swap;
-    font-family: 'Lexica Ultralegible';
+    font-family: 'IBM Plex Sans';
     font-style: italic;
     font-weight: 400;
-    src: url('/assets/fonts/lexica-ultralegible/LexicaUltralegible-Italic.woff2') format('woff2');
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-italic.woff2') format('woff2');
 }
 @font-face {
     font-display: swap;
-    font-family: 'Lexica Ultralegible';
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600italic.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'IBM Plex Sans';
     font-style: italic;
     font-weight: 700;
-    src: url('/assets/fonts/lexica-ultralegible/LexicaUltralegible-BoldItalic.woff2') format('woff2');
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-700italic.woff2') format('woff2');
 }
 /* Intel One Mono */
 @font-face {
