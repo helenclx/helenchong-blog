@@ -17,7 +17,7 @@
 
     --bdr-layout: 0.2em solid var(--clr-accent-2);
 
-    --ff-default: 'Lexica Ultralegible', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    --ff-default: 'IBM Plex Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
     --fs-main: clamp(1.125rem, 1.089rem + 0.179vw, 1.25rem);
