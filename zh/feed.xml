@@ -4,11 +4,33 @@
   <subtitle>Helen Chong的个人部落格。</subtitle>
   <link href="https://blog.helenchong.omg.lol/zh/feed.xml" rel="self" />
   <link href="https://blog.helenchong.omg.lol/zh/" />
-  <updated>2024-12-27T03:55:36Z</updated>
+  <updated>2025-01-05T05:15:29Z</updated>
   <id>https://blog.helenchong.omg.lol/zh/</id>
   <author>
     <name>Helen Chong</name>
   </author>
+  <entry>
+    <title>回顾我的第一份网页开发工作</title>
+    <link href="https://blog.helenchong.omg.lol/zh/posts/2025-01-05-first-web-dev-job-retrospective/" />
+    <updated>2025-01-05T05:15:29Z</updated>
+    <id>https://blog.helenchong.omg.lol/zh/posts/2025-01-05-first-web-dev-job-retrospective/</id>
+    <content type="html">&lt;p&gt;2025 年 1 月 3 日是我从平面设计转行到网页开发员后第一份工作的最后一天。我在这份工作上工作了四个月却没有通过试用期。&lt;/p&gt;
+&lt;p&gt;这与我接受第一份网页开发工作时设想的状况大相径庭。自 2022 年开始，我花了大约两年时间自学编码，尤其是网页开发方面。在听过其他软件开发人员在没有电脑科学学位的情况下进入科技领域的故事后，我受到了启发，决定将自己的职业生涯从平面设计转行到网页开发。当我收到我的前老板的面试邀请时，我的第一份开发人员工作的目标终于实现了。我的钱老板想找一个拥有网页开发技能的人为他的公司的 WordPress 网站上工作。我最终成功被录用，并于 2024 年 8 月 16 日开始了我的工作兼试用期。&lt;/p&gt;
+&lt;p&gt;我在第一份网页开发工作中取得的最大成就是成功开发了我的第一个 WordPress 网站插件。我的前公司的网站是用 WordPress  搭建的，并由 WooCommerce 支持网站的电子商务功能。老板让我想办法把 &lt;a href=&quot;https://qrplanet.com/&quot;&gt;QR Planet&lt;/a&gt; 的一次性可兑换二维码优惠券添加到他们的积分和奖励系统中，作为可让顾客同积分兑换的奖励。经过研究，我建议创建我们自己的 WordPress 插件作为解决方案，因为 QR Planet 没有任何官方 WordPress 插件。我以前从未制作过 WordPress 插件，所以在我的第一份网页开发工作中为公司网站制作插件是一次学习经历。我还记得当我展示完成的插件时，老板发出的 “哇 ”的惊叹声。&lt;/p&gt;
+&lt;p&gt;我成功地开发了一个 WordPress 插件，解决了公司的一个难题的成就给了我极大的信心，并希望我已经向公司证明了自己的网页开发和解决问题的能力。在完成 WordPress 插件的开发工作后，我继续尽最大努力在截止日期前完成公司交给我的其他任务。&lt;/p&gt;
+&lt;p&gt;我曾寄予厚望，希望我已证明了自己的能力，从而通过试用期。不幸的是，我错了。&lt;/p&gt;
+&lt;p&gt;2024 年 12 月 3 日，我去公司总部会见我的经理和老板，因为前一天我的老板召见我，想讨论我的试用期的事。当老板把工作表现评估表递给我看时，我发现自己的工作表现只得了一般的分数时，心里开始有了不祥的预感。接着，老板证实了我的猜测：我没有通过试用期，并说公司认为我的表现不令人满意。&lt;/p&gt;
+&lt;p&gt;然后，我的经理和老板给了我一个提议：如果我想保住工作并继续延长试用期，我需要改变我的工作范围和职责，以更多地专注于数码营销，尤其是社交媒体文案写作，因为他们缺乏这方面的人手。他们还透露，公司网站只是他们营销工作的一部分。因此，我可以选择是否接受他们提出的工作范围调整，并有时间考虑我的选择。&lt;/p&gt;
+&lt;p&gt;我的工作表现不能令雇主满意、因而无法通过试用期的消息令我大受打击。俗语说： “期望越大，失望越大。”用 这句话来形容我的心情再准确不过了。比起被&lt;a href=&quot;https://blog.helenchong.omg.lol/zh/posts/2024-12-21-living-with-retinitis-pigmentosa/&quot;&gt;诊断出患有视网膜色素变性&lt;/a&gt;——一种目前无法治愈的遗传性眼病，无法通过试用期更加让我难过多倍。至少对于自己的眼疾的诊断，我已经有了心理准备，考虑到我的家族有眼疾史，因而预料到自己有很难、或不可能治愈的遗传性眼疾的可能。&lt;/p&gt;
+&lt;p&gt;经过长时间的权衡，我选择不接受经理和老板的提议。我想成为一名网页开发人员，而不是营销人员。我之所以接受这份工作，是因为我想获得第一份网络开发人员的工作，因为我选择从平面设计师转行至网页开发。结果，第二天我就收到了一封解雇信，信中说我只能再干一个月，直到 2025 年 1 月 3 日。&lt;/p&gt;
+&lt;p&gt;事后看来，我早该想到，我的雇主并不打算把网页开发作为我在公司的主要工作职责。我在公司的正式职位实际上是营销助理，而不是网站开发人员，不是网页设计师，也不是 WordPress 开发人员。这意味着，我实际上被分配到营销部门，为营销经理提供支持。该公司没有技术或 IT 部门，因此所有技术工作都由外包的网页开发人员负责，所以我以为我被录用是因为公司正在寻找一名内部网页开发人员。&lt;/p&gt;
+&lt;p&gt;我偶尔也会被指派执行平面设计工作。尽管我已经厌倦了平面设计的职业，但我并不在意，因为公司的大部分平面设计工作仍然由外包的平面设计师负责，而我仍然可以帮助完成公司 WordPress 网站的工作。&lt;/p&gt;
+&lt;p&gt;我试着从积极的角度去看，至少我获得了一些专业的网页开发经验，哪怕只持续了几个月，但当我意识到网页开发——我目前专注的领域和让我被雇佣的技能——并没有像我想象的那样得到雇主的重视时，我依然很伤心。我痛苦地认识到，有时候，员工的目标和员工能为公司提供的事物与雇主的实际需求并不一致。&lt;/p&gt;
+&lt;p&gt;2025 年 1 月 3 日，当我的第一份网站开发工作结束时，我终于感到了自由，因为我不再为一家没有充分重视我为他们所做的网页开发工作的公司的任何义务所累。&lt;/p&gt;
+&lt;p&gt;现在，我可以自由选择人生的下一步。我会继续学习网页开发，不断完善自己，不会让一家我曾任职过的公司的官方评价削弱我网页开发能力的价值。&lt;/p&gt;
+&lt;p&gt;我很感谢在我分享我在前公司的就业情况，以及我决定离开公司以继续专注于网页开发的领域时，我得到来自各方的支持。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>我的 2024 年圣诞季节</title>
     <link href="https://blog.helenchong.omg.lol/zh/posts/2024-12-27-my-2024-christmas-season/" />
@@ -199,19 +221,6 @@
 &lt;p&gt;当年我还是一名高中生，而我们一家人特地跨州上山去云顶出席该演唱会。演唱会里我印象最深刻的时刻，是许冠杰演唱《纸船》时，我们观众们一起挥动一张用荧光纸制成的纸船以制造气氛。&lt;/p&gt;
 &lt;p&gt;许冠杰是我父亲最喜欢的歌手，因此我从小就听过许冠杰的音乐。我中学时期看大量的香港电影、电视节目以及听广东话音乐——包括许冠杰的歌曲——也因而学习广东话。因此，虽然我不称自己为许冠杰的歌迷，但许冠杰的音乐对我的影响不小，我也庆幸自己有机会亲身观赏许冠杰现场演唱。&lt;/p&gt;
 &lt;p&gt;那场 2008 年的云顶云星剧场演唱会还邀请了许冠杰的三哥许冠英作为嘉宾。我中学时期观看的香港电影包括数部许氏兄弟的作品，不过那场演唱会是我第一次听到许冠英唱歌。可惜的是，许冠英在数年后的 2011 年过世了，因此我也庆幸自己有机会在许冠英在世时亲身观赏他现场演唱。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>WeblogPoMo AMA：第一部给我留下深刻印象的电影</title>
-    <link href="https://blog.helenchong.omg.lol/zh/posts/2024-11-04-weblogpomo-ama-first-movie-impact/" />
-    <updated>2024-11-04T03:30:33Z</updated>
-    <id>https://blog.helenchong.omg.lol/zh/posts/2024-11-04-weblogpomo-ama-first-movie-impact/</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://anniegreens.lol&quot;&gt;Anne Sturdivant&lt;/a&gt; 发起了一项名为 &lt;a href=&quot;https://weblogpomo.club/challenges&quot;&gt;WeblogPoMo AMA&lt;/a&gt; 的新部落格挑战，旨在通过询问和回答其他部落客发布的问题来促进作者之间的互动。人与人之间的互动是我当初爱上部落格的部分原因，因此我对这项挑战感兴趣。&lt;/p&gt;
-&lt;p&gt;我首先想回答一个问题：&lt;strong&gt;“你看过的第一部对你产生重大影响——无论是好是坏——的电影是哪部？”&lt;/strong&gt; 这个问题最初由 &lt;a href=&quot;https://gabz.blog/&quot;&gt;Gabz&lt;/a&gt; 提出，由 &lt;a href=&quot;https://home.omg.lol/staff&quot;&gt;omg.lol&lt;/a&gt; 的志工 &lt;a href=&quot;https://blog.alpine.day/2024/11/weblogpomoama-2&quot;&gt;Zachary&lt;/a&gt; 回答。&lt;/p&gt;
-&lt;p&gt;虽然这不是我看的第一部电影，但第一部对我影响很大的电影是&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%99%AB%E8%99%AB%E5%8D%B1%E6%9C%BA&quot;&gt;《虫虫危机》&lt;/a&gt;。这部影片是在我六岁时上映的，当时我还未意识到自己有自闭症，但现在回想起来，《虫虫危机》是我第一部特殊兴趣（special interest）的电影。&lt;/p&gt;
-&lt;p&gt;小时候，我不仅视《虫虫危机》为我最喜欢的电影之一，而且还极其投入其中——我已经数不清自己在家里的光碟播放机上重看了这部影片多少遍，我还玩过两款这部电影的周边电子游戏——&lt;a href=&quot;https://en.wikipedia.org/wiki/A_Bug%27s_Life_(video_game)&quot;&gt;《虫虫危机》平台游戏&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Disney%27s_Activity_Center&quot;&gt;&lt;cite&gt;Disney&#39;s Activity Center: A Bug&#39;s Life&lt;/cite&gt;&lt;/a&gt;。这两款游戏也成了我儿时最喜欢的电子游戏。&lt;/p&gt;
-&lt;p&gt;至于为什么我小时候如此喜爱《虫虫危机》，我想是因为这是我看的第一部皮克斯电影——意味着这是我看的第一部采用 3D 艺术风格的动画片。在《虫虫危机》之前，我看的所有卡通都是 2D 的，所以《虫虫危机》和皮克斯电影的 3D 艺术风格让我幼小的心灵受到了震撼。此外，虽然我从不认为自己是个虫子迷，但一部关于探索虫子生活（此片的英文名正是《A Bug&#39;s Life》）的动画片的概念让我从小就着迷，影片中关于一个群体或社区联合起来反抗欺负和压迫他们的人的主题也给了我很大的启发。&lt;/p&gt;
-&lt;p&gt;自童年和少年时代以来，我对包括电影在内的娱乐媒体的品味已作出巨大的改变，我对《虫虫危机》的喜爱也因为&lt;a href=&quot;https://therottenappl.es/result/movie/9487/A-Bug&#39;s-Life&quot;&gt;为 Hopper 配音的 Kevin Spacey 有和导演 John Lasseter 都先后被指控性行为不端&lt;/a&gt;而蒙上了污点，但我一直对《虫虫危机》心存怀念之情，因为它对我的童年产生了重大影响。&lt;/p&gt;
 </content>
   </entry>
 </feed>
