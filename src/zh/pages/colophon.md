@@ -1,7 +1,7 @@
 ---
 title: 网站建立
 desc: 本部落格是如何建立的。
-updated: 2024-12-31T10:22:36+0800
+updated: 2025-01-05T22:25:31+0800
 ---
 
 ## 科技
@@ -29,7 +29,7 @@ Eleventy 内置了 Markdown 解析器 [markdown-it](https://www.npmjs.com/packag
 * [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 
 ## 字体
-* [Lexica Ultralegible](https://jacobxperez.github.io/lexica-ultralegible/)——拉丁字母和数字的默认字体。
+* [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)——拉丁字母和数字的默认字体。CSS 样式表和 WOFF2 字体格式由 [google-webfonts-helper](https://gwfh.mranftl.com/fonts) 生成。
 * [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)——单行距字体。
 
 ## 品牌
