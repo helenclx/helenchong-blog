@@ -28,7 +28,7 @@ Technical information about {{ sitemeta[page.lang].siteName }} can be found on t
 
 The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded | safe }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. Using [plain text email](https://useplaintext.email/) is encouraged.
 
-If you want to chat with me securely, you may message `{{ sitemeta.siteAuthor.matrix }}` on Matrix or `{{ sitemeta.siteAuthor.signal }}` on Signal.
+If you want to chat with me securely, you may message `{{ sitemeta.siteAuthor.signal }}` on Signal or `{{ sitemeta.siteAuthor.line }}` on LINE.
 
 If you want to follow me on social media, you can find me on the following platforms:
 <ul>

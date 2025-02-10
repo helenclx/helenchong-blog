@@ -4,8 +4,8 @@ export const siteAuthor = {
 	email: "helenchong@omg.lol",
 	emailEncoded: '<span class="email-encoded">helenchong@omg<b>.example</b>.lol</span>',
 	emailDecoyUrl: "emailme/",
-	matrix: "@helenchong:omg.lol",
-	signal: "helenchong.08"
+	signal: "helenchong.08",
+	line: "helenclx"
 };
 export const feedPath = "feed.xml";
 export const siteLang = {
