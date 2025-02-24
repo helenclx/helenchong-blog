@@ -76,6 +76,5 @@ code {
 :not(pre) > code { padding: 0.125em 0.25em; }
 :not(pre) > code, pre { background-color: var(--clr-quote-bg); }
 
-summary { cursor: pointer; }
 :focus { outline: 0.15em solid currentColor; }
 details:focus { outline-offset: 0.2em; }
