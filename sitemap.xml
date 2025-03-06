@@ -277,68 +277,80 @@
 		<priority>0.5</priority>
     </url>
     <url>
+        <loc>https://blog.helenchong.omg.lol/en/posts/2025-03-06-attended-42-discovery-piscine/</loc>
+        <lastmod>2025-03-06T15:39:09.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://blog.helenchong.omg.lol/zh/posts/2025-03-06-attended-42-discovery-piscine/</loc>
+        <lastmod>2025-03-06T15:39:14.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://blog.helenchong.omg.lol/en/</loc>
-        <lastmod>2025-02-24T00:12:59.843Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.863Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/en/about/</loc>
-        <lastmod>2025-02-24T00:12:59.843Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.863Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/en/colophon/</loc>
-        <lastmod>2025-02-24T00:12:59.843Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.863Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/en/posts/</loc>
-        <lastmod>2025-02-24T00:12:59.843Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.863Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/</loc>
-        <lastmod>2025-02-24T00:12:59.844Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.865Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/</loc>
-        <lastmod>2025-02-24T00:12:59.844Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.865Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/about/</loc>
-        <lastmod>2025-02-24T00:12:59.845Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.865Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/colophon/</loc>
-        <lastmod>2025-02-24T00:12:59.845Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.865Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/posts/</loc>
-        <lastmod>2025-02-24T00:12:59.845Z</lastmod>
+        <lastmod>2025-03-06T15:39:51.865Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/zh/feed.xml</loc>
-        <lastmod>2025-02-24T00:13:04.870Z</lastmod>
+        <lastmod>2025-03-06T15:39:55.055Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://blog.helenchong.omg.lol/en/feed.xml</loc>
-        <lastmod>2025-02-24T00:13:04.870Z</lastmod>
+        <lastmod>2025-03-06T15:39:55.055Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>

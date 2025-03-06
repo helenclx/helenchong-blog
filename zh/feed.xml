@@ -4,11 +4,30 @@
   <subtitle>Helen Chong的个人部落格。</subtitle>
   <link href="https://blog.helenchong.omg.lol/zh/feed.xml" rel="self" />
   <link href="https://blog.helenchong.omg.lol/zh/" />
-  <updated>2025-02-19T15:58:55Z</updated>
+  <updated>2025-03-06T15:39:14Z</updated>
   <id>https://blog.helenchong.omg.lol/zh/</id>
   <author>
     <name>Helen Chong</name>
   </author>
+  <entry>
+    <title>参加 42 学校的五天编码训练营</title>
+    <link href="https://blog.helenchong.omg.lol/zh/posts/2025-03-06-attended-42-discovery-piscine/" />
+    <updated>2025-03-06T15:39:14Z</updated>
+    <id>https://blog.helenchong.omg.lol/zh/posts/2025-03-06-attended-42-discovery-piscine/</id>
+    <content type="html">&lt;p&gt;2025 年 2 月 24 日至 28 日，我参加了&lt;a href=&quot;https://blog.helenchong.omg.lol/zh/posts/2025-01-20-attending-42-school/&quot;&gt;名为 42 的电脑科学学校&lt;/a&gt; 举办的为期五天的小型编码训练营，名为 Discovery Piscine。&lt;/p&gt;
+&lt;p&gt;最初，当我在 2024 年 12 月报名 42 并通过他们的在线评估时，我登记参加了他们计划于 2025 年 2 月 24 日举办的名为 Piscine 的试用训练营。然而，2025 年 2 月 17 日，也就是 Piscine 开课前一周，我收到了 来自 42 的一封电子邮件，宣布由于意外情况，原定于 2025 年 2 月下旬举行的 Piscine 将不再按计划进行。因此，我报名参加了 2025 年 4 月 7 日开始的 Piscine。&lt;/p&gt;
+&lt;p&gt;第二天，我再次收到 42 发来的电子邮件，说他们将于 2 月 24 日至 28 日举办为期五天的小型编码训练营，名为 Discovery Piscine，而不是正式的 Piscine。我决定报名参加 Discovery Piscine，这样我就可以体验一下 Piscine 是什么样子，让自己为四月份的正式 Piscine 做更好的准备。&lt;/p&gt;
+&lt;p&gt;Discovery Piscine 学员（即 Discovery Pisciners）将学习 Python 和 shell，因为他们工作室的电脑使用 Linux，以 GNOME 为桌面环境的 Ubuntu 发行版。&lt;/p&gt;
+&lt;p&gt;在 42 建立第一所马来西亚校区之前，我就有使用 Linux 桌面环境的经验，因为我曾经在我的电脑中使用并双启动 Windows 和 Linux，但那是多年前的事了。目前，我使用 Linux 的主要方法是通过 Windows Subsystem for Linux (WSL)，而无需设置任何桌面环境。因此，Discovery Piscine 为我提供了一个练习使用 Linux 和 shell 命令的绝佳机会。&lt;/p&gt;
+&lt;p&gt;在自学编程的过程中，我曾经学习过 Python，甚至还&lt;a href=&quot;https://blog.helenchong.omg.lol/zh/posts/2025-03-06-attended-42-discovery-piscine/2023-11-13-My-First-PR-in-Python.md&quot;&gt;为我最爱的电子游戏《磁带妖怪》（&lt;cite&gt;Cassette Beasts&lt;/cite&gt;）&lt;/a&gt;的数据挖掘用的 Python 库做出贡献 。不过，Discovery Piscine 让我重温了 Python 知识，练习了编写 Python 脚本，同时还学习了我不熟悉的 Python 内置功能。在一次练习中，我被卡住的时间比预期的要长，但后来我通过在网上搜索正确的关键字发现了我需要的 Python 功能，从而解决了这个练习。&lt;/p&gt;
+&lt;p&gt;说到 42 工作站的电脑，我上次在一月份的开放日参观校园时，向校区工作人员提出了改变电脑屏幕亮度的要求，因为我患有&lt;a href=&quot;https://blog.helenchong.omg.lol/zh/posts/2024-12-21-living-with-retinitis-pigmentosa/&quot;&gt;视网膜色素变性&lt;/a&gt;，眼睛对强光很敏感，但令我惊讶的是，当时工作室电脑没有调节屏幕亮度的选项。学校工作人员答应满足我的要求。在我参加 Discovery Piscine 的第一天，我提醒工作人员我的要求，一位工作人员很快就在所有工作室的电脑上安装了屏幕亮度设置，这样我就可以把电脑屏幕亮度调节到我觉得舒适的程度。&lt;/p&gt;
+&lt;p&gt;看到学校工作人员履行承诺，满足照顾到我的视力障碍的要求，我对学校的评价无疑更高了。&lt;/p&gt;
+&lt;p&gt;42 的教育模式是同侪学习，没有老师，也没有讲课，因此学员们通过 42 的内部网络获取课程材料。我们完成一个课程模组（module）后，可以预约其他学员的时间段，以让其学员对我们的工作进行评估。即使某个模组不及格，我们也可以立即重修。身为学员的我们还需要设定自己有空的时间段，这样其他学员就可以预订我们的时间段进行评估。当我评估其他 Discovery Pisciners 学员的作品时，我经常会提供改进代码的建议和解决练习的其他方法。&lt;/p&gt;
+&lt;p&gt;42 的课程没有老师，这鼓励我们通过网络搜索来学习，当然，由于现在已经有了很多资源，包括免费资源，这也有助于我们学习代码。42 的课程让我想起了我开始自学代码的初衷，还有一个额外的收获，那就是在实体编码学校学习，并结识了其他同样对学习代码感兴趣的人。&lt;/p&gt;
+&lt;p&gt;Discovery Piscine 的课程中有十个 Python 练习模组，我完成了所有的练习，但由于时间有限，并不是所有的练习都得到了评估，42 只有在通过同行评估后才算完成了一个模组，所以我最终完成了十个模组中的五个。不过，这也让我在从 Discovery Piscine 毕业后获得了结业证书。&lt;/p&gt;
+&lt;p&gt;尽管我已经有了编程经验——包括&lt;a href=&quot;https://blog.helenchong.omg.lol/zh/posts/2025-01-05-first-web-dev-job-retrospective/&quot;&gt;虽然为其不长的专业经验&lt;/a&gt;，但我发现 42 是一所适合我的学校。我期待着四月份的正式 Piscine。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>omg.lol 访谈系列：Helen Chong</title>
     <link href="https://blog.helenchong.omg.lol/zh/posts/2025-02-19-omg-lol-interview-helen-chong/" />
@@ -159,7 +178,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;作为一名没有电脑科学学位的网页开发人员，一所免费提供电脑科学教育的实体学校无疑是一个很有吸引力的概念。此外，作为一名通过在线课程和学习资源学习编码的开发人员，我已经习惯了在没有老师指导的情况下学习新知识。多年的工作经验也告诉我，如果你想提高自己的技能，就不要依赖别人来教你。我还发现自己更喜欢通过创建项目来学习编码。&lt;/p&gt;
 &lt;p&gt;因此，在 2024 年 12 月底，我就近申请了 42 的一所马来西亚分校，花了两个小时参加了由记忆游戏和逻辑游戏组成的申请测试。第二天，我接到通知，说我通过了申请测试，于是我选择报名参加他们将于 2025 年 4 月 7 日开始的名为 Piscine 的试用训练营。参加者需要通过为期四周的试用训练营，然后才能学习 42 的核心课程。&lt;/p&gt;
-&lt;p&gt;同时，我通过他们的官方网站了解到，该校园将于 2025 年 1 月 18 日举办开放日，因此我决定利用这次机会亲自参观校园，看看我可以期待在那里开始学习时什么样的环境。当我参加 1 月 18 日的开放日时，我了解到他们工作站的计算机使用 Linux，特别是以 Gnome 为桌面环境的 Ubuntu 发行版。&lt;/p&gt;
+&lt;p&gt;同时，我通过他们的官方网站了解到，该校园将于 2025 年 1 月 18 日举办开放日，因此我决定利用这次机会亲自参观校园，看看我可以期待在那里开始学习时什么样的环境。当我参加 1 月 18 日的开放日时，我了解到他们工作站的计算机使用 Linux，特别是以 GNOME 为桌面环境的 Ubuntu 发行版。&lt;/p&gt;
 &lt;p&gt;然而，令我惊讶的是，哪里工作室的电脑没有任何调节屏幕亮度的设置，这对我来说不是一件好事，因为我患有&lt;a href=&quot;https://blog.helenchong.omg.lol/zh/posts/2024-12-21-living-with-retinitis-pigmentosa/&quot;&gt;视网膜色素变性&lt;/a&gt;，眼睛对强光（包括人造光）很敏感。我不想为了看清电脑屏幕而戴上夹式太阳镜，因为周围的环境包括键盘对我来说都会显得太暗了。因此，我找到一位工作人员，要求在我上课时将电脑屏幕调暗。该工作人员表示，他们应该可以安排，以满足我的需求。&lt;/p&gt;
 &lt;p&gt;在开放日参观了校园后，我对就读该校有了更多的期待。祝我顺利通过 Piscine 考试，成为 42 中的正式学生！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;更新，2025 年 2 月 17 日：&lt;/strong&gt; 我原本报名参加了定于 2025 年 2 月 24 日举行的 Piscine，但我收到了学校的一封电子邮件，宣布由于无可预料的情况，原定于 2025 年 2 月下旬举行的 Piscine 将不再按计划举行。因此，我报名参加了 2025 年 4 月 7 日开始的 Piscine。&lt;/p&gt;
@@ -248,22 +267,5 @@
 &lt;p&gt;愿逝者安息，愿生者坚强。&lt;/p&gt;
 &lt;p&gt;推荐阅读：&lt;a href=&quot;https://www.abc.net.au/chinese/2024-12-21/2004-boxing-day-tsunami-twenty-years-on/104746166&quot;&gt;《印度洋大海啸20周年纪：幸存者难以忘却的记忆》—— ABC News&lt;/a&gt;&lt;/p&gt;
 </content>
-  </entry>
-  <entry>
-    <title>与视网膜色素变性共存</title>
-    <link href="https://blog.helenchong.omg.lol/zh/posts/2024-12-21-living-with-retinitis-pigmentosa/" />
-    <updated>2024-12-21T01:53:21Z</updated>
-    <id>https://blog.helenchong.omg.lol/zh/posts/2024-12-21-living-with-retinitis-pigmentosa/</id>
-    <content type="html">&lt;p&gt;2024 年 11 月 30 日，在看了眼科医生之后，我被诊断出患有视网膜色素变性（retinitis pigmentosa，简称 RP）。&lt;/p&gt;
-&lt;p&gt;在得知自己患有这种会导致视力逐渐减退且目前无法治愈的遗传性眼病后，我的心情与其说是沮丧，不如说是欣慰，因为我终于明白了随着年龄的增长，除了自闭症之外，日常生活中的许多困难背后的原因。&lt;/p&gt;
-&lt;p&gt;此外，在得知我父亲那边的一些亲戚开始出现视力问题后，我和我的父母已经怀疑我遗传了一种会导致视觉障碍的眼疾。因此，在我被正式确诊为 RP 之前，我就已经接受了自己可能患有某种无法治愈的眼疾的可能性。由于患有近视和散光，我一生中的大部分时间都在依赖眼镜，所以我对视力问题并不陌生。&lt;/p&gt;
-&lt;p&gt;现在回想起来，我的 RP 症状在 20 岁中期时就开始显现出来，以至于影响到了我的日常生活。我走路时开始经常撞到东西。我的眼睛对强光（包括阳光）越来越敏感，以至于在阳光下很难看清东西，因此需要戴太阳镜。我的潜意识开始害怕跌倒，导致我走路时更加小心翼翼，尤其是在台阶上行走和越过排水沟时，特别是在我不熟悉的地方。我也很难在不转头的情况下看到不在我正前方的东西。&lt;/p&gt;
-&lt;p&gt;有一段时间，我和我的父母都认为这是因为我患有自闭症，因为自闭症让我很难同时处理多项任务，包括在户外同时注意周围的所有环境，以及我花了太多时间坐在电脑前，特别是我的工作都涉及到大量使用电脑，从而减少了体育锻炼。然而，现在我被诊断出患有 RP，原因终于明朗：原来，我的周边视力开始变弱，眼睛对强光（包括阳光）也变得更加敏感。此外，我的眼科医生还发现我患有 RP 并发的轻度白内障。&lt;/p&gt;
-&lt;p&gt;在我的 RP 诊断前两周，我曾写过一篇关于&lt;a href=&quot;https://blog.helenchong.omg.lol/zh/posts/2024-11-16-superpower-i-wish-to-have/&quot;&gt;瞬间移动是我希望拥有的超能力&lt;/a&gt;的文章，其中一个原因是我的眼睛有毛病导致我在阳光下看不清东西，所以我在户外行走时很谨慎。我不知道自己眼睛究竟得了什么毛病，但现在我知道原因了。&lt;/p&gt;
-&lt;p&gt;由于目前还没有根治 RP 的方法，我所能做的就是尽我所能保护我的剩余视力，主要是在白天外出时继续佩戴太阳镜，以保护眼睛免受阳光照射。此外，我还在调整使用数码设备的习惯，将设备的字体变大，让我在阅读时更加感觉舒适，并尽量定期离开电子设备屏幕休息一下。&lt;/p&gt;
-&lt;p&gt;被诊断出患有可导致视力下降的遗传性眼病后，我也很高兴自己已经开始学习使用屏幕阅读器。在确诊之前，我就已经开始使用屏幕阅读器，如 Windows 上的 NVDA 和 Android 上的 TalkBack，来测试网站——包括我自己的网站——的无障碍性。这可以让自己为可能失去足够的视力以至于需要低视力助视器和辅助技术做好准备。事实上，由于我是通过散瞳检查被诊断出患有 RP 的，在接受散瞳眼药水治疗后的大约 12 个小时内，我都无法看清东西，所以在看完眼科医生后的几个小时内，我需要激活 TalkBack 才能在我的 Android 手机上阅读东西。此外，我还打算学习盲文。&lt;/p&gt;
-&lt;p&gt;我写这篇文章不是为了寻求同情。我已经接受了自己有视力障碍和自闭症的事实，我的残疾是我这个人的重要组成部分，就像我是一个无性恋和无浪漫倾向的非二元女同志一样。相反，我分享我的故事是为了让其他有类似状况的人知道，他们并不孤单，我们是有价值的。&lt;/p&gt;
-&lt;p&gt;在 2024 年 7 月（也是我的出生月份）的 残疾人骄傲月（Disability Pride Month）期间，我&lt;a href=&quot;https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/&quot;&gt;用 CSS 编码了一幅残疾人骄傲旗帜&lt;/a&gt;，因此用我编码的这个骄傲旗帜作为本文的结尾再合适不过了。&lt;/p&gt;
-&lt;div class=&quot;flag disability-pride p-margin-top &quot; role=&quot;img&quot; aria-label=&quot;以 CSS 编码而成的残疾人骄傲旗帜&quot;&gt;&lt;/div&gt;</content>
   </entry>
 </feed>
