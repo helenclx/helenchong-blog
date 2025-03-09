@@ -17,8 +17,8 @@ export default function(eleventyConfig) {
     });
 
     // Limit number of items displayed
-    eleventyConfig.addFilter("itemLimit", (array, itemLimit) => {
-        return array.slice(0, itemLimit);
+    eleventyConfig.addFilter("itemLimit", (array, maximum) => {
+        return array.slice(0, maximum);
     });
 
     // URL slug generation with more language support tha slugify
