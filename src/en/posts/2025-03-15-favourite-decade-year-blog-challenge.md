@@ -4,7 +4,7 @@ desc: I was nominated to participate in a blog questions challenge about my favo
 date: 2025-03-15T19:46:04+0800
 ---
 
-I was nominated by [Brandon Jones](https://krrd.ing/) to participate in a blog questions challenge about [favourite decade or year](https://krrd.ing/posts/favorite-decade-or-year-blog-challenge/). Thank you, Brandon!
+I was [nominated](https://social.lol/@mbjones/114068317382798850) by [Brandon Jones](https://krrd.ing/) to participate in a blog questions challenge about [favourite decade or year](https://krrd.ing/posts/favorite-decade-or-year-blog-challenge/). Thank you, Brandon!
 
 ## If you could relive any decade, which one would you choose and why?
 
