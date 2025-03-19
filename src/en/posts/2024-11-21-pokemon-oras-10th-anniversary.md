@@ -1,5 +1,5 @@
 ---
-title: Happy 10th Birthday to Pokémon Omega Ruby and Alpha Sapphire
+title: 'Happy 10th Birthday to "Pokémon Omega Ruby and Alpha Sapphire"'
 desc: Celebrating the ten-year anniversary of the release of Pokémon Omega Ruby and Alpha Sapphire, my favourite Pokémon games.
 date: 2024-11-21T09:02:09+0800
 toc: true
