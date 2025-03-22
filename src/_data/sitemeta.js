@@ -9,14 +9,16 @@ export const siteAuthor = {
 export const feedPath = "feed.xml";
 export const siteLang = {
     en: {
-      label: 'EN',
-      code: 'en',
-      long: 'English'
+		label: 'EN',
+		code: 'en',
+		long: 'English',
+		home: 'English homepage'
     },
     zh: {
-      label: 'ZH',
-      code: 'zh',
-      long: '中文'
+		label: 'ZH',
+		code: 'zh',
+		long: '简体中文',
+		home: '简体中文首页'
     }
 };
 

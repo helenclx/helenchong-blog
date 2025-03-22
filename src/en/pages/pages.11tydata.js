@@ -1,4 +1,5 @@
 export default {
     layout: "layouts/page",
-    permalink: "/{{ locale }}/{{ page.fileSlug }}/"
+    permalink: "/{{ locale }}/{{ page.fileSlug }}/",
+    pageLangOptions: true
 }

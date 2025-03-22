@@ -4,6 +4,16 @@ layout: layouts/base
 <header class="main__header">
     <h1>{{ pageTitle or title }}</h1>
     <p>{{ desc }}</p>
+    {% if pageLangOptions %}
+    <nav aria-label="{{ langstrings[page.lang].translations }}">
+        {{ langstrings[page.lang].availableLang }}
+        {% for link in page.url | locale_links %}
+        <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+            <span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span>
+        </a>
+        {% endfor %}
+    </nav>
+    {% endif %}
 </header>
 <article class="prose page">
     {{ content | safe }}

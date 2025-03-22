@@ -1,8 +1,9 @@
 export const en = {
     dir: '', // stands for the direction of the language set in the head, defaults to LTR (left to right)
     skipToContent: 'Skip to Content',
-    availableLang: 'This page is also available in:',
+    availableLang: 'Read this page in: ',
     langOptions: 'Language Options:',
+    translations: 'Translations',
     mainNav: 'Main',
     footerNav: 'Footer',
     welcome: 'Welcome to ',
@@ -12,6 +13,7 @@ export const en = {
     published: 'Published:',
     updated: 'Last Updated:',
     author: 'Author:',
+    postLang: 'Languages: ',
     toc: 'In This Article',
     replyByEmail: 'Reply by Email',
     emailReplySubject: 'RE: ',
@@ -28,8 +30,9 @@ export const en = {
 
 export const zh = {
     skipToContent: '跳至内容区',
-    availableLang: '此页面也有此语言版本:',
+    availableLang: '切换本页语言:',
     langOptions: '语言选项:',
+    translations: '翻译',
     mainNav: '主要',
     footerNav: '页脚',
     welcome: '欢迎光临',
@@ -39,6 +42,7 @@ export const zh = {
     published: '发布:',
     updated: '最后更新:',
     author: '作者:',
+    postLang: '语言: ',
     toc: '本文中',
     replyByEmail: '电邮回复',
     emailReplySubject: '回复：',
