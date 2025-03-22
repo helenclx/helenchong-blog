@@ -4,7 +4,8 @@ layout: layouts/base
 <header class="main__header">
     <h1>{{ pageTitle or title }}</h1>
     <p>{{ desc }}</p>
-    {% if pageLangOptions %}
+    {% set altLangs = page.url | locale_links %}
+    {% if pageLangOptions and altLangs.length > 0 %}
     <nav aria-label="{{ langstrings[page.lang].translations }}">
         {{ langstrings[page.lang].availableLang }}
         {% for link in page.url | locale_links %}

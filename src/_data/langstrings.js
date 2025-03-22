@@ -1,7 +1,7 @@
 export const en = {
     dir: '', // stands for the direction of the language set in the head, defaults to LTR (left to right)
     skipToContent: 'Skip to Content',
-    availableLang: 'Read this page in: ',
+    availableLang: 'View this page in: ',
     langOptions: 'Language Options:',
     translations: 'Translations',
     mainNav: 'Main',
