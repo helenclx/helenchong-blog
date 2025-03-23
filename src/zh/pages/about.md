@@ -24,6 +24,24 @@ desc: 关于本部落格和作者。
 
 有关{{ sitemeta[page.lang].siteName }}的技术信息，可参见[网站建立](colophon.md)页面。
 
+## 部落格徽章
+
+<div class="grid-center">
+    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt  }}" width="176" height="62" loading="lazy">
+</div>
+
+我为{{ sitemeta[page.lang].siteName }}设计了一枚 88x31 徽章，所以如果你想链接至本部落格，你可使用这枚徽章。
+
+嵌入{{ sitemeta[page.lang].siteName }}的 88x31 徽章的 HTML 代码：
+
+```html
+<a href="{{ sitemeta.siteUrl }}/">
+    <img width="88" height="31"
+        src="{{ sitemeta.siteUrl }}/assets/galaxygarden/galaxy-garden-88x31.svg"
+        alt="{{ langstrings[page.lang].siteBadgeAlt  }}">
+</a>
+```
+
 ## 联系方式
 
 联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.emailEncoded | safe }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。

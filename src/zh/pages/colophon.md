@@ -1,7 +1,7 @@
 ---
 title: 网站建立
 desc: 本部落格是如何建立的。
-updated: 2025-01-05T22:25:31+0800
+updated: 2025-03-23T18:04:25+0800
 ---
 
 ## 科技
@@ -34,5 +34,5 @@ Eleventy 内置了 Markdown 解析器 [markdown-it](https://www.npmjs.com/packag
 
 ## 品牌
 
-* 我用 Affinity Designer 2 设计{{ sitemeta[page.lang].siteName }}的标志。
+* 我用 Affinity Designer 2 设计{{ sitemeta[page.lang].siteName }}的标志和 88x31 徽章。
 * 我用 Adobe Illustrator CS5 绘制自己的卡通插图头像，绘画风格晾干源自 [Andy Carolan](https://www.andycarolan.com/)。

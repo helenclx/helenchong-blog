@@ -24,6 +24,24 @@ The blog name is based on the name of my first blogs in the 2000s, Galaxy Park. 
 
 Technical information about {{ sitemeta[page.lang].siteName }} can be found on the [Colophon](colophon.md) page.
 
+## Blog Badge
+
+<div class="grid-center">
+    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt  }}" width="176" height="62" loading="lazy">
+</div>
+
+I have designed and made a 88x31 badge for {{ sitemeta[page.lang].siteName }}, so if you want to link back to this blog, you may use this badge.
+
+HTML code snippet to embed {{ sitemeta[page.lang].siteName }}'s 88x31 badge:
+
+```html
+<a href="{{ sitemeta.siteUrl }}/">
+    <img width="88" height="31"
+        src="{{ sitemeta.siteUrl }}/assets/galaxygarden/galaxy-garden-88x31.svg"
+        alt="{{ langstrings[page.lang].siteBadgeAlt  }}">
+</a>
+```
+
 ## Contact
 
 The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded | safe }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. Using [plain text email](https://useplaintext.email/) is encouraged.

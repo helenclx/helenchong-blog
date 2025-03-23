@@ -1,7 +1,7 @@
 ---
 title: Colophon
 desc: How this blog is built.
-updated: 2025-01-05T22:25:23+0800
+updated: 2025-03-23T18:04:20+0800
 ---
 
 ## Technology
@@ -34,5 +34,5 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 
 ## Branding
 
-* I designed the {{ sitemeta[page.lang].siteName }} logo in Affinity Designer 2.
+* I designed the {{ sitemeta[page.lang].siteName }} logo and 88x31 badge in Affinity Designer 2.
 * I drew the cartoon illustration avatar of myself in Adobe Illustrator CS5, inspired by [Andy Carolan](https://www.andycarolan.com/)'s art style.
