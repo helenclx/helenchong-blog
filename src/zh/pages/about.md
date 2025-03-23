@@ -2,7 +2,7 @@
 title: 关于
 desc: 关于本部落格和作者。
 ---
-{% imgFigure "/assets/helenchong/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }} 的个人肖像", "profilepic" %}
+{% imgFigure "/assets/galaxygarden/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }} 的个人肖像", "profilepic" %}
 【图片描述： 一名浅色皮肤、黑色头发、戴着一副红色眼镜，并穿着一件紫色 Polo 衫的华人，位于浅紫色背景的卡通数字插画。描述结束。】
 {% endimgFigure %}
 
@@ -14,7 +14,7 @@ desc: 关于本部落格和作者。
 
 ## 关于本部落格
 
-{% imgFigure "/assets/helenchong/galaxy-garden-logo.webp", "Logo of {{ sitemeta[page.lang].siteName }}", "profilepic" %}
+{% imgFigure "/assets/galaxygarden/galaxy-garden-logo.webp", "Logo of {{ sitemeta[page.lang].siteName }}", "profilepic" %}
 【图片描述： 我的个人部落格，{{ sitemeta[page.lang].siteName }}的标志，由一个浅黄色、样子与大写字母 G 相似的简约的银河形状和紫色背景组成。描述结束。】
 {% endimgFigure %}
 

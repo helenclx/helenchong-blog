@@ -30,7 +30,11 @@
         <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">{{ langstrings[page.lang].emailContact }}</a> {{ langstrings[page.lang].plaintxtEmail | safe }}
     </p>
     <p>{{ madeWithHeart }}</p>
-    <p>{{ builtWith11ty | safe }} • <a href="https://github.com/helenclx/helenchong-journal">{{langstrings[page.lang].sourceCode  }}</a></p>
+    <p>{{ builtWith11ty | safe }} • <a href="https://github.com/helenclx/helenchong-journal">{{ langstrings[page.lang].sourceCode  }}</a></p>
+
+    <div class="grid-center">
+        <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt  }}" width="88" height="31" loading="lazy">
+    </div>
 
     <nav class="grid-center" aria-labelledby="social-nav">
         <p id="social-nav" class="visually-hidden">{{ langstrings[page.lang].socialNav }}</p>

@@ -3,7 +3,7 @@ title: 银河花园的标志
 desc: 我为自己的个人部落格设计并制作了一个标志。
 date: 2024-12-05T20:34:34+0800
 ---
-![我的个人部落格，银河花园的标志](/assets/helenchong/galaxy-garden-logo.webp)
+![我的个人部落格，银河花园的标志](/assets/galaxygarden/galaxy-garden-logo.webp)
 
 我为银河花园——我的个人部落格——设计了一个标志！
 

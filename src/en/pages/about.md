@@ -2,7 +2,7 @@
 title: About
 desc: About this blog and its author.
 ---
-{% imgFigure "/assets/helenchong/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }}'s profile picture", "profilepic" %}
+{% imgFigure "/assets/galaxygarden/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }}'s profile picture", "profilepic" %}
 [Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
 {% endimgFigure %}
 
@@ -14,7 +14,7 @@ I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent 
 
 ## About This Blog
 
-{% imgFigure "/assets/helenchong/galaxy-garden-logo.webp", "Logo of {{ sitemeta[page.lang].siteName }}", "profilepic" %}
+{% imgFigure "/assets/galaxygarden/galaxy-garden-logo.webp", "Logo of {{ sitemeta[page.lang].siteName }}", "profilepic" %}
 [Image description: Logo of my personal blog, {{ sitemeta[page.lang].siteName }}, with the logo consists of a light yellow minimalist shape of a galaxy resembling the capital G on top of a purple background. Description ends.]
 {% endimgFigure %}
 
