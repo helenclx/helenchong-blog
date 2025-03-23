@@ -26,21 +26,12 @@ desc: 关于本部落格和作者。
 
 ## 部落格徽章
 
-<div class="grid-center">
-    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt  }}" width="176" height="62" loading="lazy">
-</div>
+<figure class="grid-center">
+    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ sitemeta[page.lang].siteName }}的 88x31 徽章" width="176" height="62" loading="lazy">
+    <figcaption>【图片描述： {{ langstrings[page.lang].siteBadgeAlt  }}描述结束。】</figcaption>
+</figure>
 
 我为{{ sitemeta[page.lang].siteName }}设计了一枚 88x31 徽章，所以如果你想链接至本部落格，你可使用这枚徽章。
-
-嵌入{{ sitemeta[page.lang].siteName }}的 88x31 徽章的 HTML 代码：
-
-```html
-<a href="{{ sitemeta.siteUrl }}/">
-    <img width="88" height="31"
-        src="{{ sitemeta.siteUrl }}/assets/galaxygarden/galaxy-garden-88x31.svg"
-        alt="{{ langstrings[page.lang].siteBadgeAlt  }}">
-</a>
-```
 
 ## 联系方式
 

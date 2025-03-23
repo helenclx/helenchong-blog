@@ -26,21 +26,12 @@ Technical information about {{ sitemeta[page.lang].siteName }} can be found on t
 
 ## Blog Badge
 
-<div class="grid-center">
-    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt  }}" width="176" height="62" loading="lazy">
-</div>
+<figure class="grid-center">
+    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ sitemeta[page.lang].siteName }}'s 88x31 badge" width="176" height="62" loading="lazy">
+    <figcaption>[Image description: {{ langstrings[page.lang].siteBadgeAlt  }} Description ends.]</figcaption>
+</figure>
 
 I have designed and made a 88x31 badge for {{ sitemeta[page.lang].siteName }}, so if you want to link back to this blog, you may use this badge.
-
-HTML code snippet to embed {{ sitemeta[page.lang].siteName }}'s 88x31 badge:
-
-```html
-<a href="{{ sitemeta.siteUrl }}/">
-    <img width="88" height="31"
-        src="{{ sitemeta.siteUrl }}/assets/galaxygarden/galaxy-garden-88x31.svg"
-        alt="{{ langstrings[page.lang].siteBadgeAlt  }}">
-</a>
-```
 
 ## Contact
 
