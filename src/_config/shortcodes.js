@@ -1,10 +1,10 @@
 import { markdownLibrary } from "./markdown-it.js";
 
 export default function(eleventyConfig) {
-    // <cite> tag
+    // Shortcode: <cite> tag
     eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
 
-    // Image figure and figcaption
+    // Shortcode: Image figure and figcaption
     eleventyConfig.addPairedShortcode('imgFigure', (
         caption, img, alt=caption, className, enableLazyLoading=true
     ) => {
