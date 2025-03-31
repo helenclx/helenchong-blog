@@ -1,14 +1,13 @@
 ---
 title: 网站建立
 desc: 本部落格是如何建立的。
-updated: 2025-03-23T18:04:25+0800
+updated: 2025-03-31T19:09:06+0800
 ---
 
 ## 科技
 * 使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 版本 {{ eleventy.version }} 构建
 * JavaScript 运行环境：[Bun](https://bun.sh)。
 * 模板语言：Nunjucks 和 Markdown。
-* 使用 Visual Studio Code 编写代码。
 * 测试浏览器：Mozilla Firefox、Vivaldi 和 Lynx。
 * 源代码可在 [GitHub](https://github.com/helenclx/helenchong-blog) 上获取。
 
