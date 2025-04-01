@@ -1,14 +1,13 @@
 ---
 title: Colophon
 desc: How this blog is built.
-updated: 2025-03-23T18:04:20+0800
+updated: 2025-03-31T19:07:48+0800
 ---
 
 ## Technology
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: Nunjucks and Markdown.
-* Code written with Visual Studio Code.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [GitHub](https://github.com/helenclx/helenchong-blog).
 
