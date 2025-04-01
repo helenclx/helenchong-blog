@@ -17,6 +17,15 @@ layout: layouts/base
     {% endif %}
 </header>
 <article class="prose page">
+    {% if toc %}
+    <details class="toc__wrapper">
+        <summary class="toc__heading" id="toc-heading">
+            {{ langstrings[page.lang].pageToC }}
+        </summary>
+        {{ content | toc | safe }}
+    </details>
+    {% endif %}
+ 
     {{ content | safe }}
     {% if updated %}
     <p class="updated">

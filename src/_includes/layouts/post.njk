@@ -36,9 +36,9 @@ layout: layouts/base
         </ul>
 
         {% if toc %}
-        <details class="toc__wrapper">
+        <details class="toc__wrapper post-toc">
             <summary class="toc__heading" id="toc-heading">
-                {{ langstrings[page.lang].toc }}
+                {{ langstrings[page.lang].postToC }}
             </summary>
             {{ content | toc | safe }}
         </details>
