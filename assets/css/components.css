@@ -83,10 +83,15 @@ img.profilepic, .profilepic img {
 
 /* Table of Contents */
 .toc__wrapper {
-    max-height: 90vh;
-    overflow-x: auto;
     padding: 1rem;
     border: var(--bdr-layout);
+}
+
+.page > .toc__wrapper { width: 100%; }
+
+.post-toc {
+    max-height: 90vh;
+    overflow-x: auto;
     position: sticky;
     top: 1rem;
 }
