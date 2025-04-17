@@ -35,9 +35,6 @@
 
         {# Feeds #}
         <link rel="alternate" type="application/rss+xml" title="{{ sitemeta[page.lang].siteName }}" href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
-
-        {# Favicon #}
-        {% include "partials/favicon.njk" %}
     </head>
     <body>
         <div class="skip-btn"><a href="#content">{{ langstrings[page.lang].skipToContent }}</a></div>
