@@ -1,6 +1,7 @@
 ---
 title: About
 desc: About this blog and its author.
+tags: ["headernav_en"]
 toc: true
 ---
 {% imgFigure "/assets/galaxygarden/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }}'s profile picture", "profilepic" %}

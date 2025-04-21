@@ -1,5 +1,6 @@
 ---
 title: 关于
+tags: ["headernav_zh"]
 desc: 关于本部落格和作者。
 ---
 {% imgFigure "/assets/galaxygarden/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }} 的个人肖像", "profilepic" %}

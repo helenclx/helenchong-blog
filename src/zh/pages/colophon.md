@@ -1,6 +1,7 @@
 ---
 title: 网站建立
 desc: 本部落格是如何建立的。
+tags: ["footernav_zh"]
 updated: 2025-04-11T21:32:34+0800
 ---
 

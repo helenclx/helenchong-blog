@@ -13,11 +13,11 @@
     <nav aria-labelledby="main-nav">
         <h3 id="main-nav" class="visually-hidden">{{ langstrings[page.lang].mainNav }}</h3>
         <ul class="header__navlinks">
-            {% for item in navigation[page.lang].header %}
+            {% for item in collections["headernav_" + page.lang] %}
             <li>
                 <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}
                     {% if "/posts" in currentUrl and "/posts" in item.url %}class="link--active"{% endif %}
-                >{{ item.text }}</a>
+                >{{ item.data.navTitle or item.data.title }}</a>
             </li>
             {% endfor %}
         </ul>

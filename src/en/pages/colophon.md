@@ -1,6 +1,7 @@
 ---
 title: Colophon
 desc: How this blog is built.
+tags: ["footernav_en"]
 updated: 2025-04-11T21:32:20+0800
 ---
 
