@@ -28,20 +28,20 @@
         <meta name="theme-color" content="#512b85">
 
         {# Fonts #}
-        {% include "partials/fonts.njk" %}
+        {% include "partials/fonts.html" %}
 
         {# CSS #}
-        {% include "partials/css.njk" %}
+        {% include "partials/css.html" %}
 
         {# Feeds #}
         <link rel="alternate" type="application/rss+xml" title="{{ sitemeta[page.lang].siteName }}" href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
     </head>
     <body>
         <div class="skip-btn"><a href="#content">{{ langstrings[page.lang].skipToContent }}</a></div>
-        {% include "partials/header.njk" %}
+        {% include "partials/header.html" %}
         <main id="content">
             {{ content | safe }}
         </main>
-        {% include "partials/footer.njk" %}
+        {% include "partials/footer.html" %}
     </body>
 </html>

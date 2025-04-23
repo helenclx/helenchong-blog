@@ -29,7 +29,7 @@ eleventyComputed:
 
 <h2 class="text-center">{{ langstrings[page.lang].latestPosts }}</h2>
 {% set postList = collections["posts_" + page.lang] | reverse | itemLimit(3) %}
-{% include "partials/postlist.njk" %}
+{% include "partials/postlist.html" %}
 
 <h2 class="text-center">{{ langstrings[page.lang].webDirectories }}</h2>
 <p class="text-center">{{ sitemeta[page.lang].siteName }}{{ langstrings[page.lang].directoryDesc }}</p>
