@@ -1,5 +1,6 @@
 // Plugins
 import { EleventyI18nPlugin, InputPathToUrlTransformPlugin } from "@11ty/eleventy";
+import { VentoPlugin } from 'eleventy-plugin-vento';
 import tocPlugin from '@uncenter/eleventy-plugin-toc';
 
 // Custom configurations
@@ -16,6 +17,9 @@ export default function(eleventyConfig) {
         errorMode: "allow-fallback"
     });
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+    eleventyConfig.addPlugin(VentoPlugin, {
+        autotrim: true,
+    });
     eleventyConfig.addPlugin(tocPlugin, {
         tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
         wrapper: function (toc) {
