@@ -1,4 +1,4 @@
 export default {
     locale: "zh",
-    layout: "layouts/base"
+    // layout: "layouts/base",
 }
