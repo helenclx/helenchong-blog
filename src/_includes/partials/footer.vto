@@ -20,7 +20,7 @@
             </li>
             {{ for item of collections["footernav_" + page.lang] }}
             <li>
-                <a href="{{ item.url }}"{{ if item.url == page.url }} aria-current="page"{{ /if }}>{{ item.data.navTitle or item.data.title }}</a>
+                <a href="{{ item.url }}"{{ if item.url == page.url }} aria-current="page"{{ /if }}>{{ item.data.navTitle || item.data.title }}</a>
             </li>
             {{ /for }}
         </ul>
