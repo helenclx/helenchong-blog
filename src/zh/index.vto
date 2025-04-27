@@ -5,6 +5,7 @@ layout: layouts/home
 
 <p>我是 {{ sitemeta[page.lang].siteAuthor.name }}，一个千禧世代的马来西亚华人酷儿、自闭儿兼视障人士。<a href="{{ profileitems.pronounsPage[page.lang] }}">我的代称</a>包括他/你、tā/你、她/妳和粤语的佢/你。</p>
 
+{{ set localeLinks = page.url |> locale_links }}
 <p>
-    本部落格有以下语言版本：<a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">{{ sitemeta.siteLang[page.lang].long }}</a>、{{ for link of page.url |> locale_links }}<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}"><span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span></a>、{{ /for }}
+    本部落格有以下语言版本：<a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">{{ sitemeta.siteLang[page.lang].long }}</a>、{{ for link of page.url |> locale_links }}<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}"><span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span></a>{{ if localeLinks.indexOf(link) !== localeLinks.length - 1 }}、{{ /if }}{{ /for }}
 </p>

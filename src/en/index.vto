@@ -8,9 +8,10 @@ layout: layouts/home
 <p>
     This blog is available in the following languages:
     <a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">{{ sitemeta.siteLang[page.lang].long }}</a>,
+    {{ set localeLinks = page.url |> locale_links }}
     {{ for link of page.url |> locale_links }}
     <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
         <span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span>
-    </a>, 
+    </a>{{ if localeLinks.indexOf(link) !== localeLinks.length - 1 }}, {{ /if }}
     {{ /for }}
 </p>
