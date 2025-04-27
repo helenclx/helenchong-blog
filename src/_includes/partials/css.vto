@@ -1,0 +1,12 @@
+{{ set cssFiles = [
+    "global",
+    "general",
+    "layouts",
+    "components",
+    "pridesymbols",
+    "utility"
+] }}
+
+{{ for file of cssFiles }}
+<link rel="stylesheet" href="{{'/assets/css/' + file + '.css'}}">
+{{ /for }}

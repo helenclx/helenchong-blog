@@ -10,7 +10,7 @@
         {{ for link of page.url | locale_links }}
         <link rel="alternate" hreflang="{{ link.lang }}" href="{{ sitemeta.siteUrl }}{{ link.url }}">
         {{ /for }}
-        <link rel="alternate" hreflang="x-default" href="{{ sitemeta.siteUrl }}{{ page.url | locale_url('en') }}">
+        <link rel="alternate" hreflang="x-default" href="{{ sitemeta.siteUrl }}{{ page.url |> locale_url('en') }}">
 
         <!-- Metadata -->
         <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url }}">
@@ -28,20 +28,16 @@
         <meta name="theme-color" content="#512b85">
 
         <!-- Fonts -->
-        {{# {{ include "partials/fonts.vto" }} #}}
-
+        {{ include "partials/fonts.vto" }}
         <!-- CSS -->
-        {{# {{ include "partials/css.vto" }} #}}
-
+        {{ include "partials/css.vto" }}
         <!-- Feeds -->
         <link rel="alternate" type="application/rss+xml" title="{{ sitemeta[page.lang].siteName }}" href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
     </head>
     <body>
         <div class="skip-btn"><a href="#content">{{ langstrings[page.lang].skipToContent }}</a></div>
-        {{# {{ include "partials/header.vto" }} #}}
         <main id="content">
             {{ content }}
         </main>
-        {{# {{ include "partials/footer.vto" }} #}}
     </body>
 </html>
