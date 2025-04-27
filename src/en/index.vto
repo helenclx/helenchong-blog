@@ -1,0 +1,16 @@
+---
+layout: layouts/home
+---
+<p>Hello! Welcome to my personal blog!</p>
+
+<p>I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic and visually impaired Malaysian Chinese person who goes by <a href="{{ profileitems.pronounsPage[page.lang] }}">they/them or she/her pronouns</a>.</p>
+
+<p>
+    This blog is available in the following languages:
+    <a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">{{ sitemeta.siteLang[page.lang].long }}</a>,
+    {{ for link of page.url |> locale_links }}
+    <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+        <span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span>
+    </a>, 
+    {{ /for }}
+</p>

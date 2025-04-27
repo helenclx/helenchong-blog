@@ -36,8 +36,10 @@
     </head>
     <body>
         <div class="skip-btn"><a href="#content">{{ langstrings[page.lang].skipToContent }}</a></div>
+        {{ include "partials/header.vto" }}
         <main id="content">
             {{ content }}
         </main>
+        {{ include "partials/footer.vto" }}
     </body>
 </html>

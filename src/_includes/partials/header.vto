@@ -4,10 +4,9 @@
     <div class="header__sitename">
         <img src="/assets/galaxygarden/galaxy-garden-logo.webp" alt="" width="35" height="35">
         <h2 class="header__title">
-            <a
-                {{ if currentUrl === "/" |> locale_url }}aria-current="page"{{ /if }}
-                href="{{ "/" |> locale_url }}"
-            >{{ sitemeta[page.lang].siteName }}</a>
+            <a {{ if currentUrl === `/${page.lang}/` }} aria-current="page"{{ /if }} href="{{ "/" |> locale_url }}">
+                {{ sitemeta[page.lang].siteName }}
+            </a>
         </h2>
     </div>
     <nav aria-labelledby="main-nav">
@@ -15,8 +14,9 @@
         <ul class="header__navlinks">
             {{ for item of collections["headernav_" + page.lang] }}
             <li>
-                <a href="{{ item.url }}"{{ if item.url == page.url }} aria-current="page"{{ /if }}
-                    {{ if "/posts" in currentUrl &&  "/posts" in item.url }}class="link--active"{{ /if }}
+                <a href="{{ item.url }}"
+                    {{ if item.url == page.url }} aria-current="page"{{ /if }}
+                    {{ if currentUrl.includes("/posts") && item.url.includes("/posts") }}class="link--active"{{ /if }}
                 >{{ item.data.navTitle || item.data.title }}</a>
             </li>
             {{ /for }}
