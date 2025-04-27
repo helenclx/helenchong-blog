@@ -28,7 +28,7 @@ eleventyComputed:
 </div>
 
 <h2 class="text-center">{{ langstrings[page.lang].latestPosts }}</h2>
-{{ set postList = collections["posts_" + page.lang] |> toReversed |> itemLimit(3) }}
+{{ set postList = collections["posts_" + page.lang] |> toReversed |> slice(0, 3) }}
 {{ include "partials/postlist.vto" }}
 
 <h2 class="text-center">{{ langstrings[page.lang].webDirectories }}</h2>
