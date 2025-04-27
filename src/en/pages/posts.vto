@@ -1,0 +1,10 @@
+---
+title: Blog Posts
+navTitle: Posts
+tags: ["headernav_en"]
+eleventyComputed:
+    desc: "Archive of {{ sitemeta.en.siteAuthor.name }}'s blog posts."
+---
+
+{{ set postList = collections.posts_en |> toReversed }}
+{{ include "partials/postlist.vto" }}
