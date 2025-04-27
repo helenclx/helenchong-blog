@@ -35,8 +35,8 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(shortCodesConfig);
 
     return {
-        markdownTemplateEngine: "njk",
-        htmlTemplateEngine: "njk",
+        markdownTemplateEngine: "vto",
+        htmlTemplateEngine: "vto",
         dir: {
             input: "src"
         }
