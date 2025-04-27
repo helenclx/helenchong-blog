@@ -11,7 +11,7 @@ updated: 2025-02-17T18:45:35+0800
 
 原来，这所学校名叫 [42](https://www.42network.org/)，是一个提供免费电脑科学教育的国际学校网络，在包括马来西亚在内的世界各地有很多分校。42 与传统大学的主要区别在于其同侪和基于项目的学习模式，不涉及任何教师。
 
-根据 [42 的巴黎校区官方网站](https://42.fr/en/what-is-42/42-program-explained/) —— 42 的发源地 —— 的说法，这个名字灵感源自 Douglas Adams 的小说《银河系漫游指南》（{% cite "The Hitchhiker’s Guide to the Galaxy" %}）：
+根据 [42 的巴黎校区官方网站](https://42.fr/en/what-is-42/42-program-explained/) —— 42 的发源地 —— 的说法，这个名字灵感源自 Douglas Adams 的小说《银河系漫游指南》（{{ cite "The Hitchhiker’s Guide to the Galaxy" }}）：
 
 > In Douglas Adams’ book The Hitchhiker’s Guide to the Galaxy – H2G2 for short – an advanced alien species builds a super computer. It has only one job: to find the answer to the Ultimate Question of Life, the Universe and Everything. After 7 million years of calculation, the computer finds the answer: 42. In geek culture, 42 often represents the answer to a seemingly insuperable problem. This is why 42 is called 42. This is our answer to what IT education should be today and in the future.
 

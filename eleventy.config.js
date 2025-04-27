@@ -8,7 +8,7 @@ import feedConfig from "./src/_config/feed.js";
 import filesConfig from "./src/_config/files.js";
 import filters from "./src/_config/filters.js";
 import markdownItConfig from "./src/_config/markdown-it.js";
-import shortCodesConfig from "./src/_config/shortcodes.js";
+import shortcodes from "./src/_config/shortcodes.js";
 
 export default function(eleventyConfig) {
     // Plugins
@@ -31,11 +31,13 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(feedConfig);
     eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(markdownItConfig);
-    eleventyConfig.addPlugin(shortCodesConfig);
 
     // Filters
     eleventyConfig.addFilter("formatDate", filters.formatDate);
     eleventyConfig.addFilter("slugStr", filters.slugStr);
+
+    // Shortcodes
+    eleventyConfig.addShortcode("cite", shortcodes.cite);
 
     return {
         markdownTemplateEngine: "vto",
