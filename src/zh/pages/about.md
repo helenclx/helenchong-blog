@@ -2,6 +2,7 @@
 title: 关于
 tags: ["headernav_zh"]
 desc: 关于本部落格和作者。
+toc: true
 ---
 <figure class="profilepic">
     <img src="/assets/galaxygarden/profilepic.webp" alt="{{ sitemeta[page.lang].siteName }} 的个人肖像" loading="lazy">
