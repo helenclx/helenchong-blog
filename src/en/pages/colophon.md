@@ -2,23 +2,24 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2025-04-11T21:32:20+0800
+updated: 2025-04-30T02:07:03+0800
 ---
 
 ## Technology
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
-* Templating languages: Nunjucks and Markdown.
+* Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [GitHub](https://github.com/helenclx/helenchong-blog).
 
 ## Host and Domain
-* Deployed to [Hostinger](https://www.hostinger.my/) from this blog's GitHub repository with a GitHub action.
+* Deployed to [Hostinger](https://www.hostinger.my/) from this blog's GitHub repository with the [easingthemes/ssh-deploy](easingthemes/ssh-deploy) GitHub Action.
 * The address, {{ sitemeta.siteDomain }}, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [helenchong.omg.lol](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol.
 
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 * Eleventy's official [Fetch](https://www.11ty.dev/docs/plugins/fetch/) plugin
+* Noel Forte's [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter's [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 * [limax](https://www.npmjs.com/package/limax)
 

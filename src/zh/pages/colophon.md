@@ -2,23 +2,24 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-04-11T21:32:34+0800
+updated: 2025-04-30T02:08:06+0800
 ---
 
 ## 科技
 * 使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 版本 {{ eleventy.version }} 构建
 * JavaScript 运行环境：[Bun](https://bun.sh)。
-* 模板语言：Nunjucks 和 Markdown。
+* 模板语言：[Vento](https://vento.js.org/) 和 Markdown。
 * 测试浏览器：Mozilla Firefox、Vivaldi 和 Lynx。
 * 源代码可在 [GitHub](https://github.com/helenclx/helenchong-blog) 上获取。
 
 ## 托管与域名
-* 通过 GitHub action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)。
+* 通过 [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)。
 * 本部落格网址 {{ sitemeta.siteDomain }} 是我的 [omg.lol](https://home.omg.lol/) 网址 [helenchong.omg.lol](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
 
 ## 插件
 * Eleventy 的官方 [RSS](https://www.11ty.dev/docs/plugins/rss/) 插件
 * Eleventy 的官方 [Fetch](https://www.11ty.dev/docs/plugins/fetch/) 插件
+* Noel Forte 的 [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter 的 [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 * [limax](https://www.npmjs.com/package/limax)
 
