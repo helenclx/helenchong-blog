@@ -1,6 +1,4 @@
-// Shortcode: <cite> tag
-const cite = (str) => `<cite>${str}</cite>`;
-
-export default {
-    cite,
+export default function (eleventyConfig) {
+    // Shortcode: <cite> tag
+    eleventyConfig.addShortcode("cite", (str) => `<cite>${str}</cite>`);
 }
