@@ -2,7 +2,7 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2025-04-27T13:52:05+0800
+updated: 2025-04-30T02:07:03+0800
 ---
 
 ## Technology
@@ -13,7 +13,7 @@ updated: 2025-04-27T13:52:05+0800
 * Source code available on [GitHub](https://github.com/helenclx/helenchong-blog).
 
 ## Host and Domain
-* Deployed to [Hostinger](https://www.hostinger.my/) from this blog's GitHub repository with a GitHub action.
+* Deployed to [Hostinger](https://www.hostinger.my/) from this blog's GitHub repository with the [easingthemes/ssh-deploy](easingthemes/ssh-deploy) GitHub Action.
 * The address, {{ sitemeta.siteDomain }}, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [helenchong.omg.lol](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol.
 
 ## Plugins

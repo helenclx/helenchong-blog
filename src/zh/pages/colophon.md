@@ -2,7 +2,7 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-04-27T13:52:20+0800
+updated: 2025-04-30T02:08:06+0800
 ---
 
 ## 科技
@@ -13,7 +13,7 @@ updated: 2025-04-27T13:52:20+0800
 * 源代码可在 [GitHub](https://github.com/helenclx/helenchong-blog) 上获取。
 
 ## 托管与域名
-* 通过 GitHub action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)。
+* 通过 [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)。
 * 本部落格网址 {{ sitemeta.siteDomain }} 是我的 [omg.lol](https://home.omg.lol/) 网址 [helenchong.omg.lol](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
 
 ## 插件
