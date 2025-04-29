@@ -12,7 +12,6 @@ export let markdownLibrary;
 
 export default function(eleventyConfig) {
     // Configure markdown-it-anchor plugins
-    eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
         class: "heading-anchor",
         symbol: "<span hidden>#</span>",
