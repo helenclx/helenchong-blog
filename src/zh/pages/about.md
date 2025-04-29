@@ -2,6 +2,7 @@
 title: 关于
 tags: ["headernav_zh"]
 desc: 关于本部落格和作者。
+toc: true
 ---
 {% imgFigure "/assets/galaxygarden/profilepic.webp", "{{ sitemeta[page.lang].siteAuthor.name }} 的个人肖像", "profilepic" %}
 【图片描述： 一名浅色皮肤、黑色头发、戴着一副红色眼镜，并穿着一件紫色 Polo 衫的华人，位于浅紫色背景的卡通数字插画。描述结束。】
