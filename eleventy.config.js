@@ -3,7 +3,7 @@ import { EleventyI18nPlugin, InputPathToUrlTransformPlugin } from "@11ty/elevent
 import tocPlugin from '@uncenter/eleventy-plugin-toc';
 
 // Custom configurations
-import feedConfig from "./src/_config/feed.js";
+import feedsConfig from "./src/_config/feeds.js";
 import filesConfig from "./src/_config/files.js";
 import filtersConfig from "./src/_config/filters.js";
 import markdownItConfig from "./src/_config/markdown-it.js";
@@ -24,7 +24,7 @@ export default function(eleventyConfig) {
     });
 
     // Custom configurations
-    eleventyConfig.addPlugin(feedConfig);
+    eleventyConfig.addPlugin(feedsConfig);
     eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(markdownItConfig);
