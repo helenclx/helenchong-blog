@@ -53,10 +53,11 @@ layout: layouts/base
         </a>
 
         {{ set postCollection = collections.posts }}
+        {{ if postCollection.length > 1 }}
         <nav class="post__pagination" aria-labelledby="post-pagination">
             <h2 id="post-pagination" class="visually-hidden">{{ langstrings[page.lang].nextPrev }}</h2>
             {{ set previousPost = postCollection  |> getPreviousCollectionItem(page) }}
-            {{ set nextPost = postCollection  |> getNextCollectionItem(page) }}
+            {{ set nextPost = postCollection |> getNextCollectionItem(page) }}
             <ul class="post__nextprev">
                 {{ if previousPost }}
                 <li class="post__prev">
@@ -72,5 +73,6 @@ layout: layouts/base
                 {{ /if }}
             </ul>
         </nav>
+        {{ /if }}
     </article>
 </post-wrapper>
