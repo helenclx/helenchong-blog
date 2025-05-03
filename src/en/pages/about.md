@@ -4,12 +4,9 @@ desc: About this blog and its author.
 tags: ["headernav_en"]
 toc: true
 ---
-<figure class="profilepic">
-    <img src="/assets/galaxygarden/profilepic.webp" alt="{{ sitemeta[page.lang].siteName }}'s profile picture" loading="lazy">
-    <figcaption>
-        [Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
-    </figcaption>
-</figure>
+{{ imgFigure "/assets/galaxygarden/profilepic.webp", sitemeta[page.lang].siteName + "'s profile picture", "profilepic" }}
+[Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
+{{ /imgFigure }}
 
 Hello! I am {{ sitemeta[page.lang].siteAuthor.name }}, a Millennial queer, autistic and visually impaired Malaysian Chinese person who goes by [they/them or she/her pronouns]({{ profileitems.pronounsPage[page.lang] }}).
 
@@ -19,12 +16,9 @@ I speak Mandarin Chinese, English, Cantonese and Malay, though I am most fluent 
 
 ## About This Blog
 
-<figure class="profilepic">
-    <img src="/assets/galaxygarden/galaxy-garden-logo.webp" alt="Logo of {{ sitemeta[page.lang].siteName }}" loading="lazy">
-    <figcaption>
-    [Image description: Logo of my personal blog, {{ sitemeta[page.lang].siteName }}, with the logo consists of a light yellow minimalist shape of a galaxy resembling the capital G on top of a purple background. Description ends.]
-    </figcaption>
-</figure>
+{{ imgFigure "/assets/galaxygarden/galaxy-garden-logo.webp", "Logo of " + sitemeta[page.lang].siteName, "profilepic" }}
+[Image description: Logo of my personal blog, {{ sitemeta[page.lang].siteName }}, with the logo consists of a light yellow minimalist shape of a galaxy resembling the capital G on top of a purple background. Description ends.]
+{{ /imgFigure }}
 
 {{ sitemeta[page.lang].siteName }} is my personal blog, launched on 8 October 2024.
 
@@ -34,10 +28,9 @@ Technical information about {{ sitemeta[page.lang].siteName }} can be found on t
 
 ## Blog Badge
 
-<figure class="grid-center">
-    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ sitemeta[page.lang].siteName }}'s 88x31 badge" width="176" height="62" loading="lazy">
-    <figcaption>[Image description: {{ langstrings[page.lang].siteBadgeAlt  }} Description ends.]</figcaption>
-</figure>
+{{ imgFigure "/assets/galaxygarden/galaxy-garden-88x31.svg", sitemeta[page.lang].siteName + "'s 88x31 badge", "grid-center", 'width="176" height="62"' }}
+[Image description: {{ langstrings[page.lang].siteBadgeAlt  }} Description ends.]
+{{ /imgFigure }}
 
 I have designed and made a 88x31 badge for {{ sitemeta[page.lang].siteName }}, so if you want to link back to this blog, you may use this badge.
 

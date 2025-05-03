@@ -4,12 +4,9 @@ tags: ["headernav_zh"]
 desc: 关于本部落格和作者。
 toc: true
 ---
-<figure class="profilepic">
-    <img src="/assets/galaxygarden/profilepic.webp" alt="{{ sitemeta[page.lang].siteName }} 的个人肖像" loading="lazy">
-    <figcaption>
-        【图片描述： 一名浅色皮肤、黑色头发、戴着一副红色眼镜，并穿着一件紫色 Polo 衫的华人，位于浅紫色背景的卡通数字插画。描述结束。】
-    </figcaption>
-</figure>
+{{ imgFigure "/assets/galaxygarden/profilepic.webp", sitemeta[page.lang].siteName + "'s profile picture", "profilepic" }}
+【图片描述： 一名浅色皮肤、黑色头发、戴着一副红色眼镜，并穿着一件紫色 Polo 衫的华人，位于浅紫色背景的卡通数字插画。描述结束。】
+{{ /imgFigure }}
 
 你好！我是 {{ sitemeta[page.lang].siteAuthor.name }}（中文姓氏：张），一个千禧世代的马来西亚华人酷儿、自闭儿兼视障人士。[我的代称]({{ profileitems.pronounsPage[page.lang] }})包括他/你、tā/你、她/妳和粤语的佢/你。
 
@@ -19,12 +16,9 @@ toc: true
 
 ## 关于本部落格
 
-<figure class="profilepic">
-    <img src="/assets/galaxygarden/galaxy-garden-logo.webp" alt="{{ sitemeta[page.lang].siteName }} 的标志" loading="lazy">
-    <figcaption>
-        【图片描述： 我的个人部落格，{{ sitemeta[page.lang].siteName }}的标志，由一个浅黄色、样子与大写字母 G 相似的简约的银河形状和紫色背景组成。描述结束。】
-    </figcaption>
-</figure>
+{{ imgFigure "/assets/galaxygarden/galaxy-garden-logo.webp", sitemeta[page.lang].siteName + "的标志", "profilepic" }}
+【图片描述： 我的个人部落格，{{ sitemeta[page.lang].siteName }}的标志，由一个浅黄色、样子与大写字母 G 相似的简约的银河形状和紫色背景组成。描述结束。】
+{{ /imgFigure }}
 
 {{ sitemeta[page.lang].siteName }}是是我的个人部落格，于 2024 年 10 月 8 日正式发行。
 
@@ -34,10 +28,9 @@ toc: true
 
 ## 部落格徽章
 
-<figure class="grid-center">
-    <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ sitemeta[page.lang].siteName }}的 88x31 徽章" width="176" height="62" loading="lazy">
-    <figcaption>【图片描述： {{ langstrings[page.lang].siteBadgeAlt }}描述结束。】</figcaption>
-</figure>
+{{ imgFigure "/assets/galaxygarden/galaxy-garden-88x31.svg", sitemeta[page.lang].siteName + "的 88x31 徽章", "grid-center", 'width="176" height="62"' }}
+【图片描述：{{ langstrings[page.lang].siteBadgeAlt }}描述结束。】
+{{ /imgFigure }}
 
 我为{{ sitemeta[page.lang].siteName }}设计了一枚 88x31 徽章，所以如果你想链接至本部落格，你可使用这枚徽章。
 
