@@ -11,13 +11,6 @@ export default function(eleventyConfig) {
         return DateTime.fromISO(date, { setZone: true }).setLocale(pageLang).toFormat(dateFormat);
     });
 
-    // Filter: Limit number of items displayed
-    eleventyConfig.addFilter("itemLimit", (array, maximum) => {
-        return array.slice(0, maximum);
-    });
-
-    // Filter: URL slug generation with more language support tha slugify
-    eleventyConfig.addFilter("slug", (str) => {
-        return slug(str);
-    });
+    // Filter: URL slug generation with more language support than slugify
+    eleventyConfig.addFilter("slugStr", (str) => slug(str));
 }

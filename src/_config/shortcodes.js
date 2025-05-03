@@ -1,18 +1,16 @@
-import { markdownLibrary } from "./markdown-it.js";
-
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
     // Shortcode: <cite> tag
-    eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
+    eleventyConfig.addShortcode("cite", (str) => `<cite>${str}</cite>`);
 
-    // Shortcode: Image figure and figcaption
-    eleventyConfig.addPairedShortcode('imgFigure', (
-        caption, img, alt=caption, className, enableLazyLoading=true
-    ) => {
-        const classMarkup = className ? ` class="${className}"` : "";
-        const figcaption = markdownLibrary.renderInline(caption);
-        return `<figure${classMarkup}>
-            <img src="${img}" alt="${alt}"${enableLazyLoading ? ' loading="lazy"' : ''}>
-            <figcaption>${figcaption}</figcaption>
-        </figure>`;
+    // Paired shortcode: <figure> element
+    eleventyConfig.addPairedShortcode("imgFigure", (caption, imgUrl, alt, className="", imgAttrs="", id="", lazyLoad = true) => {
+        const imgClass = className ? ` class="${className}"` : '';
+        const imgId = id ? ` id="${id}"` : '';
+        const lazyLoading = lazyLoad ? ' loading="lazy"' : '';
+        return `<figure${imgId}${imgClass}>
+            <img src="${imgUrl}" alt="${alt}"${imgAttrs}${lazyLoading}>
+            <figcaption>${caption}</figcaption>
+        </figure>
+        `;
     });
 }
