@@ -7,11 +7,11 @@ eleventyComputed:
 <p>Welcome to {{ sitemeta.en.siteAuthor.name }}'s personal blog!</p>
 <h2>This blog is available in these languages:</h2>
 <ul>
-    {% for lang, values in sitemeta.siteLang %}
+    {{ for lang, values of sitemeta.siteLang }}
     <li>
         <a href="/{{ values.code }}/">
             <strong><span lang="{{ values.code }}">{{ values.long }}</span></strong>
         </a>
     </li>
-    {% endfor %}
+    {{ /for }}
 </ul>

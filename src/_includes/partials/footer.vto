@@ -1,14 +1,14 @@
-{% if page.lang === "zh" %}
-    {% set madeWithHeart %}{{ sitemeta[page.lang].siteName }}由 {{ sitemeta[page.lang].siteAuthor.name }} 用💜打造{% endset %}
-{% else %}
-    {% set madeWithHeart %}{{ sitemeta[page.lang].siteName }} is made with 💜 by {{ sitemeta[page.lang].siteAuthor.name }}{% endset %}
-{% endif %}
+{{ if page.lang === "zh" }}
+    {{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }}由 {{ sitemeta[page.lang].siteAuthor.name }} 用💜打造{{ /set }}
+{{ else }}
+    {{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }} is made with 💜 by {{ sitemeta[page.lang].siteAuthor.name }}{{ /set }}
+{{ /if }}
 
-{% if page.lang === "zh" %}
-    {% set builtWith11ty %}用 <a href="https://www.11ty.dev/">Eleventy</a> {{ eleventy.version }} 版本建立{% endset %}
-{% else %}
-    {% set builtWith11ty %}Built with <a href="https://www.11ty.dev/">Eleventy</a> v{{ eleventy.version }}{% endset %}
-{% endif %}
+{{ if page.lang === "zh" }}
+    {{ set builtWith11ty }}用 <a href="https://www.11ty.dev/">Eleventy</a> {{ eleventy.version }} 版本建立{{ /set }}
+{{ else }}
+    {{ set builtWith11ty }}Built with <a href="https://www.11ty.dev/">Eleventy</a> v{{ eleventy.version }}{{ /set }}
+{{ /if }}
 
 <footer class="footer">
     <nav aria-labelledby="footer-nav">
@@ -18,22 +18,22 @@
                 <a href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
                     <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>{{ langstrings[page.lang].rssFeed }}</a>
             </li>
-            {% for item in collections["footernav_" + page.lang] %}
+            {{ for item of collections["footernav_" + page.lang] }}
             <li>
-                <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.data.navTitle or item.data.title }}</a>
+                <a href="{{ item.url }}"{{ if item.url == page.url }} aria-current="page"{{ /if }}>{{ item.data.navTitle || item.data.title }}</a>
             </li>
-            {% endfor %}
+            {{ /for }}
         </ul>
     </nav>
     <p>
         <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
-        <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">{{ langstrings[page.lang].emailContact }}</a> {{ langstrings[page.lang].plaintxtEmail | safe }}
+        <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">{{ langstrings[page.lang].emailContact }}</a> {{ langstrings[page.lang].plaintxtEmail }}
     </p>
     <p>{{ madeWithHeart }}</p>
-    <p>{{ builtWith11ty | safe }} • <a href="https://github.com/helenclx/helenchong-blog">{{ langstrings[page.lang].sourceCode  }}</a></p>
+    <p>{{ builtWith11ty }} • <a href="https://github.com/helenclx/helenchong-blog">{{ langstrings[page.lang].sourceCode  }}</a></p>
 
     <div class="grid-center">
-        <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt  }}" width="88" height="31" loading="lazy">
+        <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt }}" width="88" height="31" loading="lazy">
     </div>
 
     <nav class="grid-center" aria-labelledby="social-nav">
@@ -45,18 +45,18 @@
                     {{ profileitems.omgLol.name }}
                 </a>
             </li>
-            {% for social, values in profileitems.socials %}
+            {{ for social, values of profileitems.socials }}
             <li class="socials__item">
                 <img class="socials__icon" src="{{ values.icon }}" alt="">
                 <a
-                    class="socials__link{% if values.isExternalLink %} external-link{% endif %}"
+                    class="socials__link{{ if values.isExternalLink }} external-link{{ /if }}"
                     href="{{ values.url }}"
                     rel="me"
                 >
                     {{ values.name }}
                 </a>
             </li>
-            {% endfor %}
+            {{ /for }}
         </ul>
     </nav>
 

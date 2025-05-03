@@ -3,21 +3,21 @@ layout: layouts/page
 eleventyComputed:
     pageTitle: "{{ langstrings[page.lang].welcome }}{{ sitemeta[page.lang].siteName }}"
 ---
-{% if page.lang === "zh" %}
-{% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + " 的个人肖像" %}
-{% else %}
-{% set profilePicAlt = sitemeta[page.lang].siteAuthor.name + "'s profile picture" %}
-{% endif %}
+{{ if page.lang === "zh" }}
+{{ set profilePicAlt = sitemeta[page.lang].siteAuthor.name + " 的个人肖像" }}
+{{ else }}
+{{ set profilePicAlt = sitemeta[page.lang].siteAuthor.name + "'s profile picture" }}
+{{ /if }}
 
 <img fetchpriority="high" class="profilepic" src="/assets/galaxygarden/profilepic.webp" alt="{{ profilePicAlt }}">
 
-{{ content | safe }}
+{{ content }}
 
-{%- macro siteBadges(url, file, alt, width=143, height=50) -%}
+{{ function siteBadges(url, file, alt, width=143, height=50) }}
 <a href="{{ url }}">
     <img src="/assets/badges/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
 </a>
-{%- endmacro -%}
+{{ /function }}
 
 <div class="web-graphics p-margin-top">
     {{ siteBadges("https://badge.les.bi/", "lesbian-nonbinary.svg", "Lesbian and non-binary pride") }}
@@ -28,8 +28,8 @@ eleventyComputed:
 </div>
 
 <h2 class="text-center">{{ langstrings[page.lang].latestPosts }}</h2>
-{% set postList = collections["posts_" + page.lang] | reverse | itemLimit(3) %}
-{% include "partials/postlist.html" %}
+{{ set postList = collections["posts_" + page.lang] |> toReversed |> slice(0, 3) }}
+{{ include "partials/postlist.vto" }}
 
 <h2 class="text-center">{{ langstrings[page.lang].webDirectories }}</h2>
 <p class="text-center">{{ sitemeta[page.lang].siteName }}{{ langstrings[page.lang].directoryDesc }}</p>

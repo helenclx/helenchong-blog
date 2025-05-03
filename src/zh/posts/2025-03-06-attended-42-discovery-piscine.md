@@ -14,7 +14,7 @@ Discovery Piscine 学员（即 Discovery Pisciners）将学习 Python 和 shell�
 
 在 42 建立第一所马来西亚校区之前，我就有使用 Linux 桌面环境的经验，因为我曾经在我的电脑中使用并双启动 Windows 和 Linux，但那是多年前的事了。目前，我使用 Linux 的主要方法是通过 Windows Subsystem for Linux (WSL)，而无需设置任何桌面环境。因此，Discovery Piscine 为我提供了一个练习使用 Linux 和 shell 命令的绝佳机会。
 
-在自学编程的过程中，我曾经学习过 Python，甚至还[为我最爱的电子游戏《磁带妖怪》（{% cite "Cassette Beasts" %}）](2023-11-13-My-First-PR-in-Python.md)的数据挖掘用的 Python 库做出贡献 。不过，Discovery Piscine 让我重温了 Python 知识，练习了编写 Python 脚本，同时还学习了我不熟悉的 Python 内置功能。在一次练习中，我被卡住的时间比预期的要长，但后来我通过在网上搜索正确的关键字发现了我需要的 Python 功能，从而解决了这个练习。
+在自学编程的过程中，我曾经学习过 Python，甚至还[为我最爱的电子游戏《磁带妖怪》（{{ cite "Cassette Beasts" }}）](2023-11-13-My-First-PR-in-Python.md)的数据挖掘用的 Python 库做出贡献 。不过，Discovery Piscine 让我重温了 Python 知识，练习了编写 Python 脚本，同时还学习了我不熟悉的 Python 内置功能。在一次练习中，我被卡住的时间比预期的要长，但后来我通过在网上搜索正确的关键字发现了我需要的 Python 功能，从而解决了这个练习。
 
 说到 42 工作站的电脑，我上次在一月份的开放日参观校园时，向校区工作人员提出了改变电脑屏幕亮度的要求，因为我患有[视网膜色素变性](2024-12-21-living-with-retinitis-pigmentosa.md)，眼睛对强光很敏感，但令我惊讶的是，当时工作室电脑没有调节屏幕亮度的选项。学校工作人员答应满足我的要求。在我参加 Discovery Piscine 的第一天，我提醒工作人员我的要求，一位工作人员很快就在所有工作室的电脑上安装了屏幕亮度设置，这样我就可以把电脑屏幕亮度调节到我觉得舒适的程度。
 

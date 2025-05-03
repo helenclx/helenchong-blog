@@ -12,7 +12,6 @@ export let markdownLibrary;
 
 export default function(eleventyConfig) {
     // Configure markdown-it-anchor plugins
-    eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
         class: "heading-anchor",
         symbol: "<span hidden>#</span>",
@@ -46,12 +45,10 @@ export default function(eleventyConfig) {
         html: true,
         linkify: true,
     })
+        .set({ fuzzyLink: false })
         .use(markdownItAnchor, markdownItAnchorOptions)
         .use(markdownItAttrs)
         .use(markdownItBracketedSpans);
-
-    // Configure linkify
-    markdownLibrary.linkify.set({ fuzzyLink: false });
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);

@@ -8,7 +8,7 @@ date: 2024-11-19T23:27:10+0800
 
 2024 年 11 月 [WeblogPoMo AMA](https://weblogpomo.club/challenges) 部落讴歌挑战中提出的问题之一包括 **"你的慰藉电影/电视节目/媒体作品是什么？如果你愿意分享的话——为什么？"** 这个问题最初由 [Lewis Dale](https://lewisdale.dev/) 在 Mastodon 上提出，并由 [Kyle](https://weblog.kylereddoch.me/) [回答](https://weblog.kylereddoch.me/2024/11/my-weblogpomoama)，也给了我一个对自己最喜欢的媒体津津乐道的好机会。
 
-就我而言，我的极致舒适媒体是[《磁带妖怪》（{% cite "Cassette Beasts" %}）](https://www.cassettebeasts.com/)，一款由英国独立游戏开发室 Bytten Studio 开发的独立魔幻生物（Mon）题材的角色扮演电子游戏。
+就我而言，我的极致舒适媒体是[《磁带妖怪》（{{ cite "Cassette Beasts" }}）](https://www.cassettebeasts.com/)，一款由英国独立游戏开发室 Bytten Studio 开发的独立魔幻生物（Mon）题材的角色扮演电子游戏。
 
 我是在一位同样时电子游戏爱好者的朋友的推荐下发现《磁带妖怪》的。这名慷慨的友人还在 Steam 上赠送了我这款游戏。从 2023 年 7 月开始玩慷慨的那一刻起，我很快就爱上了这款游戏。
 

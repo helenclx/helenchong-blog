@@ -2,34 +2,34 @@
 layout: layouts/base
 ---
 <header class="main__header">
-    <h1>{{ pageTitle or title }}</h1>
+    <h1>{{ pageTitle || title }}</h1>
     <p>{{ desc }}</p>
-    {% set altLangs = page.url | locale_links %}
-    {% if pageLangOptions and altLangs.length > 0 %}
+    {{ set altLangs = page.url |> locale_links }}
+    {{ if pageLangOptions && altLangs.length > 0 }}
     <nav aria-label="{{ langstrings[page.lang].translations }}">
         {{ langstrings[page.lang].availableLang }}
-        {% for link in page.url | locale_links %}
+        {{ for link of page.url |> locale_links }}
         <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
             <span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span>
         </a>
-        {% endfor %}
+        {{ /for }}
     </nav>
-    {% endif %}
+    {{ /if }}
 </header>
 <article class="prose page">
-    {% if toc %}
+    {{ if toc }}
     <details class="toc__wrapper">
         <summary class="toc__heading" id="toc-heading">
             {{ langstrings[page.lang].pageToC }}
         </summary>
-        {{ content | toc | safe }}
+        {{ content |> toc }}
     </details>
-    {% endif %}
+    {{ /if }}
  
-    {{ content | safe }}
-    {% if updated %}
+    {{ content }}
+    {{ if updated }}
     <p class="updated">
-        {{ "（" if page.lang === "zh" else "(" }}{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated | formatDate }}</time>{{ "）" if page.lang === "zh" else ")" }}
+        {{ page.lang === "zh" ? "（" : "(" }}{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>{{ page.lang === "zh" ? "）" : ")" }}
     </p>
-    {% endif %}
+    {{ /if }}
 </article>

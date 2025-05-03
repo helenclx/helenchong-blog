@@ -1,16 +1,17 @@
 // Plugins
 import { EleventyI18nPlugin, InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import tocPlugin from '@uncenter/eleventy-plugin-toc';
+import { VentoPlugin } from 'eleventy-plugin-vento';
 
 // Custom configurations
 import feedsConfig from "./src/_config/feeds.js";
 import filesConfig from "./src/_config/files.js";
 import filtersConfig from "./src/_config/filters.js";
 import markdownItConfig from "./src/_config/markdown-it.js";
-import shortCodesConfig from "./src/_config/shortcodes.js";
+import shortcodesConfig from "./src/_config/shortcodes.js";
 
 export default function(eleventyConfig) {
-    // Plugins
+    // ----- Plugins
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "en",
         errorMode: "allow-fallback"
@@ -23,16 +24,22 @@ export default function(eleventyConfig) {
         },
     });
 
-    // Custom configurations
+    // ----- Custom configurations
     eleventyConfig.addPlugin(feedsConfig);
     eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(markdownItConfig);
-    eleventyConfig.addPlugin(shortCodesConfig);
+    eleventyConfig.addPlugin(shortcodesConfig);
+
+    // ----- Vento plugin for Eleventy
+    // Must be loaded after plugins that modify filters
+    eleventyConfig.addPlugin(VentoPlugin, {
+        autotrim: true,
+    });
 
     return {
-        markdownTemplateEngine: "njk",
-        htmlTemplateEngine: "njk",
+        markdownTemplateEngine: "vto",
+        htmlTemplateEngine: "vto",
         dir: {
             input: "src"
         }
