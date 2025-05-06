@@ -2,6 +2,7 @@
 title: "WeblogPoMo AMA: Best Music-Related Experience"
 desc: My answer to the November 2024 WeblogPoMo AMA question about my best musical experience.
 date: 2024-11-10T21:53:51+0800
+categories: ["WeblogPoMo", "music"]
 ---
 
 The question from the November 2024 [WeblogPoMo AMA](https://weblogpomo.club/challenges) blogging challenge that I would like to answer today is: **"What’s the best music-related experience of your life so far?"** This question was originally asked by [Hiro](https://www.hiro.report/) and [answered](https://gabz.blog/posts/the-best-music-related-experience) by [Gabz](https://gabz.blog/).

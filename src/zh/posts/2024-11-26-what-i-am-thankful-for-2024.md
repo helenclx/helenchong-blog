@@ -2,6 +2,7 @@
 title: WeblogPoMo AMA：2024 年我感恩的事物
 desc: 借着回答 WeblogPoMo AMA 提问的机会，列举 2024 年我所感恩的事物。
 date: 2024-11-26T23:19:48+0800
+categories: ["WeblogPoMo", "2024"]
 ---
 
 作为 [WeblogPoMo AMA 部落格挑战](https://weblogpomo.club/challenges) 的一部分，[Jedda](https://jeddacp.com/) 提出了一个问题，[“你感恩什么？”](https://notes.jeddacp.com/what-are-you-thankful-for/) 我喜欢这个问题，因为感恩是我每天都在尽力实践的事情。

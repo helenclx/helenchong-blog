@@ -2,6 +2,7 @@
 title: "Blog Questions Challenge: Favourite Decade or Year"
 desc: I was nominated to participate in a blog questions challenge about my favourite decade or year.
 date: 2025-03-15T19:46:04+0800
+categories: ["blog challenges"]
 ---
 
 I was [nominated](https://social.lol/@mbjones/114068317382798850) by [Brandon Jones](https://krrd.ing/) to participate in a blog questions challenge about [favourite decade or year](https://krrd.ing/posts/favorite-decade-or-year-blog-challenge/). Thank you, Brandon!

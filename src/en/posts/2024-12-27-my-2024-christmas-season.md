@@ -2,6 +2,7 @@
 title: My Christmas Season in 2024
 desc: How I spent the Christmas season in 2024.
 date: 2024-12-27T11:55:29+0800
+categories: ["Christmas", "2024"]
 ---
 
 Happy Holidays!

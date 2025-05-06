@@ -2,6 +2,7 @@
 title: My Every Day Carry
 desc: Things I carry every day.
 date: 2025-01-17T11:52:44+0800
+categories: ["daily life"]
 ---
 
 Inspired by [Alexandra Wolfe](https://alexink.ca/)'s [Every Day Carry (EDC) post](https://alexink.ca/2024/12/17/my-edc.html), I would like to talk about the things I carry every day as well.

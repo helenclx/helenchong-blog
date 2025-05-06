@@ -2,6 +2,7 @@
 title: My 2025 Lunar New Year
 desc: How I celebrated Lunar New Year in 2025.
 date: 2025-02-06T19:44:35+0800
+categories: ["Lunar New Year", "2025"]
 ---
 
 Happy Lunar New Year and Year of the Snake to fellow Asians who celebrate! 🧧🐍

@@ -2,6 +2,7 @@
 title: 回应：像油漆工人一样建立部落格
 desc: 受 Robert Birming 的文章启发以自己的节奏建立自己的部落格。
 date: 2024-10-09T20:44:40+0800
+categories: ["部落格"]
 ---
 
 巧合的是，在正式[启动银河花园](2024-10-08-welcome-to-galaxy-garden.md)数小时后，Robert Birming 发布一篇部落格文章[《Blog Like a Painter》](https://birming.com/blog-painter/)（[存档](https://web.archive.org/web/20241009/https://birming.com/blog-painter/)），分享了如何像粉刷房子一样对待写部落格，以自己的方式和节奏建立部落格的见解。
