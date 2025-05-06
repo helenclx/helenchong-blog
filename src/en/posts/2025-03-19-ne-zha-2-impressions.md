@@ -2,6 +2,7 @@
 title: '"Ne Zha 2" Impressions'
 desc: I accompanied my parents to watch "Ne Zha 2" in cinema out of curiosity. Did I end up liking the film?
 date: 2025-03-19T19:01:33+0800
+categories: ["films"]
 ---
 
 On the afternoon of 18 March 2025, my parents and I went to the cinema to watch  {{ cite "Ne Zha 2" }} ([哪吒之魔童闹海]{lang=zh}), an animated film produced in mainland China.

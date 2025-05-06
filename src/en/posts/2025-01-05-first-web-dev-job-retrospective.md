@@ -2,6 +2,7 @@
 title: A Retrospective on My First Web Developer Job
 desc: A reflection on my first job after switching my career path to web development.
 date: 2025-01-05T13:15:22+0800
+categories: ["jobs"]
 ---
 
 3 January 2025 was the final day of my first job after switching my career path from graphic design to web developer, after working on the job for 4 months without passing my probation.

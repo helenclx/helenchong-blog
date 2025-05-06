@@ -2,6 +2,7 @@
 title: 部落格问题挑战：最喜欢的年代或年份
 desc: 我被店名参加关于我最喜欢的年代或年份的部落格问题挑战。
 date: 2025-03-15T19:46:09+0800
+categories: ["部落格挑战"]
 ---
 
 我被 [Brandon Jones](https://krrd.ing/) [点名](https://social.lol/@mbjones/114068317382798850)参加关于[最喜欢的年代或年份](https://krrd.ing/posts/favorite-decade-or-year-blog-challenge/)的部落格问题挑战。谢谢你，Brandon！

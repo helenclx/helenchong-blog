@@ -2,6 +2,7 @@
 title: Logo for Galaxy Garden
 desc: I have designed and made a logo for my personal blog.
 date: 2024-12-05T20:34:28+0800
+categories: ["Galaxy Garden"]
 ---
 ![Logo of my personal blog, Galaxy Garden](/assets/galaxygarden/galaxy-garden-logo.webp)
 

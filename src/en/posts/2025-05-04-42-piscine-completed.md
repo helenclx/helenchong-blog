@@ -2,6 +2,7 @@
 title: 42's Piscine Bootcamp Completed
 desc: At last, I finished 42 the computer science school's 26-day bootcamp.
 date: 2025-05-04T12:19:41+0800
+categories: ["42 the school"]
 ---
 
 2 May 2025 marked the final day of [42 the computer science school's 26-day bootcamp](2025-04-13-42-piscine-first-week.md), named the Piscine, that I was attending. The final day of the Piscine was also when the final exam took place. I am happy to announce that I have completed the Piscine, by taking and passing the final exam!

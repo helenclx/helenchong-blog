@@ -2,6 +2,7 @@
 title: omg.lol 访谈系列：Helen Chong
 desc: 作为 omg.lol 会员系列访谈的一部分，我接受了Brandon Jones 的采访。
 date: 2025-02-19T23:58:55+0800
+categories: ["omg.lol"]
 toc: true
 ---
 

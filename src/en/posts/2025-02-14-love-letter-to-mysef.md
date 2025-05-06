@@ -2,6 +2,7 @@
 title: A Love Letter to Myself
 desc: For Valentine's Day, I decided to write a love letter to myself.
 date: 2025-02-14T21:52:34+0800
+categories: ["personal"]
 ---
 
 It is Valentine's Day. In light of this holiday that celebrates love, I decided to take this opportunity to write a love letter to myself, as a Valentine's Day gift to myself and a reminder of my self-worth.

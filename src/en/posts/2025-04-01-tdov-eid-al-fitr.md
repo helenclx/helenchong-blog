@@ -2,6 +2,7 @@
 title: Happy Transgender Day of Visibility and Eid al-Fitr
 desc: How I spent my day on 31 March 2025, when Trans Day of Visibility and Eid al-Fitr coincidentally fell on the same day.
 date: 2025-04-01T13:05:16+0800
+categories: ["LGBTQ", "transgender", "Islam", "2025"]
 ---
 
 In 2025, Eid al-Fitr fell on March 31.
