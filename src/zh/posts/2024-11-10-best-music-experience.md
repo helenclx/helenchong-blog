@@ -2,7 +2,7 @@
 title: "WeblogPoMo AMA：最棒音乐体验"
 desc: 回答 2024 年 11 月 WeblogPoMo AMA 的问题之一：关于我人生目前为止最棒的音乐体验。
 date: 2024-11-10T21:53:46+0800
-categories: ["WeblogPoMo", "音乐"]
+categories: ["WeblogPoMo AMA", "音乐"]
 ---
 
 今天我想回答的 2024 年 11 月 [WeblogPoMo AMA](https://weblogpomo.club/challenges) 部落格挑战的问题是：**“到目前为止，你人生中最棒的音乐体验是什么？”** 此问题最初由 [Hiro](https://www.hiro.report/) 提问，而 由 [Gabz](https://gabz.blog/) [回答](https://gabz.blog/posts/the-best-music-related-experience)。

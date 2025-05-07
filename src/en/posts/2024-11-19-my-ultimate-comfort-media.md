@@ -2,7 +2,7 @@
 title: "WeblogPoMo AMA: My Ultimate Comfort Media"
 desc: Taking the opportunity of answering a question from WeblogPoMo AMA to gush over my ultimate comfort media.
 date: 2024-11-19T23:27:06+0800
-categories: ["WeblogPoMo", "Cassette Beasts", "video games"]
+categories: ["WeblogPoMo AMA", "Cassette Beasts", "video games"]
 ---
 
 Some of us have comfort media — a piece of media that brings us comfort and joy, no matter how many times we revisit it.

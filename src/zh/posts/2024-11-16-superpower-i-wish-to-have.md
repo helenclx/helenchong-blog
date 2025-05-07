@@ -2,7 +2,7 @@
 title: "WeblogPoMo AMA：我希望能拥有的超能力"
 desc: 回答 2024 年 11 月 WeblogPoMo AMA 的问题之一：我希望能拥有的一种超能力。
 date: 2024-11-16T18:01:07+0800
-categories: ["WeblogPoMo"]
+categories: ["WeblogPoMo AMA"]
 ---
 
 今天我想回答的 2024 年 11 月 [WeblogPoMo AMA](https://weblogpomo.club/challenges) 部落格挑战的问题是：**“如果你能拥有一种超能力，那会是什么和为什么？”** 此问题最初由 [Cliff](https://allthingstech.social/@cliffwade) 在 Mastodon 上提问，而 由 [Kyle](https://weblog.kylereddoch.me/) [回答](https://weblog.kylereddoch.me/2024/11/my-weblogpomoama)。

@@ -2,7 +2,7 @@
 title: "WeblogPoMo AMA：第一部给我留下深刻印象的电影"
 desc: 通过讲述我看过的第一部对我产生重大影响的电影，开启了我在 WeblogPoMo AMA 的参与。
 date: 2024-11-04T11:30:33+0800
-categoties: ["WeblogPoMo", "虫虫危机", "电影"]
+categoties: ["WeblogPoMo AMA", "虫虫危机", "电影"]
 ---
 
 [Anne Sturdivant](https://anniegreens.lol) 发起了一项名为 [WeblogPoMo AMA](https://weblogpomo.club/challenges) 的新部落格挑战，旨在通过询问和回答其他部落客发布的问题来促进作者之间的互动。人与人之间的互动是我当初爱上部落格的部分原因，因此我对这项挑战感兴趣。

@@ -2,7 +2,7 @@
 title: "WeblogPoMo AMA: A Superpower I Wish to Have"
 desc: My answer to the November 2024 WeblogPoMo AMA question about my best musical experience.
 date: 2024-11-16T18:01:02+0800
-categories: ["WeblogPoMo"]
+categories: ["WeblogPoMo AMA"]
 ---
 
 The question from the November 2024 [WeblogPoMo AMA](https://weblogpomo.club/challenges) blogging challenge that I would like to answer today is: **"If you could have any one superpower, what would it be and why?"** This question was originally asked by [Cliff](https://allthingstech.social/@cliffwade) on Mastodon and [answered](https://weblog.kylereddoch.me/2024/11/my-weblogpomoama) by [Kyle](https://weblog.kylereddoch.me/).

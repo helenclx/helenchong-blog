@@ -2,7 +2,7 @@
 title: WeblogPoMo AMA：我的极致慰藉媒体
 desc: 借着回答 WeblogPoMo AMA 的其中一项提问的机会，对我的极致舒适媒体津津乐道。
 date: 2024-11-19T23:27:10+0800
-categories: ["WeblogPoMo", "磁带妖怪", "电子游戏"]
+categories: ["WeblogPoMo AMA", "磁带妖怪", "电子游戏"]
 ---
 
 我们当中有些人拥有 “舒适媒体”（comfort media）——一款无论重温多少遍都能给我们带来舒适和快乐的媒体。
