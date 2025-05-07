@@ -23,9 +23,9 @@ layout: layouts/base
             </li>
             <li>
                 <svg class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 80L0 229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7L48 32C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
-                <strong>{{ langstrings[page.lang].categories }}</strong>
-                {{ for cat of categories }}
-                <a href="/{{ page.lang }}/categories/{{ cat |> slugStr }}">{{ cat }}</a>{{ if categories.indexOf(cat) !== categories.length - 1 }}, {{ /if }}
+                <strong>{{ langstrings[page.lang].topics }}</strong>
+                {{ for topic of topics }}
+                <a href="/{{ page.lang }}/topics/{{ topic |> slugStr }}">{{ topic }}</a>{{ if topics.indexOf(topic) !== topics.length - 1 }}, {{ /if }}
                 {{ /for }}
             </li>
             {{ set altLangs = page.url |> locale_links }}
