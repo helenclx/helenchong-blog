@@ -94,7 +94,7 @@
 
 .postlist__item {
     gap: 0.5em;
-    border: 0.175em solid var(--clr-accent-2);
+    border: var(--bdr-prose);
     padding: 0.75em;
 }
 

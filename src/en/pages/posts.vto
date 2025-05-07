@@ -6,5 +6,6 @@ eleventyComputed:
     desc: "Archive of {{ sitemeta.en.siteAuthor.name }}'s blog posts."
 ---
 <p class="page-nav">You can also <a href="topics.vto">browse posts by topics</a>.</p>
+<hr>
 {{ set postList = collections.posts_en |> toReversed }}
 {{ include "partials/postlist.vto" }}

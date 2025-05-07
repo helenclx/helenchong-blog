@@ -17,7 +17,9 @@
     --clr-code-border: light-dark(#616161, #868686);
     --clr-top-btn-bg: light-dark(var(--clr-accent-2), #7629db);
 
-    --bdr-layout: 0.2em solid var(--clr-accent-2);
+    --bdr-layout: 0.3rem solid var(--clr-accent-2);
+    --bdr-prose: 0.25rem solid var(--clr-accent-2);
+    --bdr-hr: 0.12rem solid var(--clr-accent-2);
 
     --ff-default: 'Readex Pro', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;

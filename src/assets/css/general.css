@@ -69,6 +69,11 @@ figcaption {
     margin-top: 0.2em;
 }
 
+hr {
+    margin: 1em 0;
+    border: var(--bdr-hr);
+}
+
 code {
     font-family: var(--ff-monospace);
     word-break: break-word;
