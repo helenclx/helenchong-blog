@@ -2,7 +2,7 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2025-04-30T02:07:03+0800
+updated: 2025-05-07T16:39:56+0800
 ---
 
 ## Technology
@@ -21,7 +21,9 @@ updated: 2025-04-30T02:07:03+0800
 * Eleventy's official [Fetch](https://www.11ty.dev/docs/plugins/fetch/) plugin
 * Noel Forte's [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter's [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
-* [limax](https://www.npmjs.com/package/limax)
+* [Luxon](https://moment.github.io/luxon/)
+* [limax](https://github.com/lovell/limax)
+* [sort-by-pinyin](https://github.com/lisposter/sort-by-pinyin)
 
 ### markdown-it plugins
 Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.

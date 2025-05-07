@@ -24,6 +24,7 @@
     "luxon": "^3.6.1",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-attrs": "^4.3.1",
-    "markdown-it-bracketed-spans": "^1.0.1"
+    "markdown-it-bracketed-spans": "^1.0.1",
+    "sort-by-pinyin": "^0.1.3"
   }
 }

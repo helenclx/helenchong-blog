@@ -1,3 +1,5 @@
+import sortPinyin from "sort-by-pinyin";
+
 export default function(eleventyConfig) {
     // English post categories
     eleventyConfig.addCollection("categories_en", (collectionApi) => {
@@ -22,7 +24,7 @@ export default function(eleventyConfig) {
                 cats.forEach(c => categories.add(c));
             }
         });
-        return Array.from(categories).sort();
+        return sortPinyin(Array.from(categories));
     });
 
     // Filter: Filter blog posts by category

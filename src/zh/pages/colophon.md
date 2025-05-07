@@ -2,7 +2,7 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-04-30T02:08:06+0800
+updated: 2025-05-07T16:40:12+0800
 ---
 
 ## 科技
@@ -21,7 +21,9 @@ updated: 2025-04-30T02:08:06+0800
 * Eleventy 的官方 [Fetch](https://www.11ty.dev/docs/plugins/fetch/) 插件
 * Noel Forte 的 [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter 的 [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
-* [limax](https://www.npmjs.com/package/limax)
+* [Luxon](https://moment.github.io/luxon/)
+* [limax](https://github.com/lovell/limax)
+* [sort-by-pinyin](https://github.com/lisposter/sort-by-pinyin)
 
 ### markdown-it 插件
 Eleventy 内置了 Markdown 解析器 [markdown-it](https://www.npmjs.com/package/markdown-it) 以将 Markdown 转换为 HTML。
