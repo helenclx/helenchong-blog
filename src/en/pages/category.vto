@@ -1,0 +1,15 @@
+---
+pagination:
+    data: collections.categories_en
+    size: 1
+    alias: category
+    addAllPagesToCollections: true
+permalink: /{{ locale }}/categories/{{ category |> slugStr }}/
+pageLangOptions: false
+eleventyComputed:
+    title: 'Posts Filed Under "{{ category }}"'
+---
+{{ set postList = collections["posts_" + page.lang] |> filterByCategory(category) |> toReversed }}
+{{ include "partials/postlist.vto" }}
+
+<p>See <a href="categories.vto">all blog post categories</a>.</p>

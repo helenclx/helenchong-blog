@@ -1,5 +1,5 @@
 ---
-title: "WeblogPomo AMA: A Superpower I Wish to Have"
+title: "WeblogPoMo AMA: A Superpower I Wish to Have"
 desc: My answer to the November 2024 WeblogPoMo AMA question about my best musical experience.
 date: 2024-11-16T18:01:02+0800
 categories: ["WeblogPoMo"]

@@ -5,6 +5,6 @@ tags: ["headernav_zh"]
 eleventyComputed:
     desc: "{{ sitemeta.zh.siteAuthor.name }}的部落格文章存档。"
 ---
-
+<p class="page-nav"><a href="categories.vto">以分类浏览文章</a></p>
 {{ set postList = collections.posts_zh |> toReversed }}
 {{ include "partials/postlist.vto" }}

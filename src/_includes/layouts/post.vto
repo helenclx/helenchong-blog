@@ -21,6 +21,13 @@ layout: layouts/base
                 <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
                 <strong>{{ langstrings[page.lang].author }}</strong> {{ sitemeta[page.lang].siteAuthor.name }}
             </li>
+            <li>
+                <svg class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 80L0 229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7L48 32C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                <strong>{{ langstrings[page.lang].categories }}</strong>
+                {{ for cat of categories }}
+                <a href="/{{ page.lang }}/categories/{{ cat |> slugStr }}">{{ cat }}</a>{{ if categories.indexOf(cat) !== categories.length - 1 }}, {{ /if }}
+                {{ /for }}
+            </li>
             {{ set altLangs = page.url |> locale_links }}
             {{ if altLangs.length > 0 }}
             <li>
