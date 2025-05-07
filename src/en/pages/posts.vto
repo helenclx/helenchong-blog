@@ -5,6 +5,6 @@ tags: ["headernav_en"]
 eleventyComputed:
     desc: "Archive of {{ sitemeta.en.siteAuthor.name }}'s blog posts."
 ---
-<p class="page-nav"><a href="topics.vto">Browse posts by topics</a></p>
+<p class="page-nav">You can also <a href="topics.vto">browse posts by topics</a>.</p>
 {{ set postList = collections.posts_en |> toReversed }}
 {{ include "partials/postlist.vto" }}
