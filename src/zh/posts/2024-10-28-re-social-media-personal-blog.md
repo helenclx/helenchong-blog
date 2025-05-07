@@ -2,7 +2,7 @@
 title: 回复：社交媒体还未扼杀个人部落格
 desc: 我对 “社交媒体是否扼杀了个人部落格 ”这一问题的思考，灵感来自 Jim Mitchell 的部落格文章。
 date: 2024-10-28T18:31:01+0800
-categories: ["部落格", "社交媒体"]
+topics: ["部落格", "社交媒体"]
 ---
 
 [Jim Mitchell](https://jimmitchell.org/) 写了一篇部落格文 ["Social Media Hasn't Killed the Personal Blog Just Yet"](https://jimmitchell.org/2024/09/21/social-media-hasnt.html)（“社交媒体还没有扼杀个人博客”）（[存档](https://archive.is/G89vw)），讨论了社交媒体兴起后个人部落格的衰落，以及社交媒体是否扼杀了个人部落格和个人部落格能否卷土重来的问题。发现这篇文章时，我感到大吃一惊，因为近期内我在反思着自己的部落格历史，还有社交媒体如何改变了它，结果我的想法和 Jim 非常相似。

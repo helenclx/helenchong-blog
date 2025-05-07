@@ -2,7 +2,7 @@
 title: "omg.lol Interview Series: Helen Chong"
 desc: I was interviewed by Brandon Jones as part of the interview series for omg.lol members.
 date: 2025-02-19T23:58:51+0800
-categories: ["omg.lol"]
+topics: ["omg.lol"]
 toc: true
 ---
 

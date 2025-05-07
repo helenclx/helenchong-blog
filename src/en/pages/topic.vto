@@ -1,0 +1,15 @@
+---
+pagination:
+    data: collections.topics_en
+    size: 1
+    alias: topic
+    addAllPagesToCollections: true
+permalink: /{{ locale }}/topics/{{ topic |> slugStr }}/
+pageLangOptions: false
+eleventyComputed:
+    title: 'Posts Filed Under "{{ topic }}"'
+---
+{{ set postList = collections["posts_" + page.lang] |> filterByTopic(topic) |> toReversed }}
+{{ include "partials/postlist.vto" }}
+
+<p>See <a href="topics.vto">all blog post topics</a>.</p>

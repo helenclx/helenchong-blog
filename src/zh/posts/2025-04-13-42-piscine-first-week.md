@@ -2,7 +2,7 @@
 title: 42 的 Piscine 训练营第一周
 desc: 我参加了 42 电脑科学学校为期二十六天的名为 Piscine 的训练营，进入了第一周。
 date: 2025-04-13T08:23:17+0800
-categories: ["42 学校"]
+topics: ["42 学校"]
 ---
 
 2025 年 4 月 7 日，我已报名参加的[42 电脑科学学校](2025-01-20-attending-42-school.md)为期二十六天、名为 Piscine 的的训练营终于开始了。我期待这一天已经将近三个月了，在一月份的开放日参观了 42 学校在本地的校区，申请加入原定于 2 月 24 日举行的 Piscine，但后来被名为[Discovery Piscine](2025-03-06-attended-42-discovery-piscine.md)的五天小版本的训练营所取代，并申请加入原定于 4 月 7 日举行的正式的 Piscine。

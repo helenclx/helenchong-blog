@@ -2,7 +2,7 @@
 title: Welcome to Galaxy Garden
 desc: Introduction to Galaxy Garden and its blogger.
 date: 2024-10-08T12:23:06+0800
-categories: ["Galaxy Garden"]
+topics: ["Galaxy Garden"]
 toc: true
 ---
 Hello, welcome to Galaxy Garden, my new personal blog!

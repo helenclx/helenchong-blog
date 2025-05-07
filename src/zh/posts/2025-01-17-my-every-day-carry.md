@@ -2,7 +2,7 @@
 title: 我的日常携带物
 desc: 我每天携带的东西。
 date: 2025-01-17T11:52:49+0800
-categories: ["日常"]
+topics: ["日常"]
 ---
 
 受 [Alexandra Wolfe](https://alexink.ca/) 关于[日常携带物（Every Day Carry，EDC）的部落格文章](https://alexink.ca/2024/12/17/my-edc.html)的启发，我也想谈谈我每天携带的东西。

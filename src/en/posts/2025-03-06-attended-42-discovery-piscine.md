@@ -2,7 +2,7 @@
 title: Attended 42 the School's 5-Day Coding Bootcamp
 desc: I joined 42 the school's 5-day bite-sized coding bootcamp in late February.
 date: 2025-03-06T23:39:09+0800
-categories: ["42 the school"]
+topics: ["42 the school"]
 ---
 
 From 24 to 28 February 2025, I attended [42 the computer science school](2025-01-20-attending-42-school.md)'s bite-sized coding bootcamp that lasted for 5 days, called the Discovery Piscine.

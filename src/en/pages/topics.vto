@@ -1,0 +1,11 @@
+---
+title: Post Topics
+---
+<ul>
+    {{ for topic of collections["topics_" + page.lang] }}
+	{{ set topicUrl }}/{{ page.lang }}/topics/{{ topic |> slugStr }}/{{ /set }}
+	<li><a href="{{ topicUrl }}">{{ topic }}</a></li>
+    {{ /for }}
+</ul>
+
+<p>See all blog posts in the <a href="posts.vto">archive</a>.</p>
