@@ -3,7 +3,7 @@ title: 祝我的 omg.lol 会员资格一个月纪念日快乐
 desc: 我加入 omg.lol 已经有一个月了，而且我很高兴能成为其中的一员。
 date: 2024-10-19T00:11:20+0800
 updated: 2024-11-04T23:57:29+0800
-categories: ["omg.lol"]
+topics: ["omg.lol"]
 ---
 
 2024 年 10 月 19 日是我加入 [omg.lol](https://home.omg.lol/) 的一个月纪念日。

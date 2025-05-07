@@ -2,7 +2,7 @@
 title: WeblogPhoMo October 2024 Photo Challenge Round-up
 desc: My participation in the first WeblogPhoMo photo challenge in October 2024.
 date: 2024-11-02T10:15:26+0800
-categories: ["WeblogPhoMo"]
+topics: ["WeblogPhoMo"]
 ---
 
 In October 2024, [Anne Sturdivant](https://anniegreens.lol) hosted the [first WeblogPhoMo](https://weblogpomo.club/challenges/weblogphomo-october-2024), a short-term photo challenge. I decided to take part in it because not only [I am a member of omg.lol](2024-10-19-omg-lol-membership-one-month-anniversary.md), and thus I have [my own some.pics page](https://helenchong.some.pics/) to share my own pictures, but also the flexibility of not requiring to post something new every day. Furthermore, I do like photography and want to make good use of the camera of my Redmi Note 13 Pro 5G, which I purchased in August.

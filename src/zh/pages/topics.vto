@@ -1,0 +1,11 @@
+---
+title: 文章话题
+---
+<ul>
+    {{ for topic of collections["topics_" + page.lang] }}
+	{{ set topicUrl }}/{{ page.lang }}/topics/{{ topic |> slugStr }}/{{ /set }}
+	<li><a href="{{ topicUrl }}">{{ topic }}</a></li>
+    {{ /for }}
+</ul>
+
+<p>见<a href="posts.vto">文章存档</a>以查看所有文章。</p>

@@ -2,7 +2,7 @@
 title: 2024 年 10 月 WeblogPhoMo 摄影挑战综述
 desc: 我参加 2024 年 10 月第一届 WeblogPhoMo 摄影挑战。
 date: 2024-11-02T10:15:32+0800
-categories: ["WeblogPhoMo"]
+topics: ["WeblogPhoMo"]
 ---
 
 2024 年 10 月里， [Anne Sturdivant](https://anniegreens.lol) 主持了 [第一届 WeblogPhoMo](https://weblogpomo.club/challenges/weblogphomo-october-2024)——一项短期摄影挑战。 我决定参加此挑战，不仅因为[我是 omg.lol 的会员](2024-10-19-omg-lol-membership-one-month-anniversary.md)， 故此我拥有[自己的 some.pics 页面](https://helenchong.some.pics/)以分享自己的图片，而且还由于参加者不需要每天都发布新的图片，此挑战因而具有参与的灵活性。此外，我确实喜欢摄影，并希望充分利用我在 8 月份购买的红米 Note 13 Pro 5G 的相机。

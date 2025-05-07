@@ -1,0 +1,15 @@
+---
+pagination:
+    data: collections.topics_zh
+    size: 1
+    alias: topic
+    addAllPagesToCollections: true
+permalink: /{{ locale }}/topics/{{ topic |> slugStr }}/
+pageLangOptions: false
+eleventyComputed:
+    title: '话题为"{{ topic }}"的文章'
+---
+{{ set postList = collections["posts_" + page.lang] |> filterByTopic(topic) |> toReversed }}
+{{ include "partials/postlist.vto" }}
+
+<p>查看<a href="topics.vto">所有文章话题</a>.</p>

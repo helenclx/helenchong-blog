@@ -2,7 +2,7 @@
 title: Living with Retinitis Pigmentosa
 desc: I talk about being visually impaired, particularly with a genetic eye disease that causes gradual vision loss and currently has no cure.
 date: 2024-12-21T09:53:13+0800
-categories: ["retinitis pigmentosa"]
+topics: ["retinitis pigmentosa"]
 ---
 
 On 30 November 2024, I was diagnosed with retinitis pigmentosa (RP) after seeing an eye doctor.
