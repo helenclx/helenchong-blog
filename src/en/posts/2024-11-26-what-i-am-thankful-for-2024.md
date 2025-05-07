@@ -2,7 +2,7 @@
 title: "WeblogPoMo AMA: What I Am Thankful For In 2024"
 desc: Taking the opportunity of answering a question from WeblogPoMo AMA to list the things I am grateful for in 2024.
 date: 2024-11-26T23:19:39+0800
-categories: ["WeblogPoMo", "2024"]
+categories: ["WeblogPoMo AMA", "2024"]
 ---
 
 As part of the [WeblogPoMo AMA blogging challenge](https://weblogpomo.club/challenges), [Jedda](https://jeddacp.com/) posed a question, ["What Are You Thankful for?"](https://notes.jeddacp.com/what-are-you-thankful-for/) I appreciate the question, since gratitude is something I have been doing my best to practice every day.
