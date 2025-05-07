@@ -36,8 +36,8 @@ toc: true
 
 ## 联系方式
 
-联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。
+如果你想联络我，最好的方式联络我的最佳方式是通过电子邮件。你可以发送电子邮件至 [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}。鼓励使用[纯文本电子邮件](https://useplaintext.email/)。
 
-如果你想以尽安全的方式与我聊天，你可在 Signal 上发送私讯至 `{{ sitemeta.siteAuthor.signal }}`。
+如果你想以更安全的方式与我聊天，你可在 Signal 上发送私讯至 `{{ sitemeta.siteAuthor.signal }}`。
 
 至于社交媒体，我只活跃于 [{{ profileitems.socials.mastodon.name }}](https://zh.wikipedia.org/wiki/Mastodon) 及[联邦宇宙](https://zh.wikipedia.org/wiki/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99)，而我的账号为 [{{ profileitems.socials.mastodon.user }}]({{ profileitems.socials.mastodon.url }})。
