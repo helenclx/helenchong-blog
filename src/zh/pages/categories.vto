@@ -1,0 +1,11 @@
+---
+title: 文章分类
+---
+<ul>
+    {{ for category of collections["categories_" + page.lang] }}
+	{{ set categoryUrl }}/{{ page.lang }}/categories/{{ category |> slugStr }}/{{ /set }}
+	<li><a href="{{ categoryUrl }}">{{ category }}</a></li>
+    {{ /for }}
+</ul>
+
+<p>见<a href="posts.vto">文章存档</a>以查看所有文章。</p>

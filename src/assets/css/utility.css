@@ -30,6 +30,11 @@ a > .inline-icon { padding-inline-end: .25em; }
 .email-encoded b { display: none; }
 .updated { margin-top: 3em; }
 
+.page-nav {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 .grid-center {
     display: grid;
     place-content: center;

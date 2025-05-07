@@ -1,0 +1,15 @@
+---
+pagination:
+    data: collections.categories_zh
+    size: 1
+    alias: category
+    addAllPagesToCollections: true
+permalink: /{{ locale }}/categories/{{ category |> slugStr }}/
+pageLangOptions: false
+eleventyComputed:
+    title: '分类为"{{ category }}"的文章'
+---
+{{ set postList = collections["posts_" + page.lang] |> filterByCategory(category) |> toReversed }}
+{{ include "partials/postlist.vto" }}
+
+<p>查看<a href="categories.vto">所有文章分类</a>.</p>

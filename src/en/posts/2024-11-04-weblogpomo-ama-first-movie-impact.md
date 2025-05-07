@@ -2,7 +2,7 @@
 title: "WeblogPoMo AMA: First Movie that Left a Huge Impact on Me"
 desc: Starting my participation in WeblogPoMo AMA by talking about the first movie ever watched that made a big impact on me.
 date: 2024-11-04T11:30:28+0800
-categoties: ["WeblogPoMo", "A Bug's Life", "films"]
+categories: ["WeblogPoMo", "A Bug's Life", "films"]
 ---
 
 [Anne Sturdivant](https://anniegreens.lol) hosted a new blogging challenge named [WeblogPoMo AMA](https://weblogpomo.club/challenges), which aims to foster writer interactions by asking and answering questions posted by other bloggers. Human interactions is part of why I fell in love with blogging in the first place, so I am interested in this challenge.
