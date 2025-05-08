@@ -13,4 +13,7 @@ export default function(eleventyConfig) {
 
     // Filter: URL slug generation with more language support than slugify
     eleventyConfig.addFilter("slugStr", (str) => slug(str));
+
+    // Filter: Collection item length
+    eleventyConfig.addFilter("itemCount", (array) => array.length);
 }

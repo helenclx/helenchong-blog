@@ -7,7 +7,7 @@ pagination:
 permalink: /{{ locale }}/topics/{{ topic |> slugStr }}/
 pageLangOptions: false
 eleventyComputed:
-    title: '话题为"{{ topic }}"的文章'
+    title: '{{ collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }} 篇话题为"{{ topic }}"的文章'
 ---
 {{ set postList = collections["posts_" + page.lang] |> filterByTopic(topic) |> toReversed }}
 {{ include "partials/postlist.vto" }}
