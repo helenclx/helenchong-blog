@@ -4,7 +4,8 @@ title: Post Topics
 <ul>
     {{ for topic of collections["topics_" + page.lang] }}
 	{{ set topicUrl }}/{{ page.lang }}/topics/{{ topic |> slugStr }}/{{ /set }}
-	<li><a href="{{ topicUrl }}">{{ topic }}</a></li>
+    {{ set topicPostCount = collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }}
+	<li><a href="{{ topicUrl }}">{{ topic }}</a> ({{ topicPostCount }} posts)</li>
     {{ /for }}
 </ul>
 
