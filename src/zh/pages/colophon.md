@@ -2,7 +2,7 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-05-07T16:40:12+0800
+updated: 2025-05-09T18:46:17+0800
 ---
 
 ## 科技
@@ -18,7 +18,6 @@ updated: 2025-05-07T16:40:12+0800
 
 ## 插件
 * Eleventy 的官方 [RSS](https://www.11ty.dev/docs/plugins/rss/) 插件
-* Eleventy 的官方 [Fetch](https://www.11ty.dev/docs/plugins/fetch/) 插件
 * Noel Forte 的 [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter 的 [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 * [Luxon](https://moment.github.io/luxon/)
