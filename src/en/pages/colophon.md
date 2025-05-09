@@ -2,7 +2,7 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2025-05-07T16:39:56+0800
+updated: 2025-05-09T18:46:08+0800
 ---
 
 ## Technology
@@ -18,7 +18,6 @@ updated: 2025-05-07T16:39:56+0800
 
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
-* Eleventy's official [Fetch](https://www.11ty.dev/docs/plugins/fetch/) plugin
 * Noel Forte's [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter's [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 * [Luxon](https://moment.github.io/luxon/)
