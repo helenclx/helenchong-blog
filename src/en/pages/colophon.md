@@ -2,7 +2,7 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2025-05-14T10:58:12+0800
+updated: 2025-05-14T22:06:00+0800
 ---
 
 ## Technology
@@ -16,6 +16,8 @@ updated: 2025-05-14T10:58:12+0800
 * Deployed to my virtual private server (VPS) rented from [Chunkserve](https://chunkserve.com/) from my Gitea instance, using the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action.
 * Web server: [Caddy](https://caddyserver.com/).
 * The address, {{ sitemeta.siteDomain }}, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [helenchong.omg.lol](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol.
+
+Previously, this blog was hosted on [Hostinger](https://www.hostinger.com/my) until 14 May 2025.
 
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin

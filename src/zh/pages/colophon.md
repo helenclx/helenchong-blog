@@ -2,7 +2,7 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-05-14T11:13:05+0800
+updated: 2025-05-14T22:06:09+0800
 ---
 
 ## 科技
@@ -16,6 +16,8 @@ updated: 2025-05-14T11:13:05+0800
 * 通过 [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action 从本部落格在我的 Gitea 实例的仓库部署到我从 [Chunkserve](https://chunkserve.com/) 租借的虚拟专用服务器（virtual private server，VPS）。
 * 网络服务器：[Caddy](https://caddyserver.com/)。
 * 本部落格网址 {{ sitemeta.siteDomain }} 是我的 [omg.lol](https://home.omg.lol/) 网址 [helenchong.omg.lol](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
+
+在此之前，本部落格由 [Hostinger](https://www.hostinger.com/my) 托管至 2025 年 5 月 14 日。
 
 ## 插件
 * Eleventy 的官方 [RSS](https://www.11ty.dev/docs/plugins/rss/) 插件
