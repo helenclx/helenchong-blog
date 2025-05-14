@@ -2,18 +2,19 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-05-09T18:46:17+0800
+updated: 2025-05-14T11:13:05+0800
 ---
 
 ## 科技
-* 使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 版本 {{ eleventy.version }} 构建
+* 使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 版本 {{ eleventy.version }} 构建。
 * JavaScript 运行环境：[Bun](https://bun.sh)。
 * 模板语言：[Vento](https://vento.js.org/) 和 Markdown。
 * 测试浏览器：Mozilla Firefox、Vivaldi 和 Lynx。
-* 源代码可在 [GitHub](https://github.com/helenclx/helenchong-blog) 上获取。
+* 源代码可在[我的 Gitea 实例](https://git.helenchong.dev/helenchong/helenchong-blog)和 [GitHub 镜像](https://github.com/helenclx/helenchong-blog) 上获取。
 
 ## 托管与域名
-* 通过 [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action 从本部落格的 GitHub 仓库部署到 [Hostinger](https://www.hostinger.my/)。
+* 通过 [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action 从本部落格在我的 Gitea 实例的仓库部署到我从 [Chunkserve](https://chunkserve.com/) 租借的虚拟专用服务器（virtual private server，VPS）。
+* 网络服务器：[Caddy](https://caddyserver.com/)。
 * 本部落格网址 {{ sitemeta.siteDomain }} 是我的 [omg.lol](https://home.omg.lol/) 网址 [helenchong.omg.lol](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
 
 ## 插件
