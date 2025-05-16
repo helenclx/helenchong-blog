@@ -1,7 +1,8 @@
 ---
 title: 42's Piscine Bootcamp Completed
 desc: At last, I finished 42 the computer science school's 26-day bootcamp.
-date: 2025-05-16T23:26:10+0800
+date: 2025-05-04T12:19:41+0800
+updated: 2025-05-16T23:26:10+0800
 topics: ["42 the school"]
 ---
 
