@@ -1,11 +1,11 @@
 {{ if page.lang === "zh" }}
-    {{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }}由{{ sitemeta[page.lang].siteAuthor.name }}用💜打造{{ /set }}
+    {{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }}由 {{ sitemeta[page.lang].siteAuthor.name }} 用💜打造{{ /set }}
 {{ else }}
     {{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }} is made with 💜 by {{ sitemeta[page.lang].siteAuthor.name }}{{ /set }}
 {{ /if }}
 
 {{ if page.lang === "zh" }}
-    {{ set builtWith11ty }}用<a href="https://www.11ty.dev/">Eleventy</a>{{ eleventy.version }}版本建立{{ /set }}
+    {{ set builtWith11ty }}用 <a href="https://www.11ty.dev/">Eleventy</a> {{ eleventy.version }} 版本建立{{ /set }}
 {{ else }}
     {{ set builtWith11ty }}Built with <a href="https://www.11ty.dev/">Eleventy</a> v{{ eleventy.version }}{{ /set }}
 {{ /if }}
