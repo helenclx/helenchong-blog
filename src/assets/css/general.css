@@ -78,7 +78,10 @@ code {
     font-family: var(--ff-monospace);
     word-break: break-word;
 }
-:not(pre) > code { padding: 0.125em 0.25em; }
+:not(pre) > code {
+    padding: 0.125em 0.25em;
+    font-size: 0.85em;
+}
 :not(pre) > code, pre { background-color: var(--clr-quote-bg); }
 
 pre {
