@@ -57,8 +57,6 @@ img.profilepic, .profilepic img {
     outline-offset: 0.05em;
 }
 
-.heading-anchor [hidden] { display: block; }
-
 /* Link Button */
 .link-btn {
     display: inline-block;

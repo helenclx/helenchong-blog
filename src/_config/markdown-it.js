@@ -14,8 +14,8 @@ export default function(eleventyConfig) {
     // Configure markdown-it-anchor plugins
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
         class: "heading-anchor",
-        symbol: "<span hidden>#</span>",
-        style: "aria-labelledby",
+        assistiveText: title => `Permalink to section '${title}'`,
+        visuallyHiddenClass: 'visually-hidden',
     });
     const markdownItAnchorOptions = {
         level: [2, 3, 4, 5],
@@ -29,13 +29,11 @@ export default function(eleventyConfig) {
                     block: true,
                 })
             );
-
             state.tokens.splice(idx + 4, 0,
                 Object.assign(new state.Token("div_close", "div", -1), {
                     block: true,
                 })
             );
-
             linkAfterHeader(slug, opts, state, idx + 1);
         },
     };
