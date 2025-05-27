@@ -2,9 +2,8 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-05-14T22:06:09+0800
+updated: 2025-05-28T01:46:36+0800
 ---
-
 ## 科技
 * 使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 版本 {{ eleventy.version }} 构建。
 * JavaScript 运行环境：[Bun](https://bun.sh)。
@@ -13,11 +12,11 @@ updated: 2025-05-14T22:06:09+0800
 * 源代码可在[我的 Gitea 实例](https://git.helenchong.dev/helenchong/helenchong-blog)和 [GitHub 镜像](https://github.com/helenclx/helenchong-blog) 上获取。
 
 ## 托管与域名
-* 通过 [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action 从本部落格在我的 Gitea 实例的仓库部署到我从 [Chunkserve](https://chunkserve.com/) 租借的虚拟专用服务器（virtual private server，VPS）。
+* 托管于我从 [DeluxHost](https://deluxhost.net/) 租借的虚拟专用服务器（virtual private server，VPS）。
 * 网络服务器：[Caddy](https://caddyserver.com/)。
 * 本部落格网址 {{ sitemeta.siteDomain }} 是我的 [omg.lol](https://home.omg.lol/) 网址 [helenchong.omg.lol](https://helenchong.omg.lol/) 的子域名。我于 2024 年 10 月 19 日注册并购买了 omg.lol 的网址与终身会员资格。
 
-在此之前，本部落格由 [Hostinger](https://www.hostinger.com/my) 托管至 2025 年 5 月 14 日。
+在此之前，本部落格由 [Hostinger](https://www.hostinger.com/my) 的 Premium 共享主机套餐托管至 2025 年 5 月 14 日，以及由我从 [Chunkserve](https://chunkserve.com/) 租借的虚拟转筒服务器托管至 2025 年 5 月 27 日。
 
 ## 插件
 * Eleventy 的官方 [RSS](https://www.11ty.dev/docs/plugins/rss/) 插件
