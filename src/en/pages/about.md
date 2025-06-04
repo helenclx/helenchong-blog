@@ -36,7 +36,7 @@ I have designed and made a 88x31 badge for {{ sitemeta[page.lang].siteName }}, s
 
 ## Contact
 
-The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. Using [plain text email](https://useplaintext.email/) is encouraged.
+The best way to contact me is through email. You can email me at [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. I also have a [PGP key](https://keys.openpgp.org/search?q=helenchong%40omg.lol). Using [plain text email](https://useplaintext.email/) is encouraged.
 
 If you want to chat with me, you may message `{{ sitemeta.siteAuthor.signal }}` on Signal.
 
