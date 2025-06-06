@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ title ? title + " | " : "" }}{{ sitemeta[page.lang].siteName }}</title>
+        <title>{{ title ? `${title} | ` : "" }}{{ sitemeta[page.lang].siteName }}</title>
 
         <link rel="alternate" hreflang="{{ page.lang }}" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         {{ for link of page.url | locale_links }}
@@ -13,17 +13,13 @@
         <link rel="alternate" hreflang="x-default" href="{{ sitemeta.siteUrl }}{{ page.url |> locale_url('en') }}">
 
         <!-- Metadata -->
-        <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta name="generator" content="{{ eleventy.generator }}">
-        <meta name="author" content="{{ sitemeta[page.lang].siteAuthor.name }}">
-        <meta name="description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
         <meta name="fediverse:creator" content="{{ profileitems.socials.mastodon.user }}">
-        <meta property="og:site_name" content="{{ sitemeta[page.lang].siteName }}" />
-        <meta property="og:title" content="{{ title ? title : sitemeta[page.lang].siteName }}">
+        <meta property="og:site_name" content="{{ sitemeta[page.lang].siteName }}">
         <meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
+        <meta name="description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
         <meta property="og:description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
         <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url }}">
-        <meta property="og:locale" content="{{ page.lang }}">
         <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/galaxy-garden-meta-img.png">
         <meta name="theme-color" content="#512b85">
 
