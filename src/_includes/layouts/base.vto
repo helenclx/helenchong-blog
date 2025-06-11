@@ -15,6 +15,7 @@
         <!-- Metadata -->
         <meta name="generator" content="{{ eleventy.generator }}">
         <meta name="fediverse:creator" content="{{ profileitems.socials.mastodon.user }}">
+        <meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
         <meta property="og:site_name" content="{{ sitemeta[page.lang].siteName }}">
         <meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
         <meta name="description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
