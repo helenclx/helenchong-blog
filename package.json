@@ -8,9 +8,9 @@
     },
     "type": "module",
     "scripts": {
-        "start": "bunx eleventy --serve --quiet",
-        "build": "bunx eleventy",
-        "build-action": "npx eleventy"
+        "start": "bunx @11ty/eleventy --serve --quiet",
+        "build": "bunx @11ty/eleventy",
+        "build-action": "npx @11ty/eleventy"
     },
     "devDependencies": {
         "@types/bun": "^1.2.17"
