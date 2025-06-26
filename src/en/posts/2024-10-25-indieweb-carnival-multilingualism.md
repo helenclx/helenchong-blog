@@ -3,7 +3,7 @@ title: "IndieWeb Carnival: Multilingualism in a Global Web"
 desc: My contribution to the October 2024 IndieWeb Carnival, about how my online and offline lives are affected by multiple languages.
 date: 2024-10-25T10:39:06+0800
 updated: 2024-11-02T23:50:40+0800
-topics: ["IndieWeb"]
+topics: ["IndieWeb Carnival"]
 ---
 
 This post is my contribution to the October 2024 [IndieWeb Carnival](https://indieweb.org/indieweb-carnival), themed ["Multilingualism in a Global Web"](https://tilde.team/~zinricky/multilingualism/) and hosted by [Riccardo](https://tilde.team/~zinricky/). This is also my first time participating in the IndieWeb Carnival. I am motivated to participate because my daily life is affected by multiple languages.

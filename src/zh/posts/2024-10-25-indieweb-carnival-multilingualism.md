@@ -3,7 +3,7 @@ title: "IndieWeb Carnival：全球网络中的多种语言"
 desc: 我对 2024 年 10 月的 IndieWeb Carnival 的投稿文，讲述我的线上和线下生活如何受到多种语言的影响。
 date: 2024-10-25T10:39:12+0800
 updated: 2024-11-02T23:50:45+0800
-topics: ["IndieWeb"]
+topics: ["IndieWeb Carnival"]
 ---
 
 此文为我向 2024 年 10 月的 [IndieWeb Carnival](https://indieweb.org/indieweb-carnival) 的投稿，主题为[《Multilingualism in a Global Web》](https://tilde.team/~zinricky/multilingualism/)，由 [Riccardo](https://tilde.team/~zinricky/) 主持。这也是我首次参与 IndieWeb Carnival。我会受激发参，是因为我的日常生活受多种语言的影响。
