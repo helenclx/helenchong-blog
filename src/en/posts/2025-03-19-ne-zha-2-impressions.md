@@ -1,6 +1,6 @@
 ---
-title: '"Ne Zha 2" Impressions'
-desc: I accompanied my parents to watch "Ne Zha 2" in cinema out of curiosity. Did I end up liking the film?
+title: "'Ne Zha 2' Impressions"
+desc: I accompanied my parents to watch 'Ne Zha 2' in cinema out of curiosity. Did I end up liking the film?
 date: 2025-03-19T19:01:33+0800
 topics: ["films"]
 ---
