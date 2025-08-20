@@ -2,14 +2,14 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2025-05-28T01:46:19+0800
+updated: 2025-08-20T13:53:18+0800
 ---
 ## Technology
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
-* Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong-blog) and the [repository's GitHub mirror](https://github.com/helenclx/helenchong-blog).
+* Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong-blog), [Codeberg](https://codeberg.org/helenchong/helenchong-blog) and [GitHub](https://github.com/helenclx/helenchong-blog).
 
 ## Host and Domain
 * Hosted on a virtual private server (VPS) I rented from [DeluxHost](https://deluxhost.net/).
