@@ -1,10 +1,12 @@
 # Galaxy Garden
 
-Source code of my personal blog. Built with [Eleventy](https://www.11ty.dev/).
+Source code of Helen Chong's personal blog. Built with [Eleventy](https://www.11ty.dev/). Available in English and Simplified Chinese.
 
-More technical information can be found on my blog's [colophon page](https://blog.helenchong.omg.lol/en/colophon).
+More technical information about this blog can be found on the [colophon page](https://blog.helenchong.omg.lol/en/colophon).
 
 ## Run Locally
+
+Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone this repository locally
     ```
