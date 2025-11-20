@@ -2,7 +2,7 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2025-09-12T13:46:22+0800
+updated: 2025-11-20T12:28:32+0800
 ---
 ## Technology
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
@@ -40,3 +40,8 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 
 * I designed the {{ sitemeta[page.lang].siteName }} logo and 88x31 badge in Affinity Designer 2.
 * I drew the cartoon illustration avatar of myself in Adobe Illustrator CS5, inspired by [Andy Carolan](https://www.andycarolan.com/)'s art style.
+
+## Writing
+
+ - [Obsidian](https://obsidian.md/) for drafting and writing web pages and blog posts.
+ - My custom Python script for creating new blog post files.
