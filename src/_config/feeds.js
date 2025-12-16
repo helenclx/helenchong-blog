@@ -2,8 +2,8 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { siteUrl, feedPath, en, zh } from "../_data/sitemeta.js";
 
 export default function(eleventyConfig) {
-    // English feed
-    eleventyConfig.addPlugin(feedPlugin, {
+	// English feed
+	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: "/en/" + feedPath,
 		collection: {
@@ -22,8 +22,8 @@ export default function(eleventyConfig) {
 		}
 	});
 
-    // Chinese feed
-    eleventyConfig.addPlugin(feedPlugin, {
+	// Chinese feed
+	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: "/zh/" + feedPath,
 		collection: {
