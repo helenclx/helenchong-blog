@@ -9,15 +9,15 @@ More technical information about this blog can be found on the [colophon page](h
 Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone this repository locally
-    ```
-    git clone https://git.helenchong.dev/helenchong/helenchong-blog.git
-    ```
+	```
+	git clone https://git.helenchong.dev/helenchong/helenchong-blog.git
+	```
 1. Install dependencies
-    ```
-    npm install
-    ```
+	```
+	npm install
+	```
 1. Run the project
-    ```
-    npm run start
-    ```
+	```
+	npm run start
+	```
 1. Open http://localhost:8080/ in your browser

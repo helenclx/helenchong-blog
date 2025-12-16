@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="canonical" href="{{ sitemeta.siteUrl }}/">
-        <meta name="generator" content="{{ eleventy.generator }}">
-        <meta name="author" content="{{ sitemeta[page.lang].siteAuthor.name }}">
-        <meta name="description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
-        <meta property="og:site_name" content="{{ sitemeta.en.siteName }}" />
-        <meta property="og:title" content="{{ sitemeta.en.siteName }}">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="{{ sitemeta.en.siteDescription() }}">
-        <meta name="fediverse:creator" content="{{ profileitems.socials.mastodon.user }}">
-        <meta property="og:url" content="{{ sitemeta.siteUrl }}">
-        <meta property="og:locale" content="en">
+		<link rel="canonical" href="{{ sitemeta.siteUrl }}/">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<meta name="author" content="{{ sitemeta[page.lang].siteAuthor.name }}">
+		<meta name="description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
+		<meta property="og:site_name" content="{{ sitemeta.en.siteName }}" />
+		<meta property="og:title" content="{{ sitemeta.en.siteName }}">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="{{ sitemeta.en.siteDescription() }}">
+		<meta name="fediverse:creator" content="{{ profileitems.socials.mastodon.user }}">
+		<meta property="og:url" content="{{ sitemeta.siteUrl }}">
+		<meta property="og:locale" content="en">
 
-        <link rel="stylesheet" href="/assets/css/root.css">
-        <title>{{ title }}{{ titleZh ? " " + titleZh : "" }}</title>
-    </head>
-    <body>
-        <header>
-            <h1>{{ title }}{{ titleZh ? ' <span lang="zh">' + titleZh + '</span>' : '' }}</h1>
-        </header>
-        <main>
-            <article>
-                {{ content }}
-            </article>
-        </main>
-        <footer>
-            <p>Made with 💜 by <a href="https://helenchong.omg.lol/">{{ sitemeta.en.siteAuthor.name }}</a></p>
-        </footer>
-    </body>
+		<link rel="stylesheet" href="/assets/css/root.css">
+		<title>{{ title }}{{ titleZh ? " " + titleZh : "" }}</title>
+	</head>
+	<body>
+		<header>
+			<h1>{{ title }}{{ titleZh ? ' <span lang="zh">' + titleZh + '</span>' : '' }}</h1>
+		</header>
+		<main>
+			<article>
+				{{ content }}
+			</article>
+		</main>
+		<footer>
+			<p>Made with 💜 by <a href="https://helenchong.omg.lol/">{{ sitemeta.en.siteAuthor.name }}</a></p>
+		</footer>
+	</body>
 </html>
