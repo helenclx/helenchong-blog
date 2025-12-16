@@ -1,4 +1,4 @@
 export default {
-    locale: "en",
-    layout: "layouts/base",
+	locale: "en",
+	layout: "layouts/base",
 }

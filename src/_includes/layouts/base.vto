@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}" dir="{{ langstrings[page.lang].dir || 'ltr' }}" id="top">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ title ? `${title} | ` : "" }}{{ sitemeta[page.lang].siteName }}</title>
+		<title>{{ title ? `${title} | ` : "" }}{{ sitemeta[page.lang].siteName }}</title>
 
-        <link rel="alternate" hreflang="{{ page.lang }}" href="{{ sitemeta.siteUrl }}{{ page.url }}">
-        {{ for link of page.url | locale_links }}
-        <link rel="alternate" hreflang="{{ link.lang }}" href="{{ sitemeta.siteUrl }}{{ link.url }}">
-        {{ /for }}
-        <link rel="alternate" hreflang="x-default" href="{{ sitemeta.siteUrl }}{{ page.url |> locale_url('en') }}">
+		<link rel="alternate" hreflang="{{ page.lang }}" href="{{ sitemeta.siteUrl }}{{ page.url }}">
+		{{ for link of page.url | locale_links }}
+		<link rel="alternate" hreflang="{{ link.lang }}" href="{{ sitemeta.siteUrl }}{{ link.url }}">
+		{{ /for }}
+		<link rel="alternate" hreflang="x-default" href="{{ sitemeta.siteUrl }}{{ page.url |> locale_url('en') }}">
 
-        <!-- Metadata -->
-        <meta property="og:title" content="{{ title }}">
-        <meta name="generator" content="{{ eleventy.generator }}">
-        <meta name="fediverse:creator" content="{{ profileitems.socials.mastodon.user }}">
-        <meta property="og:site_name" content="{{ sitemeta[page.lang].siteName }}">
-        <meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
-        <meta name="description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
-        <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url }}">
-        <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/galaxy-garden-meta-img.png">
-        <meta name="theme-color" content="#512b85">
+		<!-- Metadata -->
+		<meta property="og:title" content="{{ title }}">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<meta name="fediverse:creator" content="{{ profileitems.socials.mastodon.user }}">
+		<meta property="og:site_name" content="{{ sitemeta[page.lang].siteName }}">
+		<meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
+		<meta name="description" content="{{ desc || sitemeta[page.lang].siteDescription() }}">
+		<meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url }}">
+		<meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/galaxy-garden-meta-img.png">
+		<meta name="theme-color" content="#512b85">
 
-        <!-- Fonts -->
-        {{ include "partials/fonts.vto" }}
-        <!-- CSS -->
-        {{ include "partials/css.vto" }}
-        <!-- Feeds -->
-        <link rel="alternate" type="application/rss+xml" title="{{ sitemeta[page.lang].siteName }}" href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
-    </head>
-    <body>
-        <div class="skip-btn"><a href="#content">{{ langstrings[page.lang].skipToContent }}</a></div>
-        {{ include "partials/header.vto" }}
-        <main id="content">
-            {{ content }}
-        </main>
-        {{ include "partials/footer.vto" }}
-    </body>
+		<!-- Fonts -->
+		{{ include "partials/fonts.vto" }}
+		<!-- CSS -->
+		{{ include "partials/css.vto" }}
+		<!-- Feeds -->
+		<link rel="alternate" type="application/rss+xml" title="{{ sitemeta[page.lang].siteName }}" href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
+	</head>
+	<body>
+		<div class="skip-btn"><a href="#content">{{ langstrings[page.lang].skipToContent }}</a></div>
+		{{ include "partials/header.vto" }}
+		<main id="content">
+			{{ content }}
+		</main>
+		{{ include "partials/footer.vto" }}
+	</body>
 </html>

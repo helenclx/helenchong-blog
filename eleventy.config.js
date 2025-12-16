@@ -12,38 +12,38 @@ import markdownItConfig from "./src/_config/markdown-it.js";
 import shortcodesConfig from "./src/_config/shortcodes.js";
 
 export default function(eleventyConfig) {
-    // ----- Plugins
-    eleventyConfig.addPlugin(EleventyI18nPlugin, {
-        defaultLanguage: "en",
-        errorMode: "allow-fallback"
-    });
-    eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
-    eleventyConfig.addPlugin(tocPlugin, {
-        tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
-        wrapper: function (toc) {
-            return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
-        },
-    });
+	// ----- Plugins
+	eleventyConfig.addPlugin(EleventyI18nPlugin, {
+		defaultLanguage: "en",
+		errorMode: "allow-fallback"
+	});
+	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+	eleventyConfig.addPlugin(tocPlugin, {
+		tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
+		wrapper: function (toc) {
+			return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
+		},
+	});
 
-    // ----- Custom configurations
-    eleventyConfig.addPlugin(feedsConfig);
-    eleventyConfig.addPlugin(filesConfig);
-    eleventyConfig.addPlugin(filtersConfig);
-    eleventyConfig.addPlugin(topicsConfig);
-    eleventyConfig.addPlugin(markdownItConfig);
-    eleventyConfig.addPlugin(shortcodesConfig);
+	// ----- Custom configurations
+	eleventyConfig.addPlugin(feedsConfig);
+	eleventyConfig.addPlugin(filesConfig);
+	eleventyConfig.addPlugin(filtersConfig);
+	eleventyConfig.addPlugin(topicsConfig);
+	eleventyConfig.addPlugin(markdownItConfig);
+	eleventyConfig.addPlugin(shortcodesConfig);
 
-    // ----- Vento plugin for Eleventy
-    // Must be loaded after plugins that modify filters
-    eleventyConfig.addPlugin(VentoPlugin, {
-        autotrim: true,
-    });
+	// ----- Vento plugin for Eleventy
+	// Must be loaded after plugins that modify filters
+	eleventyConfig.addPlugin(VentoPlugin, {
+		autotrim: true,
+	});
 
-    return {
-        markdownTemplateEngine: "vto",
-        htmlTemplateEngine: "vto",
-        dir: {
-            input: "src"
-        }
-    };
+	return {
+		markdownTemplateEngine: "vto",
+		htmlTemplateEngine: "vto",
+		dir: {
+			input: "src"
+		}
+	};
 };

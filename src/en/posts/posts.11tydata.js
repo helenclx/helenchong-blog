@@ -1,4 +1,4 @@
 export default {
-    tags: ["posts", "posts_en"],
+	tags: ["posts", "posts_en"],
 	layout: "layouts/post",
 }

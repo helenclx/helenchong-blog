@@ -15,16 +15,16 @@ eleventyComputed:
 
 {{ function siteBadges(url, file, alt, width=143, height=50) }}
 <a href="{{ url }}">
-    <img src="/assets/badges/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
+	<img src="/assets/badges/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
 </a>
 {{ /function }}
 
 <div class="web-graphics p-margin-top">
-    {{ siteBadges("https://badge.les.bi/", "lesbian-nonbinary.svg", "Lesbian and non-binary pride") }}
-    {{ siteBadges("https://en.wikipedia.org/wiki/Disability_flag", "disability-pride.svg", "Disability pride") }}
-    {{ siteBadges("https://ko-fi.com/s/798b83fbcc", "coffee-powered.svg", "Coffee powered") }}
-    {{ siteBadges("https://people.pledge.party/", "people-pledge.svg", "The People Pledge") }}
-    {{ siteBadges("https://fightfascism.neocities.org/", "fight-fascism.jpg", "Fight fascism", 220, 37) }}
+	{{ siteBadges("https://badge.les.bi/", "lesbian-nonbinary.svg", "Lesbian and non-binary pride") }}
+	{{ siteBadges("https://en.wikipedia.org/wiki/Disability_flag", "disability-pride.svg", "Disability pride") }}
+	{{ siteBadges("https://ko-fi.com/s/798b83fbcc", "coffee-powered.svg", "Coffee powered") }}
+	{{ siteBadges("https://people.pledge.party/", "people-pledge.svg", "The People Pledge") }}
+	{{ siteBadges("https://fightfascism.neocities.org/", "fight-fascism.jpg", "Fight fascism", 220, 37) }}
 </div>
 
 <h2 class="text-center">{{ langstrings[page.lang].latestPosts }}</h2>
@@ -34,11 +34,11 @@ eleventyComputed:
 <h2 class="text-center">{{ langstrings[page.lang].webDirectories }}</h2>
 <p class="text-center">{{ sitemeta[page.lang].siteName }}{{ langstrings[page.lang].directoryDesc }}</p>
 <ul class="inline-list" style="margin-top: 0.7em;">
-    <li><a href="https://blogofthe.day/">Blog of the .Day</a></li>
-    <li><a href="https://blogroll.club/">blogroll.club</a></li>
-    <li><a href="https://darktheme.club/">Darktheme Club</a></li>
-    <li><a href="https://www.11ty.dev/authors/">Eleventy Authors</a></li>
-    <li><a href="https://indieblog.page/">indieblog.page</a></li>
-    <li><a href="https://url.town/">url.town</a></li>
-    <li><a href="https://blogroll.org/">Ye Olde Blogroll</a></li>
+	<li><a href="https://blogofthe.day/">Blog of the .Day</a></li>
+	<li><a href="https://blogroll.club/">blogroll.club</a></li>
+	<li><a href="https://darktheme.club/">Darktheme Club</a></li>
+	<li><a href="https://www.11ty.dev/authors/">Eleventy Authors</a></li>
+	<li><a href="https://indieblog.page/">indieblog.page</a></li>
+	<li><a href="https://url.town/">url.town</a></li>
+	<li><a href="https://blogroll.org/">Ye Olde Blogroll</a></li>
 </ul>

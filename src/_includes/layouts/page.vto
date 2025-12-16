@@ -2,34 +2,34 @@
 layout: layouts/base
 ---
 <header class="main__header">
-    <h1>{{ pageTitle || title }}</h1>
-    <p>{{ desc }}</p>
-    {{ set altLangs = page.url |> locale_links }}
-    {{ if pageLangOptions && altLangs.length > 0 }}
-    <nav aria-label="{{ langstrings[page.lang].translations }}">
-        {{ langstrings[page.lang].availableLang }}
-        {{ for link of page.url |> locale_links }}
-        <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
-            <span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span>
-        </a>
-        {{ /for }}
-    </nav>
-    {{ /if }}
+	<h1>{{ pageTitle || title }}</h1>
+	<p>{{ desc }}</p>
+	{{ set altLangs = page.url |> locale_links }}
+	{{ if pageLangOptions && altLangs.length > 0 }}
+	<nav aria-label="{{ langstrings[page.lang].translations }}">
+		{{ langstrings[page.lang].availableLang }}
+		{{ for link of page.url |> locale_links }}
+		<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+			<span lang="{{ sitemeta.siteLang[link.lang].code }}">{{ sitemeta.siteLang[link.lang].long }}</span>
+		</a>
+		{{ /for }}
+	</nav>
+	{{ /if }}
 </header>
 <article class="prose page">
-    {{ if toc }}
-    <details class="toc__wrapper">
-        <summary class="toc__heading" id="toc-heading">
-            {{ langstrings[page.lang].pageToC }}
-        </summary>
-        {{ content |> toc }}
-    </details>
-    {{ /if }}
+	{{ if toc }}
+	<details class="toc__wrapper">
+		<summary class="toc__heading" id="toc-heading">
+			{{ langstrings[page.lang].pageToC }}
+		</summary>
+		{{ content |> toc }}
+	</details>
+	{{ /if }}
  
-    {{ content }}
-    {{ if updated }}
-    <p class="updated">
-        {{ page.lang === "zh" ? "（" : "(" }}{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>{{ page.lang === "zh" ? "）" : ")" }}
-    </p>
-    {{ /if }}
+	{{ content }}
+	{{ if updated }}
+	<p class="updated">
+		{{ page.lang === "zh" ? "（" : "(" }}{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>{{ page.lang === "zh" ? "）" : ")" }}
+	</p>
+	{{ /if }}
 </article>

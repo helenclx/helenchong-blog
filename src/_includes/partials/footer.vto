@@ -1,71 +1,71 @@
 {{ if page.lang === "zh" }}
-    {{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }}由 {{ sitemeta[page.lang].siteAuthor.name }} 用💜打造{{ /set }}
+	{{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }}由 {{ sitemeta[page.lang].siteAuthor.name }} 用💜打造{{ /set }}
 {{ else }}
-    {{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }} is made with 💜 by {{ sitemeta[page.lang].siteAuthor.name }}{{ /set }}
+	{{ set madeWithHeart }}{{ sitemeta[page.lang].siteName }} is made with 💜 by {{ sitemeta[page.lang].siteAuthor.name }}{{ /set }}
 {{ /if }}
 
 {{ if page.lang === "zh" }}
-    {{ set builtWith11ty }}用 <a href="https://www.11ty.dev/">Eleventy</a> {{ eleventy.version }} 版本建立{{ /set }}
+	{{ set builtWith11ty }}用 <a href="https://www.11ty.dev/">Eleventy</a> {{ eleventy.version }} 版本建立{{ /set }}
 {{ else }}
-    {{ set builtWith11ty }}Built with <a href="https://www.11ty.dev/">Eleventy</a> v{{ eleventy.version }}{{ /set }}
+	{{ set builtWith11ty }}Built with <a href="https://www.11ty.dev/">Eleventy</a> v{{ eleventy.version }}{{ /set }}
 {{ /if }}
 
 <footer class="footer">
-    <nav aria-labelledby="footer-nav">
-        <p id="footer-nav" class="visually-hidden">{{ langstrings[page.lang].footerNav }}</p>
-        <ul class="inline-list">
-            <li>
-                <a href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
-                    <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>{{ langstrings[page.lang].rssFeed }}</a>
-            </li>
-            {{ for item of collections["footernav_" + page.lang] }}
-            <li>
-                <a href="{{ item.url }}"{{ if item.url == page.url }} aria-current="page"{{ /if }}>{{ item.data.navTitle || item.data.title }}</a>
-            </li>
-            {{ /for }}
-        </ul>
-    </nav>
-    <p>
-        <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
-        <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">{{ langstrings[page.lang].emailContact }}</a> {{ langstrings[page.lang].plaintxtEmail }}
-    </p>
-    <p>{{ madeWithHeart }}</p>
-    <p>{{ builtWith11ty }} • <a href="https://git.helenchong.dev/helenchong/helenchong-blog">{{ langstrings[page.lang].sourceCode  }}</a></p>
+	<nav aria-labelledby="footer-nav">
+		<p id="footer-nav" class="visually-hidden">{{ langstrings[page.lang].footerNav }}</p>
+		<ul class="inline-list">
+			<li>
+				<a href="/{{ page.lang }}/{{ sitemeta.feedPath }}">
+					<svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>{{ langstrings[page.lang].rssFeed }}</a>
+			</li>
+			{{ for item of collections["footernav_" + page.lang] }}
+			<li>
+				<a href="{{ item.url }}"{{ if item.url == page.url }} aria-current="page"{{ /if }}>{{ item.data.navTitle || item.data.title }}</a>
+			</li>
+			{{ /for }}
+		</ul>
+	</nav>
+	<p>
+		<svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+		<a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">{{ langstrings[page.lang].emailContact }}</a> {{ langstrings[page.lang].plaintxtEmail }}
+	</p>
+	<p>{{ madeWithHeart }}</p>
+	<p>{{ builtWith11ty }} • <a href="https://git.helenchong.dev/helenchong/helenchong-blog">{{ langstrings[page.lang].sourceCode  }}</a></p>
 
-    <div class="grid-center">
-        <img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt }}" width="88" height="31" loading="lazy">
-    </div>
+	<div class="grid-center">
+		<img src="/assets/galaxygarden/galaxy-garden-88x31.svg" alt="{{ langstrings[page.lang].siteBadgeAlt }}" width="88" height="31" loading="lazy">
+	</div>
 
-    <nav class="grid-center" aria-labelledby="social-nav">
-        <p id="social-nav" class="visually-hidden">{{ langstrings[page.lang].socialNav }}</p>
-        <ul class="inline-list">
-            <li class="socials__item">
-                <img class="socials__icon" src="{{ profileitems.omgLol.icon }}" alt="">
-                <a class="socials__link" href="{{ profileitems.omgLol.url }}" rel="me">
-                    {{ profileitems.omgLol.name }}
-                </a>
-            </li>
-            {{ for social, values of profileitems.socials }}
-            <li class="socials__item">
-                <img class="socials__icon" src="{{ values.icon }}" alt="">
-                <a
-                    class="socials__link{{ if values.isExternalLink }} external-link{{ /if }}"
-                    href="{{ values.url }}"
-                    rel="me"
-                >
-                    {{ values.name }}
-                </a>
-            </li>
-            {{ /for }}
-        </ul>
-    </nav>
+	<nav class="grid-center" aria-labelledby="social-nav">
+		<p id="social-nav" class="visually-hidden">{{ langstrings[page.lang].socialNav }}</p>
+		<ul class="inline-list">
+			<li class="socials__item">
+				<img class="socials__icon" src="{{ profileitems.omgLol.icon }}" alt="">
+				<a class="socials__link" href="{{ profileitems.omgLol.url }}" rel="me">
+					{{ profileitems.omgLol.name }}
+				</a>
+			</li>
+			{{ for social, values of profileitems.socials }}
+			<li class="socials__item">
+				<img class="socials__icon" src="{{ values.icon }}" alt="">
+				<a
+					class="socials__link{{ if values.isExternalLink }} external-link{{ /if }}"
+					href="{{ values.url }}"
+					rel="me"
+				>
+					{{ values.name }}
+				</a>
+			</li>
+			{{ /for }}
+		</ul>
+	</nav>
 
-    <a class="block margin-center list-margin-top" href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="56" loading="lazy"></a>
+	<a class="block margin-center list-margin-top" href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="56" loading="lazy"></a>
 
-    <a href="#top" class="top-btn">
-        <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
-            <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
-        </svg>
-        {{ langstrings[page.lang].backToTop }}
-    </a>
+	<a href="#top" class="top-btn">
+		<svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+			<path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+		</svg>
+		{{ langstrings[page.lang].backToTop }}
+	</a>
 </footer>
