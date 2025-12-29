@@ -90,8 +90,9 @@ pre {
     overflow: auto;
     padding: 1rem;
     background-color: var(--clr-code-bg);
+    tab-size: 2;
+    white-space: pre;
 }
 
-pre > code { white-space: pre; }
 :focus { outline: 0.15em solid currentColor; }
 details:focus { outline-offset: 0.2em; }
