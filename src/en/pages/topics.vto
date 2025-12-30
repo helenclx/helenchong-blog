@@ -2,11 +2,11 @@
 title: Post Topics
 ---
 <ul>
-    {{ for topic of collections["topics_" + page.lang] }}
+	{{ for topic of collections["topics_" + page.lang] }}
 	{{ set topicUrl }}/{{ page.lang }}/topics/{{ topic |> slugStr }}/{{ /set }}
-    {{ set topicPostCount = collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }}
+	{{ set topicPostCount = collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }}
 	<li><a href="{{ topicUrl }}">{{ topic }}</a> ({{ topicPostCount }} posts)</li>
-    {{ /for }}
+	{{ /for }}
 </ul>
 
 <p>See all blog posts in the <a href="posts.vto">archive</a>.</p>
