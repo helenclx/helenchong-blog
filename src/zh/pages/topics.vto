@@ -2,11 +2,11 @@
 title: 文章话题
 ---
 <ul>
-    {{ for topic of collections["topics_" + page.lang] }}
+	{{ for topic of collections["topics_" + page.lang] }}
 	{{ set topicUrl }}/{{ page.lang }}/topics/{{ topic |> slugStr }}/{{ /set }}
-    {{ set topicPostCount = collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }}
+	{{ set topicPostCount = collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }}
 	<li><a href="{{ topicUrl }}">{{ topic }}</a>（{{ topicPostCount }} 篇文章）</li>
-    {{ /for }}
+	{{ /for }}
 </ul>
 
 <p>见<a href="posts.vto">文章存档</a>以查看所有文章。</p>
