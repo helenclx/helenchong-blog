@@ -1,13 +1,13 @@
 ---
 pagination:
-    data: collections.topics_en
-    size: 1
-    alias: topic
-    addAllPagesToCollections: true
+  data: collections.topics_en
+  size: 1
+  alias: topic
+  addAllPagesToCollections: true
 permalink: /{{ locale }}/topics/{{ topic |> slugStr }}/
 pageLangOptions: false
 eleventyComputed:
-    title: '{{ collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }} Posts Filed Under "{{ topic }}"'
+  title: '{{ collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }} Posts Filed Under "{{ topic }}"'
 ---
 {{ set postList = collections["posts_" + page.lang] |> filterByTopic(topic) |> toReversed }}
 {{ include "partials/postlist.vto" }}
