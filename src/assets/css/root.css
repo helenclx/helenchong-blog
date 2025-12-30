@@ -1,74 +1,74 @@
 /*
-    Based on SmolCSS Document Style:
-    https://smolcss.dev/#smol-document-styles
+	Based on SmolCSS Document Style:
+	https://smolcss.dev/#smol-document-styles
  */
  html { color-scheme: light dark; }
 
 :root {
-    --clr-body-txt: light-dark(#222, #fff);
-    --clr-body-bg: light-dark(#f3e8ff, #511065);
-    --clr-link: light-dark(#7629db, #ddaef2);
-    --clr-footer-bdr: light-dark(#ccc, #f0f0f0);
-    --clr-footer-txt: light-dark(#767676, #bebebe);
-    --fs-body: 1.2rem;
-    --fs-footer: 0.9rem;
-    --ff-body: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+	--clr-body-txt: light-dark(#222, #fff);
+	--clr-body-bg: light-dark(#f3e8ff, #511065);
+	--clr-link: light-dark(#7629db, #ddaef2);
+	--clr-footer-bdr: light-dark(#ccc, #f0f0f0);
+	--clr-footer-txt: light-dark(#767676, #bebebe);
+	--fs-body: 1.2rem;
+	--fs-footer: 0.9rem;
+	--ff-body: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
-    font-family: var(--ff-body);
-    font-size: var(--fs-body);
-    line-height: 1.5;
-    color: var(--clr-body-txt);
-    background-color: var(--clr-body-bg);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
+	font-family: var(--ff-body);
+	font-size: var(--fs-body);
+	line-height: 1.5;
+	color: var(--clr-body-txt);
+	background-color: var(--clr-body-bg);
 }
 
 body > * {
-    --layout-spacing: max(8vh, 3rem);
-    --max-width: 70ch;
-    width: min(100%, var(--max-width));
-    margin-left: auto;
-    margin-right: auto;
+	--layout-spacing: max(8vh, 3rem);
+	--max-width: 70ch;
+	width: min(100%, var(--max-width));
+	margin-left: auto;
+	margin-right: auto;
 }
 
 main {
-    margin-top: var(--layout-spacing);
+	margin-top: var(--layout-spacing);
 }
 
 footer {
-    margin-top: auto;
-    padding-top: var(--layout-spacing);
+	margin-top: auto;
+	padding-top: var(--layout-spacing);
 }
 
 footer p {
-    border-top: 1px solid var(--clr-footer-bdr);
-    padding-top: 0.25em;
-    color: var(--clr-footer-txt);
-    font-size: var(--fs-footer);
+	border-top: 1px solid var(--clr-footer-bdr);
+	padding-top: 0.25em;
+	color: var(--clr-footer-txt);
+	font-size: var(--fs-footer);
 }
 
 :is(h1, h2, h3) {
-    line-height: 1.2;
+	line-height: 1.2;
 }
 
 :is(h2, h3):not(:first-child) {
-    margin-top: 2em;
+	margin-top: 2em;
 }
 
 article * + * {
-    margin-top: 1em;
+	margin-top: 1em;
 }
 
 a {
-    color: var(--clr-link);
-    text-underline-offset: 0.15em;
+	color: var(--clr-link);
+	text-underline-offset: 0.15em;
 }
