@@ -2,78 +2,78 @@
 /* Credit: Alvaro Montoro: https://codepen.io/alvaromontoro/full/NWyBrZJ */
 
 .flag {
-    display: inline-block;
-    width: 100%;
-    aspect-ratio: 14 / 9;
+	display: inline-block;
+	width: 100%;
+	aspect-ratio: 14 / 9;
 }
 
 .flag.icon { width: 3em; }
 .flag.icon.large { width: 4em; }
 
 .flag.gilbert-baker {
-    background:
-        linear-gradient(hotpink 12.5%, red 0 25%, orange 0 37.5%, yellow 0 50%, green 0 62.5%, darkturquoise 0 75%, blue 0 87.5%, indigo 0);
+	background:
+		linear-gradient(hotpink 12.5%, red 0 25%, orange 0 37.5%, yellow 0 50%, green 0 62.5%, darkturquoise 0 75%, blue 0 87.5%, indigo 0);
 }
 
 .flag.traditional {
-        background:
-        linear-gradient(red 16.66%, orange 0 33.33%, yellow 0 50%, green 0 66.66%, blue 0 83.33%, indigo 0)
+		background:
+		linear-gradient(red 16.66%, orange 0 33.33%, yellow 0 50%, green 0 66.66%, blue 0 83.33%, indigo 0)
 }
 
 .flag.philadelphia {
-    background:
-        linear-gradient(black 12.5%, saddlebrown 0 25%, red 0 37.5%, orange 0 50%, yellow 0 62.5%, green 0 75%, blue 0 87.5%, indigo 0);
+	background:
+		linear-gradient(black 12.5%, saddlebrown 0 25%, red 0 37.5%, orange 0 50%, yellow 0 62.5%, green 0 75%, blue 0 87.5%, indigo 0);
 }
 
 .flag.progress {
-    background:
-        conic-gradient(at 14% 50%, #0000 221.25deg, white 222deg 318deg, #0000 318.25deg),
-        conic-gradient(at 23% 50%, #0000 221.25deg, #ffa6b9 222deg 318deg, #0000 318.25deg),
-        conic-gradient(at 32% 50%, #0000 221.25deg, #00d2ff 222deg 318deg, #0000 318.25deg),
-        conic-gradient(at 41% 50%, #0000 221.25deg, #753000 222deg 318deg, #0000 318.25deg),
-        conic-gradient(at 50% 50%, #0000 221.25deg, black 222deg 318deg, #0000 318.25deg),
-        linear-gradient(red 0 16.66%, orange 0 33.33%, yellow 0 50%, green 0 66.66%, blue 0 83.33%, indigo 0);
+	background:
+		conic-gradient(at 14% 50%, #0000 221.25deg, white 222deg 318deg, #0000 318.25deg),
+		conic-gradient(at 23% 50%, #0000 221.25deg, #ffa6b9 222deg 318deg, #0000 318.25deg),
+		conic-gradient(at 32% 50%, #0000 221.25deg, #00d2ff 222deg 318deg, #0000 318.25deg),
+		conic-gradient(at 41% 50%, #0000 221.25deg, #753000 222deg 318deg, #0000 318.25deg),
+		conic-gradient(at 50% 50%, #0000 221.25deg, black 222deg 318deg, #0000 318.25deg),
+		linear-gradient(red 0 16.66%, orange 0 33.33%, yellow 0 50%, green 0 66.66%, blue 0 83.33%, indigo 0);
 }
 
 .flag.intersex-inclusive {
-    background:
-        radial-gradient(circle at 9.75% 50%, #0000 6.66%, darkviolet 6.7% 8.33%, #0000 8.4%),
-        conic-gradient(at 26.66% 50%, #0000 222.75deg, gold 0 317.25deg, #0000 0),
-        conic-gradient(at 33% 50%, #0000 222.75deg, white 0 317.25deg, #0000 0),
-        conic-gradient(at 39% 50%, #0000 222.75deg, #ffa6b9 0 317.25deg, #0000 0),
-        conic-gradient(at 45.66% 50%, #0000 222.75deg, #00d2ff 0 317.25deg, #0000 0),
-        conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
-        conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
-        linear-gradient(red 0 16.66%, orange 0 33.33%, yellow 0 50%, green 0 66.66%, blue 0 83.33%, indigo 0);
+	background:
+		radial-gradient(circle at 9.75% 50%, #0000 6.66%, darkviolet 6.7% 8.33%, #0000 8.4%),
+		conic-gradient(at 26.66% 50%, #0000 222.75deg, gold 0 317.25deg, #0000 0),
+		conic-gradient(at 33% 50%, #0000 222.75deg, white 0 317.25deg, #0000 0),
+		conic-gradient(at 39% 50%, #0000 222.75deg, #ffa6b9 0 317.25deg, #0000 0),
+		conic-gradient(at 45.66% 50%, #0000 222.75deg, #00d2ff 0 317.25deg, #0000 0),
+		conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
+		conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
+		linear-gradient(red 0 16.66%, orange 0 33.33%, yellow 0 50%, green 0 66.66%, blue 0 83.33%, indigo 0);
 }
 
 .flag.nonbinary {
-    background: linear-gradient(#fff430 25%, white 0 50%, #9c59d1 0 75%, black 0);
+	background: linear-gradient(#fff430 25%, white 0 50%, #9c59d1 0 75%, black 0);
 }
 
 .flag.graysexual {
-    background:
-    linear-gradient(darkmagenta 20%, darkgray 0 40%, white 0 60%, darkgray 0 80%, darkmagenta 0)
+	background:
+	linear-gradient(darkmagenta 20%, darkgray 0 40%, white 0 60%, darkgray 0 80%, darkmagenta 0)
 }
 
 .flag.lesbian {
-    background:
-        linear-gradient(#d52d00 0 14.28%, #ef7627 0 28.57%, #ff9a56 0 42.85%, white 0 57.14%, #d362a4 0 71.42%, #b85490 0 85.71%, #a30262 0);
+	background:
+		linear-gradient(#d52d00 0 14.28%, #ef7627 0 28.57%, #ff9a56 0 42.85%, white 0 57.14%, #d362a4 0 71.42%, #b85490 0 85.71%, #a30262 0);
 }
 
 .flag.agender {
-    background:
-        linear-gradient(black 0 14.28%, silver 0 28.57%, white 0 42.85%, #a3fa73 0 57.14%, white 0 71.42%, silver 0 85.71%, black 0);
+	background:
+		linear-gradient(black 0 14.28%, silver 0 28.57%, white 0 42.85%, #a3fa73 0 57.14%, white 0 71.42%, silver 0 85.71%, black 0);
 }
 
 .flag.bigender {
-    background:
-        linear-gradient(#d074a2 0 14.28%, #f8a1cd 0 28.57%, #d9c6ea 0 42.85%, white 0 57.14%, #d9c6ea 0 71.42%, #90c8ec 0 85.71%, #6583d5 0);
+	background:
+		linear-gradient(#d074a2 0 14.28%, #f8a1cd 0 28.57%, #d9c6ea 0 42.85%, white 0 57.14%, #d9c6ea 0 71.42%, #90c8ec 0 85.71%, #6583d5 0);
 }
 
 /* Coded by me */
 .flag.disability-pride {
-    aspect-ratio: 4 / 3;
-    background:
-        linear-gradient(37deg, #595959 0 35%,#CF7280 30% 41%, #EEDE77 30% 47%, #E8E8E8 30% 53%, #7bc2e0 30% 59%,#3BB07D 30% 65%, #595959 0);
+	aspect-ratio: 4 / 3;
+	background:
+		linear-gradient(37deg, #595959 0 35%,#CF7280 30% 41%, #EEDE77 30% 47%, #E8E8E8 30% 53%, #7bc2e0 30% 59%,#3BB07D 30% 65%, #595959 0);
 }
