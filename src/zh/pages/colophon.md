@@ -2,7 +2,7 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2025-11-20T12:28:49+0800 
+updated: 2026-01-11T17:44:08+0800
 ---
 ## 科技
 
@@ -38,7 +38,7 @@ Eleventy 内置了 Markdown 解析器 [markdown-it](https://www.npmjs.com/packag
 
 ## 字体
 
-* [Readex Pro](https://fonts.google.com/specimen/Readex+Pro)——拉丁字母和数字的默认字体。CSS 样式表和 WOFF2 字体格式由 [google-webfonts-helper](https://gwfh.mranftl.com/fonts) 生成。
+* [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)——拉丁字母和数字的默认字体。CSS 样式表和 WOFF2 字体格式由 [google-webfonts-helper](https://gwfh.mranftl.com/fonts) 生成。
 * [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)——单行距字体。
 
 ## 品牌
