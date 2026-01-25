@@ -2,12 +2,12 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2026-01-11T17:44:08+0800
+updated: 2026-01-26T00:55:22+0800
 ---
 ## 科技
 
 * 使用静态网页生成器 [Eleventy](https://www.11ty.dev/) 版本 {{ eleventy.version }} 构建。
-* JavaScript 运行环境：[Node.js](https://nodejs.org/).
+* JavaScript 软件包管理器：[pnpm](https://pnpm.io/)。
 * 模板语言：[Vento](https://vento.js.org/) 和 Markdown。
 * 测试浏览器：Mozilla Firefox、Vivaldi 和 Lynx。
 * 源代码可在[我的 Gitea 实例](https://git.helenchong.dev/helenchong/helenchong-blog)、[Codeberg](https://codeberg.org/helenchong/helenchong-blog) 或 [GitHub](https://github.com/helenclx/helenchong-blog) 上获取。
