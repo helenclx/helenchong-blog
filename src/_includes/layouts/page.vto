@@ -29,7 +29,7 @@ layout: layouts/base
 	{{ content }}
 	{{ if updated }}
 	<p class="updated">
-		{{ page.lang === "zh" ? "（" : "(" }}{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>{{ page.lang === "zh" ? "）" : ")" }}
+		{{ page.lang === "zh" ? "（" : "(" }}{{ langstrings[page.lang].updated }} <time datetime="{{ updated }}">{{ updated |> formatDate(page.lang) }}</time>{{ page.lang === "zh" ? "）" : ")" }}
 	</p>
 	{{ /if }}
 </article>
