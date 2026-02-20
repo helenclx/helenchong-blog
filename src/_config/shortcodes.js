@@ -3,7 +3,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addShortcode("cite", (str) => `<cite>${str}</cite>`);
 
 	// Paired shortcode: <figure> element
-	eleventyConfig.addPairedShortcode("imgFigure", (caption, imgUrl, alt, className="", imgAttrs="", id="", lazyLoad = true) => {
+	eleventyConfig.addPairedShortcode("imgFigure", (caption, imgUrl, alt=caption, className="", imgAttrs="", id="", lazyLoad=true) => {
 		const imgClass = className ? ` class="${className}"` : '';
 		const imgId = id ? ` id="${id}"` : '';
 		const lazyLoading = lazyLoad ? ' loading="lazy"' : '';
