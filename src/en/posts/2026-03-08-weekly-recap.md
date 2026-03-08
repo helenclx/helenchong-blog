@@ -22,7 +22,7 @@ On Friday, when my father was driving me in our family car to school, we got int
 
 Luckily, the accident was not serious, as our car was still operational, and I managed to arrived at my school campus without any injuries, though my father's right hand was sprained due to the impact happening while his hand was pressing the car horn.
 
-This means this car of ours need to be sent for repair — again. Just two weeks ago, on the day we were about to travel back home from my parents' hometown, our very same car's front plate was damaged by the car of another villager, so we needed to send our car to a car repair shop.
+This means this car of ours need to be sent for repair — again. Just two weeks ago, on the day we were about to travel back home after celebrating Lunar New Year in my parents' hometown, our very same car's front plate was damaged by the car of another villager, so we needed to send our car to a car repair shop.
 
 Fortunately, we still have another car at home, but we had no way to expect we had to send the same car for repair twice within two weeks due to damage to the front plate.
 
