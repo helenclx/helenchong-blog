@@ -1,31 +1,35 @@
 import pinyin from "pinyin";
 
 export default function(eleventyConfig) {
-	// English post topics
-	eleventyConfig.addCollection("topics_en", (collectionApi) => {
-		let topics = new Set();
-		let posts = collectionApi.getFilteredByTag("posts_en");
-		posts.forEach(p => {
-			let tops = p.data.topics;
-			if (tops) {
-				tops.forEach(c => topics.add(c));
-			}
-		});
-		return Array.from(topics).sort((a, b) => a.localeCompare(b, "en", {"sensitivity": "base"}));
-	});
+	// Add post topic collection by tag
+	function addTopicCollection(tag, comparator) {
+		return (collectionApi) => {
+			let topics = new Set();
+			let posts = collectionApi.getFilteredByTag(tag);
+			posts.forEach(p => {
+				let tops = p.data.topics;
+				if (tops) {
+					tops.forEach(c => topics.add(c));
+				}
+			});
+			return Array.from(topics).sort(comparator);
+		};
+	}
 
-	// Chinese post topics
-	eleventyConfig.addCollection("topics_zh", (collectionApi) => {
-		let topics = new Set();
-		let posts = collectionApi.getFilteredByTag("posts_zh");
-		posts.forEach(p => {
-			let tops = p.data.topics;
-			if (tops) {
-				tops.forEach(c => topics.add(c));
-			}
-		});
-		return Array.from(topics).sort(pinyin.compare);
-	});
+	// English post topic collection
+	eleventyConfig.addCollection(
+		"topics_en",
+		addTopicCollection(
+			"posts_en",
+			(a, b) => a.localeCompare(b, "en", {"sensitivity": "base"})
+		)
+	);
+
+	// Chinese post topic collection
+	eleventyConfig.addCollection(
+		"topics_zh",
+		addTopicCollection("posts_zh", pinyin.compare)
+	);
 
 	// Filter: Filter blog posts by topic
 	eleventyConfig.addFilter("filterByTopic", (posts, topic) => {
