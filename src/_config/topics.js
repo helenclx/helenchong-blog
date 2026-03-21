@@ -1,4 +1,4 @@
-import sortPinyin from "sort-by-pinyin";
+import pinyin from "pinyin";
 
 export default function(eleventyConfig) {
 	// English post topics
@@ -24,7 +24,7 @@ export default function(eleventyConfig) {
 				tops.forEach(c => topics.add(c));
 			}
 		});
-		return sortPinyin(Array.from(topics));
+		return Array.from(topics).sort(pinyin.compare);
 	});
 
 	// Filter: Filter blog posts by topic
