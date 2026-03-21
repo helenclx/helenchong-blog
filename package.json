@@ -8,9 +8,9 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "pnpm exec eleventy",
-		"build-quiet": "pnpm build --quiet",
-		"dev": "pnpm build-quiet --serve"
+		"build": "npx @11ty/eleventy",
+		"build-quiet": "npm run build -- --quiet",
+		"dev": "npm run build-quiet -- --serve"
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^3.1.5",
@@ -19,7 +19,6 @@
 		"eleventy-plugin-vento": "^5.4.2",
 		"limax": "^4.2.3",
 		"luxon": "^3.7.2",
-		"markdown-it": "^14.1.1",
 		"markdown-it-anchor": "^9.2.0",
 		"markdown-it-attrs": "^4.3.1",
 		"markdown-it-bracketed-spans": "^1.0.1",
