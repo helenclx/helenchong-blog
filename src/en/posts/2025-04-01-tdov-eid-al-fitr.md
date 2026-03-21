@@ -9,7 +9,7 @@ In 2025, Eid al-Fitr fell on March 31.
 
 While I am not a Muslim, I live in a majorly-Muslim country, so Eid al-Fitr is a major event. Every year, the leader of my state, referred to as the Chief Minister, hosts an open house on Eid al-Fitr where everyone can attend, with free meals and music performances available. Fun fact, in Malaysia, Eid al-Fitr is commonly referred to its Malay name, [<i>Hari Raya Aidilfitri</i>]{lang=ms} or [<i>Hari Raya Puasa</i>]{lang=ms}, even when speaking English.
 
-When the Chief Minister of my state hosts a open house for Eid al-Fitr, we would attend for a free lunch. Unsurprisingly, the free meals have always attracted a lot of people. Unfortunately, as an autistic person, I do not do particularly well in crowds as I am sensitive to loud sounds and my mind is rather easy to be overwhelmed by an unpredictable environment.
+When the Chief Minister of my state hosts an open house for Eid al-Fitr, we would attend for a free lunch. Unsurprisingly, the free meals have always attracted a lot of people. Unfortunately, as an autistic person, I do not do particularly well in crowds as I am sensitive to loud sounds and my mind is rather easy to be overwhelmed by an unpredictable environment.
 
 On top of that, my visual disabilities, especially with [retinitis pigmentosa](2024-12-21-living-with-retinitis-pigmentosa.md) (RP) weakening my peripheral vision, seeing and navigating my surroundings becomes more challenging in a large crowd. In fact, this year also marked my first visit to the Chief Minister's Eid al-Fitr open house since I got diagnosed with RP. During this visit, I tripped on a makeshift stair because I could not see the edge of the stairs clearly.
 
