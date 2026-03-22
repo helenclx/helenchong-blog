@@ -12,7 +12,7 @@ While I am not a Muslim, I live in a majorly-Muslim country, so Eid al-Fitr is a
 
 On the first day of Eid al-Fitr on March 21, my parents and I visited an open house for Eid al-Fitr hosted by the Chief Minister of our state, and took our lunch there.
 
-Our current home is only around five minutes away from the open house when travelling by car, but once we move to our new home, estimated to carry out this year, we will live too far away to be convenient to visit the Chief Minister's open house any more. Therefore, this may be our last time visiting the Chief Minister's open house.
+Our current home is only around five minutes away from the open house when travelling by car, but once we [move to our new home](2025-12-27-2026-things-look-forward.md#moving-to-a-new-house), estimated to carry out this year, we will live too far away to be convenient to visit the Chief Minister's open house any more. Therefore, this may be our last time visiting the Chief Minister's open house.
 
 ## Started Playing {{ cite "Beastieball" }}
 
