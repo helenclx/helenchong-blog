@@ -2,7 +2,7 @@
 title: 网站建立
 desc: 本部落格是如何建立的。
 tags: ["footernav_zh"]
-updated: 2026-03-21T21:56:11+0800
+updated: 2026-03-23T20:08:30+0800
 ---
 ## 科技
 
@@ -20,21 +20,28 @@ updated: 2026-03-21T21:56:11+0800
 
 在此之前，本部落格由 [Hostinger](https://www.hostinger.com/my) 的 Premium 共享主机套餐托管至 2025 年 5 月 14 日，以及由我从 [Chunkserve](https://chunkserve.com/) 租借的虚拟转筒服务器托管至 2025 年 5 月 27 日。
 
-## 插件
+## 软件依赖
+
+除了 Eleventy 之外，本部落格的构建还依赖于以下软件包：
+
+### Eleventy 插件
 
 * Eleventy 的官方 [RSS](https://www.11ty.dev/docs/plugins/rss/) 插件
 * Noel Forte 的 [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter 的 [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
-* [Luxon](https://moment.github.io/luxon/)
-* [limax](https://github.com/lovell/limax)
-* [sort-by-pinyin](https://github.com/lisposter/sort-by-pinyin)
-
 ### markdown-it 插件
 
 Eleventy 内置了 Markdown 解析器 [markdown-it](https://www.npmjs.com/package/markdown-it) 以将 Markdown 转换为 HTML。
+
 * [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
 * [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 * [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
+
+### 其它 npm 软件包
+
+* [Luxon](https://moment.github.io/luxon/)
+* [limax](https://github.com/lovell/limax)
+* [pinyin](https://pinyin.js.org/)
 
 ## 字体
 

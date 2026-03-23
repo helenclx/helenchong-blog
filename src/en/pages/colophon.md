@@ -2,7 +2,7 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2026-03-21T21:55:41+0800
+updated: 2026-03-23T20:08:20+0800
 ---
 ## Technology
 
@@ -20,21 +20,29 @@ updated: 2026-03-21T21:55:41+0800
 
 Previously, this blog was hosted on [Hostinger](https://www.hostinger.com/my)'s premium shared hosting plan until 14 May 2025, and a VPS I rented from [Chunkserve](https://chunkserve.com/) until 27 May 2025.
 
-## Plugins
+## Dependencies
+
+In addition to Eleventy, this blog depends on the following software packages to build:
+
+### Eleventy Plugins
 
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 * Noel Forte's [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * uncenter's [eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
-* [Luxon](https://moment.github.io/luxon/)
-* [limax](https://github.com/lovell/limax)
-* [sort-by-pinyin](https://github.com/lisposter/sort-by-pinyin)
 
-### markdown-it plugins
+### markdown-it Plugins
 
 Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.
+
 * [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
 * [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 * [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
+
+### Additional npm Packages
+
+* [Luxon](https://moment.github.io/luxon/)
+* [limax](https://github.com/lovell/limax)
+* [pinyin](https://pinyin.js.org/)
 
 ## Fonts
 
