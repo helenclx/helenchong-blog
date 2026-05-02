@@ -59,7 +59,6 @@ layout: layouts/base
 			{{ langstrings[page.lang].replyByEmail }}
 		</a>
 
-		{{# TODO: Uncomment after the issue with Eleventy's i18n plugin fetching collection items are fixed
 		{{ set postCollection = collections.posts }}
 		{{ if postCollection.length > 1 }}
 		<nav class="post__pagination" aria-labelledby="post-pagination">
@@ -81,6 +80,6 @@ layout: layouts/base
 				{{ /if }}
 			</ul>
 		</nav>
-		{{ /if }} #}}
+		{{ /if }}
 	</article>
 </post-wrapper>

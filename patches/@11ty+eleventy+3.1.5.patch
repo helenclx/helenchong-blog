@@ -1,0 +1,17 @@
+diff --git a/node_modules/@11ty/eleventy/src/Filters/GetLocaleCollectionItem.js b/node_modules/@11ty/eleventy/src/Filters/GetLocaleCollectionItem.js
+index 1f96622..304ca97 100644
+--- a/node_modules/@11ty/eleventy/src/Filters/GetLocaleCollectionItem.js
++++ b/node_modules/@11ty/eleventy/src/Filters/GetLocaleCollectionItem.js
+@@ -36,11 +36,7 @@ function getLocaleCollectionItem(config, collection, pageOverride, langCode, ind
+ 	}
+ 
+ 	// find the modified locale `page` again in `collections.all`
+-	let all =
+-		this.collections?.all ||
+-		this.ctx?.collections?.all ||
+-		this.context?.environments?.collections?.all ||
+-		[];
++	let all = this.collections?.all || this.data?.collections?.all || [];
+ 	return getCollectionItem(all, modifiedLocalePage, 0);
+ }
+ 
