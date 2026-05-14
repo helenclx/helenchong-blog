@@ -147,7 +147,7 @@ post-wrapper {
 	text-align: center;
 	display: grid;
 	gap: 0.7em;
-	padding: 1em 1em 3.5em;
+	padding: 1em;
 	border-top: var(--bdr-layout);
 }
 
