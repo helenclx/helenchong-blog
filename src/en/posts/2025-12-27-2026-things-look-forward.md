@@ -2,7 +2,7 @@
 title: What I Look Forward to in 2026
 desc: 2025 is ending, but there are things I look forward to in 2026.
 date: 2025-12-27T16:49:51+0800
-topics: ['2026', '42 the school', 'housing']
+topics: ['2026', '42 the school', 'moving house']
 ---
 2025 is coming to an end. I do not typically plan new year resolutions, because the older I got, the more aware I am of how unpredictable the future can be, and unexpected things that can disrupt our plan can happen anytime.
 
