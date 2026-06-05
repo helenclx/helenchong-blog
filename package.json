@@ -13,7 +13,7 @@
 		"dev": "npm run build-quiet -- --serve"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "^3.1.5",
+		"@11ty/eleventy": "^3.1.6",
 		"@11ty/eleventy-plugin-rss": "^3.0.0",
 		"@uncenter/eleventy-plugin-toc": "^2.1.1",
 		"eleventy-plugin-vento": "^5.4.2",
