@@ -1,5 +1,5 @@
 ---
-title: 本周回顾： 2026 年 3 月 1 日
+title: 本周回顾：2026 年 3 月 1 日
 desc: 2026 年 2 月 23 日至 3 月 1 日：宝可梦三十周年、《Scarlet Hollow》第五集、《星露谷物语》十周年，还有更多。
 date: 2026-03-01T19:37:59+0800
 topics: [本周回顾, 宝可梦, Scarlet Hollow, 星露谷物语, WordPress]
