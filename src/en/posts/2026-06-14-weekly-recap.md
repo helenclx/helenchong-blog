@@ -4,6 +4,8 @@ desc: "June 8 to 14, 2026: 'Cassette Beasts 2002' announced, briefly trying out 
 date: 2026-06-14T19:52:44+0800
 topics: [weekly recap, Cassette Beasts, Pokemon]
 ---
+Happy Pride Month! 🏳️‍🌈
+
 ## {{ cite "Cassette Beasts 2002" }} Announced
 
 {{ cite "Cassette Beasts" }}, [my favourite video game ever](2024-11-19-my-ultimate-comfort-media.md), is officially becoming a series, with a new follow-up game coming — {{ cite "Cassette Beasts 2002" }}!
