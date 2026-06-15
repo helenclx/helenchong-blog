@@ -1,7 +1,7 @@
 ---
 title: Licence
 tags: ["footernav_en"]
-updated: 2026-02-18T12:34:00+0800
+updated: 2026-06-15T18:21:06+0800
 eleventyComputed:
   desc: "{{ sitemeta[page.lang].siteName }}'s licence notice."
 ---
@@ -28,7 +28,7 @@ Under the following conditions:
 - The authors are not liable for any damages.
 
 The complete source code and licence text of this website can be found on:
-- [My self-hosted Gitea instance](https://git.helenchong.dev/helenchong/helenchong-blog)
+- [My self-hosted Forgejo instance](https://git.helenchong.dev/helenchong/helenchong-blog)
 - [SourceTube](https://source.tube/helenchong/helenchong-blog)
 - [Codeberg](https://codeberg.org/helenchong/helenchong-blog)
 - [GitHub](https://github.com/helenclx/helenchong-blog)

@@ -1,7 +1,7 @@
 ---
 title: 许可
 tags: ["footernav_zh"]
-updated: 2026-02-18T12:36:18+0800
+updated: 2026-06-15T18:21:20+0800
 eleventyComputed:
   desc: "{{ sitemeta[page.lang].siteName }}的许可声明。"
 ---
@@ -28,7 +28,7 @@ eleventyComputed:
 - 作者对任何损害概不负责。
 
 本网站的完整源代码和许可文本可查阅：
-- [我自托管的 Gitea 实例](https://git.helenchong.dev/helenchong/helenchong-blog)
+- [我自托管的 Forgejo 实例](https://git.helenchong.dev/helenchong/helenchong-blog)
 - [SourceTube](https://source.tube/helenchong/helenchong-blog)
 - [Codeberg](https://codeberg.org/helenchong/helenchong-blog)
 - [GitHub](https://github.com/helenclx/helenchong-blog)
