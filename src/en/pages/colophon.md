@@ -2,7 +2,7 @@
 title: Colophon
 desc: How this blog is built.
 tags: ["footernav_en"]
-updated: 2026-03-23T20:08:20+0800
+updated: 2026-06-15T18:09:42+0800
 ---
 ## Technology
 
@@ -10,11 +10,11 @@ updated: 2026-03-23T20:08:20+0800
 * JavaScript runtime: [Node.js](https://nodejs.org/).
 * Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested web browsers: Mozilla Firefox, Vivaldi, W3m and Lynx.
-* Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong-blog), [SourceTube](https://source.tube/helenchong/helenchong-blog), [Codeberg](https://codeberg.org/helenchong/helenchong-blog) and [GitHub](https://github.com/helenclx/helenchong-blog).
+* Source code available on [my Forgejo instance](https://git.helenchong.dev/helenchong/helenchong-blog), [SourceTube](https://source.tube/helenchong/helenchong-blog), [Codeberg](https://codeberg.org/helenchong/helenchong-blog) and [GitHub](https://github.com/helenclx/helenchong-blog).
 
 ## Host and Domain
 
-* Hosted on a virtual private server (VPS) I rented from [DeluxHost](https://deluxhost.net/).
+* Hosted on a virtual private server (VPS) I rented from [Chunkserve](https://chunkserve.com/).
 * Web server: [Caddy](https://caddyserver.com/).
 * The address, {{ sitemeta.siteDomain }}, is a subdomain of my [omg.lol](https://home.omg.lol/) address: [helenchong.omg.lol](https://helenchong.omg.lol/), which was registered and purchased on 19 October 2024 for a lifetime membership of omg.lol.
 
