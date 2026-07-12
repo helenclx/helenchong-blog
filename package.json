@@ -19,7 +19,7 @@
 		"eleventy-plugin-vento": "^5.4.2",
 		"limax": "^4.2.3",
 		"luxon": "^3.7.2",
-		"markdown-it-anchor": "^9.2.0",
+		"markdown-it-anchor": "^9.2.1",
 		"markdown-it-attrs": "^5.0.0",
 		"markdown-it-bracketed-spans": "^1.0.1",
 		"pinyin": "^4.0.0"
