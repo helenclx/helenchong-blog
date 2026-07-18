@@ -1,5 +1,5 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
-import { siteUrl, feedPath, en, zh } from "../_data/sitemeta.js";
+import { en, feedPath, siteUrl, zh } from "../_data/sitemeta.js";
 
 export default function (eleventyConfig) {
 	// English feed
