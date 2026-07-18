@@ -9,7 +9,9 @@ export default function (eleventyConfig) {
 			posts.forEach((p) => {
 				const tops = p.data.topics;
 				if (tops) {
-					tops.forEach((c) => topics.add(c));
+					tops.forEach((c) => {
+						topics.add(c);
+					});
 				}
 			});
 			return Array.from(topics).sort(comparator);
@@ -34,9 +36,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addFilter("filterByTopic", (posts, topic) => {
 		const result = posts.filter((p) => {
 			const tops = p.data.topics;
-			if (tops) {
-				return tops.includes(topic);
-			}
+			return tops ? tops.includes(topic) : false;
 		});
 		return result;
 	});
