@@ -5,7 +5,7 @@ export default function (eleventyConfig) {
 	// English feed
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
-		outputPath: "/en/" + feedPath,
+		outputPath: `/en/${feedPath}`,
 		collection: {
 			name: "posts_en",
 			limit: 10,
@@ -14,7 +14,7 @@ export default function (eleventyConfig) {
 			language: "en",
 			title: en.siteName,
 			subtitle: en.siteDescription(),
-			base: siteUrl + "/en/",
+			base: `${siteUrl}/en/`,
 			author: {
 				name: en.siteAuthor.name,
 				email: en.siteAuthor.email,
@@ -25,7 +25,7 @@ export default function (eleventyConfig) {
 	// Chinese feed
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
-		outputPath: "/zh/" + feedPath,
+		outputPath: `/zh/${feedPath}`,
 		collection: {
 			name: "posts_zh",
 			limit: 10,
@@ -34,7 +34,7 @@ export default function (eleventyConfig) {
 			language: "zh",
 			title: zh.siteName,
 			subtitle: zh.siteDescription(),
-			base: siteUrl + "/zh/",
+			base: `${siteUrl}/zh/`,
 			author: {
 				name: zh.siteAuthor.name,
 				email: zh.siteAuthor.email,
