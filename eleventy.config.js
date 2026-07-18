@@ -23,9 +23,8 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 	eleventyConfig.addPlugin(tocPlugin, {
 		tags: ["h2", "h3", "h4", "h5", "h6"],
-		wrapper: function (toc) {
-			return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
-		},
+		wrapper: (toc) =>
+			`<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`,
 	});
 
 	// ----- Custom configurations
