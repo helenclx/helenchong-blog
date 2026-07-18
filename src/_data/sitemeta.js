@@ -1,5 +1,5 @@
 export const siteDomain = "blog.helenchong.omg.lol";
-export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
+export const siteUrl = `https://${siteDomain}` || "http://localhost:8080";
 export const siteAuthor = {
 	email: "helenchong@omg.lol",
 	emailEncoded:
@@ -27,10 +27,10 @@ export const en = {
 	siteName: "Galaxy Garden",
 	siteAuthor: {
 		name: "Helen Chong",
-		url: siteUrl + "/en/about",
+		url: `${siteUrl}/en/about`,
 	},
 	siteDescription() {
-		return this.siteAuthor.name + "'s personal blog.";
+		return `${this.siteAuthor.name}'s personal blog.`;
 	},
 };
 
@@ -38,9 +38,9 @@ export const zh = {
 	siteName: "银河花园",
 	siteAuthor: {
 		name: "Helen Chong",
-		url: siteUrl + "/zh/about",
+		url: `${siteUrl}/zh/about`,
 	},
 	siteDescription() {
-		return this.siteAuthor.name + "的个人部落格。";
+		return `${this.siteAuthor.name} 的个人部落格。`;
 	},
 };
