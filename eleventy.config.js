@@ -10,9 +10,9 @@ import { VentoPlugin } from "eleventy-plugin-vento";
 import feedsConfig from "./src/_config/feeds.js";
 import filesConfig from "./src/_config/files.js";
 import filtersConfig from "./src/_config/filters.js";
-import topicsConfig from "./src/_config/topics.js";
 import markdownItConfig from "./src/_config/markdown-it.js";
 import shortcodesConfig from "./src/_config/shortcodes.js";
+import topicsConfig from "./src/_config/topics.js";
 
 export default function (eleventyConfig) {
 	// ----- Plugins
