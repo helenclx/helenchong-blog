@@ -5,6 +5,7 @@ updated: 2026-06-15T18:21:20+0800
 eleventyComputed:
   desc: "{{ sitemeta[page.lang].siteName }}的许可声明。"
 ---
+
 本网站 {{ sitemeta.siteDomain }}、其源代码及内容采用双重许可模式授权。这意味着本网站的不同部分适用不同的许可协议。
 
 ## 代码许可
@@ -28,6 +29,7 @@ eleventyComputed:
 - 作者对任何损害概不负责。
 
 本网站的完整源代码和许可文本可查阅：
+
 - [我自托管的 Forgejo 实例](https://git.helenchong.dev/helenchong/helenchong-blog)
 - [SourceTube](https://source.tube/helenchong/helenchong-blog)
 - [Codeberg](https://codeberg.org/helenchong/helenchong-blog)

@@ -21,8 +21,12 @@
 	--bdr-prose: 0.2rem solid var(--clr-accent-2);
 	--bdr-hr: 0.1rem solid var(--clr-accent-2);
 
-	--ff-default: 'IBM Plex Sans', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-	--ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	--ff-default:
+		"IBM Plex Sans", Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+		sans-serif;
+	--ff-monospace:
+		"Intel One Mono", ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+		Consolas, "DejaVu Sans Mono", monospace;
 
 	--fs-main: clamp(1.125rem, 1.089rem + 0.179vw, 1.25rem);
 	--fs-h1: clamp(2.2rem, 2.057rem + 0.714vw, 2.7rem);
@@ -40,7 +44,9 @@
 /* ------------------- */
 
 @layer reset {
-	*, *::before, *::after {
+	*,
+	*::before,
+	*::after {
 		box-sizing: border-box;
 	}
 
@@ -53,26 +59,50 @@
 		line-height: 1.5;
 	}
 
-	h1, h2, h3, h4, h5, h6,
-	button, input, label {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	button,
+	input,
+	label {
 		line-height: 1.1;
 	}
 
-	p, h1, h2, h3, h4, h5, h6 {
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		overflow-wrap: break-word;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		text-wrap: balance;
 	}
 
-	img, picture, video, canvas {
+	img,
+	picture,
+	video,
+	canvas {
 		max-width: 100%;
 		height: auto;
 		display: block;
 	}
 
-	input, button, textarea, select {
+	input,
+	button,
+	textarea,
+	select {
 		font: inherit;
 	}
 

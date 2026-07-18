@@ -27,7 +27,7 @@ My experience as a graphic designer had taught me the importance of building you
 
 At first, I built [my developer portfolio website](https://helenchong.dev/) by writing all the HTML, CSS and JavaScript code by hand. However, as I grew my developer website, particularly as I decided to add a blog to my website to document my developer journey, I started to realise that writing all the code by hand makes a website tedious to maintain and update, since it requires copying and pasting the part of the same HTML code over and over to make the page layout consistent across the website.
 
-As a consequence, I began to explore static site generators. In March, I discovered Eleventy, and I fell in love with it, so I decided to rebuild my developer website and blog with Eleventy, and[ completed the process in April 2024](https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/).
+As a consequence, I began to explore static site generators. In March, I discovered Eleventy, and I fell in love with it, so I decided to rebuild my developer website and blog with Eleventy, and[completed the process in April 2024](https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/).
 
 Eleventy has become my favourite tool to build my websites, including this very blog, because I adore not only the tool itself, but also its delightful community. I even got [my first opportunity to speak at a tech event](https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/), specifically [THE Eleventy Meetup](https://11tymeetup.dev/), thanks to the Eleventy community.
 

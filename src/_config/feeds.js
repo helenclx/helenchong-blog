@@ -1,7 +1,7 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { siteUrl, feedPath, en, zh } from "../_data/sitemeta.js";
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
 	// English feed
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
@@ -18,8 +18,8 @@ export default function(eleventyConfig) {
 			author: {
 				name: en.siteAuthor.name,
 				email: en.siteAuthor.email,
-			}
-		}
+			},
+		},
 	});
 
 	// Chinese feed
@@ -38,7 +38,7 @@ export default function(eleventyConfig) {
 			author: {
 				name: zh.siteAuthor.name,
 				email: zh.siteAuthor.email,
-			}
-		}
+			},
+		},
 	});
 }

@@ -4,6 +4,7 @@ desc: "January 26 to February 1, 2026: My student showcase presentation, VPS acc
 date: 2026-02-01T23:08:06+0800
 topics: [weekly recap, 42 the school, Pokemon, virtual private server]
 ---
+
 ## My Student Showcase Presentation
 
 My school, 42 Malaysia, just held a roadshow event on Tuesday and Wednesday.

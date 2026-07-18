@@ -5,6 +5,7 @@ date: 2025-08-16T11:41:16+0800
 updated: 2025-08-17T10:08:47+0800
 topics: ['dogs', 'Bak Baan the dog']
 ---
+
 Ever since I met my uncle's dog, Bak Baan, for the first time in late January 2025 during [Lunar New Year](2025-02-06-my-2025-lunar-new-year.md), seeing Bak Baan has become what I look forward to most when we visit our family's durian plantation, for which my uncle is the main caretaker, in my parents' hometown.
 
 In early April, during the [Qingming Festival](2025-04-06-my-2025-qingming.md), I learned that Bak Baan was pregnant, and then in late April, my uncle informed us that Bak Baan gave birth on April 29. Since then, my uncle occasionally shared about Bak Baan's puppies, often with pictures or videos, with my parents, often with pictures or videos who in turn share with me.

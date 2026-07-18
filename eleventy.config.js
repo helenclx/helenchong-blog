@@ -1,7 +1,10 @@
 // Plugins
-import { EleventyI18nPlugin, InputPathToUrlTransformPlugin } from "@11ty/eleventy";
-import tocPlugin from '@uncenter/eleventy-plugin-toc';
-import { VentoPlugin } from 'eleventy-plugin-vento';
+import {
+	EleventyI18nPlugin,
+	InputPathToUrlTransformPlugin,
+} from "@11ty/eleventy";
+import tocPlugin from "@uncenter/eleventy-plugin-toc";
+import { VentoPlugin } from "eleventy-plugin-vento";
 
 // Custom configurations
 import feedsConfig from "./src/_config/feeds.js";
@@ -11,15 +14,15 @@ import topicsConfig from "./src/_config/topics.js";
 import markdownItConfig from "./src/_config/markdown-it.js";
 import shortcodesConfig from "./src/_config/shortcodes.js";
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
 	// ----- Plugins
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: "en",
-		errorMode: "allow-fallback"
+		errorMode: "allow-fallback",
 	});
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 	eleventyConfig.addPlugin(tocPlugin, {
-		tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
+		tags: ["h2", "h3", "h4", "h5", "h6"],
 		wrapper: function (toc) {
 			return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
 		},
@@ -43,7 +46,7 @@ export default function(eleventyConfig) {
 		markdownTemplateEngine: "vto",
 		htmlTemplateEngine: "vto",
 		dir: {
-			input: "src"
-		}
+			input: "src",
+		},
 	};
-};
+}

@@ -8,10 +8,10 @@ eleventyComputed:
 <h2>This blog is available in these languages:</h2>
 <ul>
 	{{ for lang, values of sitemeta.siteLang }}
-	<li>
-		<a href="/{{ values.code }}/">
-			<strong><span lang="{{ values.code }}">{{ values.long }}</span></strong>
-		</a>
-	</li>
+		<li>
+			<a href="/{{ values.code }}/">
+				<strong><span lang="{{ values.code }}">{{ values.long }}</span></strong>
+			</a>
+		</li>
 	{{ /for }}
 </ul>

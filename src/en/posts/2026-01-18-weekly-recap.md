@@ -4,6 +4,7 @@ desc: "January 12 to 18, 2026: School gathering and open day, Animal Crossing: N
 date: 2026-01-18T18:24:23+0800
 topics: [weekly recap, 42 the school, Animal Crossing]
 ---
+
 Inspired by the weekly and monthly recap posts by other bloggers, I decided to start writing such form of blog posts myself as a way to share what I have been up to, and interesting things I have discovered.
 
 ---

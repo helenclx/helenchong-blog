@@ -4,6 +4,7 @@ desc: "January 19 to 25, 2026: Student showcase preparation,  Pokémon Legends: 
 date: 2026-01-25T17:56:05+0800
 topics: [weekly recap, 42 the school, Pokemon]
 ---
+
 ## Preparing for Student Showcase Presentation
 
 I mentioned in [my previous weekly recap post](2026-01-18-weekly-recap.md) that I and two other classmates were invited by the campus staff of my school, a Malaysian campus of 42 the computer science school to take part in a student showcase in an upcoming school event on January 28 and present our projects and share our 42 school journey.

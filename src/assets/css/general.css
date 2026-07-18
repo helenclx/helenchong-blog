@@ -5,30 +5,62 @@ body {
 	color: var(--clr-body-txt);
 }
 
-main { padding: 0 0.5em; }
+main {
+	padding: 0 0.5em;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 700;
 	color: var(--clr-accent-600);
 	font-family: var(--ff-heading);
 }
 
-h1 { font-size: var(--fs-h1); }
-h2, .h2 { font-size: var(--fs-h2); }
-h3, .h3 { font-size: var(--fs-h3); }
-h4 { font-size: var(--fs-h4); }
+h1 {
+	font-size: var(--fs-h1);
+}
+h2,
+.h2 {
+	font-size: var(--fs-h2);
+}
+h3,
+.h3 {
+	font-size: var(--fs-h3);
+}
+h4 {
+	font-size: var(--fs-h4);
+}
 
-h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
-h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.7em; }
+h2:has(+ *[class]:not(.heading-anchor)),
+.h2:has(+ *[class]),
+h3:has(+ *[class]:not(.heading-anchor)),
+.h3:has(+ *[class]) {
+	margin-bottom: 0.7em;
+}
 
-a { color: var(--clr-accent-3); }
-a:hover { color: var(--clr-accent-4); }
-a:focus, a:hover > img { outline: 0.15em solid currentColor; }
+a {
+	color: var(--clr-accent-3);
+}
+a:hover {
+	color: var(--clr-accent-4);
+}
+a:focus,
+a:hover > img {
+	outline: 0.15em solid currentColor;
+}
 
 a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture)),
-.external-link { padding-right: 1.1em; }
+.external-link {
+	padding-right: 1.1em;
+}
 
-a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture))::after,
+a[href^="http"]:not([href*="helenchong.omg.lol"]):not(
+	:has(img, svg, picture)
+)::after,
 .external-link::after {
 	position: absolute;
 	content: "";
@@ -43,7 +75,8 @@ a[href^="http"]:not([href*="helenchong.omg.lol"]):not(:has(img, svg, picture))::
 	transform: translateY(0.28em);
 }
 
-ul:not([class]), ol:not([class]) {
+ul:not([class]),
+ol:not([class]) {
 	display: grid;
 	gap: var(--sz-list-gap);
 }
@@ -55,7 +88,9 @@ blockquote {
 	margin-bottom: 1em;
 }
 
-blockquote > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
+blockquote > * + :not([class]) {
+	margin-block-start: var(--sz-paragraph-margin);
+}
 
 figure {
 	display: grid;
@@ -82,7 +117,10 @@ code {
 :not(pre) > code {
 	padding: 0.125em 0.25em;
 }
-:not(pre) > code, pre { background-color: var(--clr-quote-bg); }
+:not(pre) > code,
+pre {
+	background-color: var(--clr-quote-bg);
+}
 
 pre {
 	border: 0.1em solid var(--clr-code-border);
@@ -94,5 +132,9 @@ pre {
 	white-space: pre;
 }
 
-:focus { outline: 0.15em solid currentColor; }
-details:focus { outline-offset: 0.2em; }
+:focus {
+	outline: 0.15em solid currentColor;
+}
+details:focus {
+	outline-offset: 0.2em;
+}

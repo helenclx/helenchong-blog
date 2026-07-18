@@ -44,7 +44,7 @@ Riccardo has written a [round-up article](https://tilde.team/~zinricky/indieweb-
 
 > Thank you, [Helen](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/), for posting from the part of the world I know less about. If my old friend Hai Xin read my blog, I would tell him to check the [Chinese](https://blog.helenchong.omg.lol/zh/posts/2024-10-25-indieweb-carnival-multilingualism/) version.
 >
-> > Galaxy Garden also marked my first time building a multilingual website, so setting up this blog has been quite a learning experience on the technical side too.
+>> Galaxy Garden also marked my first time building a multilingual website, so setting up this blog has been quite a learning experience on the technical side too.
 >
 > I, too, noticed that maintaining a multi-language site isn’t trivial; in addition, many site generators don’t help at all, or at most provide some rudimentary tool.
 

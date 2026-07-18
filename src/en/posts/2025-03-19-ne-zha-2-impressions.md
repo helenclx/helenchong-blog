@@ -5,7 +5,7 @@ date: 2025-03-19T19:01:33+0800
 topics: ["films"]
 ---
 
-On the afternoon of 18 March 2025, my parents and I went to the cinema to watch  {{ cite "Ne Zha 2" }} ([哪吒之魔童闹海]{lang=zh}), an animated film produced in mainland China.
+On the afternoon of 18 March 2025, my parents and I went to the cinema to watch {{ cite "Ne Zha 2" }} ([哪吒之魔童闹海]{lang=zh}), an animated film produced in mainland China.
 
 To be honest, my parents were more excited about watching this film than I was. After finding out that {{ cite "Ne Zha 2" }} was a massive box office success in China, my parents were looking forward to its release in Malaysia. As soon as {{ cite "Ne Zha 2" }} started to be shown in cinema in Malaysia, my parents talked about their plans to watch the film, and even watched its predecessor, {{ cite "Ne Zha" }} ([哪吒之魔童降世]{lang=zh}), at home the night before watching {{ cite "Ne Zha 2" }} to do their homework.
 

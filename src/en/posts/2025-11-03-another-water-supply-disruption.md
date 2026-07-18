@@ -4,7 +4,8 @@ desc: After experiencing the longest water supply cut in my life in May, my hous
 date: 2025-11-03T23:26:42+0800
 topics: ['water cut']
 ---
-Having to endure an unscheduled water supply cut that lasted more than a day was not in my 2025 bingo card, let alone having to experience it *twice* in the same year.
+
+Having to endure an unscheduled water supply cut that lasted more than a day was not in my 2025 bingo card, let alone having to experience it _twice_ in the same year.
 
 In [late May](2025-05-24-water-supply-disruption.md), my house experienced the longest unexpected water supply disruption in my life — an unexpected breakdown of the main pumps that channel water to our area's water treatment plant caused an unscheduled water supply cut in my city that lasted more than two days.
 

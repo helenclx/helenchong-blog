@@ -5,6 +5,7 @@ date: 2025-09-19T18:48:22+0800
 topics: ['omg.lol']
 toc: true
 ---
+
 2025 年 9 月 19 日是我加入 [omg.lol](https://home.omg.lol/) ——一个包括各类服务的网络平台——的一周年。祝我 omg.lol 生日快乐！🥳
 
 2024 年今日时，我在 omg.lol 举办的圣犹达儿童研究医院（St. Jude Children's Research Hospital）筹款活动时成功拍卖到 omg.lol 终身会员资格后便加入 omg.lol。一个月后，我写了一篇部落格文章庆祝[加入 omg.lol 一个月](2024-10-19-omg-lol-membership-one-month-anniversary.md)。文中也说明我如何发现 omg.lol。
@@ -61,7 +62,7 @@ omg.lol 为每位会员提供以 omg.lol 为域名的电邮转发地址。拥有
 
 我时常参与 omg.lol 拥有自己的群聊网络。omg.lol 有个美好的、由世界各地各式各样的人组成的社区。
 
-除了能和 omg.lol 社区里的人联系，omg.lol 的群聊网络鼓励我首次开始使用 [IRC](https://zh.wikipedia.org/wiki/IRC)。这也导致我自托管自己的  [The Lounge](https://thelounge.chat/)——一个 IRC 的网页客服——的实例。
+除了能和 omg.lol 社区里的人联系，omg.lol 的群聊网络鼓励我首次开始使用 [IRC](https://zh.wikipedia.org/wiki/IRC)。这也导致我自托管自己的 [The Lounge](https://thelounge.chat/)——一个 IRC 的网页客服——的实例。
 
 近期，omg.lol 开始托管自己的 The Lounge 实例，并可通过 [chat.social.lol](https://chat.social.lol/) 网址访问。
 
@@ -69,7 +70,7 @@ omg.lol 为每位会员提供以 omg.lol 为域名的电邮转发地址。拥有
 
 ## Mastodon
 
-omg.lol 拥有自己的 [Mastodon](https://zh.wikipedia.org/wiki/Mastodon) 实例，位于  [social.lol](https://social.lol/)，也是我在[联邦宇宙](https://zh.wikipedia.org/wiki/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99)（Fediverse）的主要栖息地。
+omg.lol 拥有自己的 [Mastodon](https://zh.wikipedia.org/wiki/Mastodon) 实例，位于 [social.lol](https://social.lol/)，也是我在[联邦宇宙](https://zh.wikipedia.org/wiki/%E8%81%94%E9%82%A6%E5%AE%87%E5%AE%99)（Fediverse）的主要栖息地。
 
 除了群聊网络之外，social.lol 也是我与其他 omg.lol 会员联系的另一个平台。omg.lol 的[行为守则](https://home.omg.lol/info/code-of-conduct)和[社区管理](https://home.omg.lol/info/moderation)确保无论该社区的活动在哪里进行，都能有包容和反歧视的环境。
 

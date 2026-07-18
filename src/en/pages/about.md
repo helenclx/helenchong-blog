@@ -4,6 +4,7 @@ desc: About this blog and its author.
 tags: ["headernav_en"]
 toc: true
 ---
+
 {{ imgFigure "/assets/galaxygarden/profilepic.webp", sitemeta[page.lang].siteName + "'s profile picture", "profilepic" }}
 [Image description: Cartoon digital illustration of a Chinese person with light skin and black hair, wearing a pair of red glasses and a purple polo shirt, on a light purple background. Description ends.]
 {{ /imgFigure }}
@@ -29,7 +30,7 @@ Technical information about {{ sitemeta[page.lang].siteName }} can be found on t
 ## Blog Badge
 
 {{ imgFigure "/assets/galaxygarden/galaxy-garden-88x31.svg", sitemeta[page.lang].siteName + "'s 88x31 badge", "grid-center", 'width="176" height="62"' }}
-[Image description: {{ langstrings[page.lang].siteBadgeAlt  }} Description ends.]
+[Image description: {{ langstrings[page.lang].siteBadgeAlt }} Description ends.]
 {{ /imgFigure }}
 
 I have designed and made a 88x31 badge for {{ sitemeta[page.lang].siteName }}, so if you want to link back to this blog, you may use this badge.

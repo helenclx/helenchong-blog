@@ -5,6 +5,7 @@ date: 2024-10-08T12:23:06+0800
 topics: ["Galaxy Garden"]
 toc: true
 ---
+
 Hello, welcome to Galaxy Garden, my new personal blog!
 
 ## About the Blogger
@@ -24,6 +25,7 @@ The blog name, Galaxy Garden, is based on the name of my first blogs in the 2000
 The blog's address, `blog.helenchong.omg.lol` is a subdomain of `helenchong.omg.lol`, which I registered and purchased on [omg.lol](https://home.omg.lol/).
 
 Galaxy Garden is available in two languages: English and Simplified Chinese. I choose support these two languages because:
+
 - I was raised to be equally proficient in Mandarin Chinese (my native language) and English;
 - I want more practice in writing in Chinese, since I have been doing most of my digital writing in English throughout my adulthood. Incidentally, this is also why I write my pen and paer journal in Chinese;
 - I wrote my very first blogs in the 2000s in Chinese;

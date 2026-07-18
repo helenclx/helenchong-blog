@@ -4,6 +4,7 @@ desc: "February 23 to March 1, 2026: Pokémon 30th anniversary, Scarlet Hollow E
 date: 2026-03-01T19:37:59+0800
 topics: [weekly recap, Pokemon, Scarlet Hollow, Stardew Valley, WordPress]
 ---
+
 It is March now, and today being March 1 also means it is [Zero Discrimination Day](https://www.unaids.org/en/zero-discrimination-day).
 
 ## Returning to School After Lunar New Year Break
@@ -28,7 +29,7 @@ Aside from everything that was announced in Pokémon Presents, logos featuring e
 
 I was immediately hooked again after returning to {{ cite "Scarlet Hollow" }}. There are still two more episodes to be released for the game to be officially completed, but Episode 5 has started to reveal the overarching narrative to the forefront, raising the stakes even higher.
 
-If you are a fan of horror, visual novels, choice-based narrative games, or any combination of the above, I cannot recommend Black Tabby Games' works enough. 
+If you are a fan of horror, visual novels, choice-based narrative games, or any combination of the above, I cannot recommend Black Tabby Games' works enough.
 
 ## Web Browsing Highlights
 

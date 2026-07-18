@@ -20,7 +20,8 @@
 }
 
 /* Profile picture */
-img.profilepic, .profilepic img {
+img.profilepic,
+.profilepic img {
 	border-radius: 1rem;
 	width: 15rem;
 	margin: 0.5em auto;
@@ -45,7 +46,9 @@ img.profilepic, .profilepic img {
 	align-items: baseline;
 }
 
-* + .heading-wrapper { margin-top: 1.8em; }
+* + .heading-wrapper {
+	margin-top: 1.8em;
+}
 
 .heading-anchor {
 	order: -1;
@@ -85,7 +88,9 @@ img.profilepic, .profilepic img {
 	border: var(--bdr-layout);
 }
 
-.page > .toc__wrapper { width: 100%; }
+.page > .toc__wrapper {
+	width: 100%;
+}
 
 .post-toc {
 	max-height: 90vh;
@@ -103,7 +108,8 @@ img.profilepic, .profilepic img {
 	margin-bottom: 0.5em;
 }
 
-.toc ol, .toc ol ol {
+.toc ol,
+.toc ol ol {
 	display: grid;
 	gap: 0.3em;
 }
@@ -147,7 +153,9 @@ img.profilepic, .profilepic img {
 	gap: 0.3em;
 }
 
-.socials__icon { height: 2rem; }
+.socials__icon {
+	height: 2rem;
+}
 
 /* Back to Top link */
 .top-btn__arrow {

@@ -4,6 +4,7 @@ desc: My new eye doctor confirmed that I have reached the advanced stage of reti
 date: 2026-03-14T19:57:53+0800
 topics: [retinitis pigmentosa]
 ---
+
 I was officially diagnosed with retinitis pigmentosa (RP) on 30 November 2024 when seeing an eye doctor, then I wrote a [post about living with RP](2024-12-21-living-with-retinitis-pigmentosa.md) in December.
 
 On 12 March 2026, 15 months after my initial RP diagnosis, I went to see another eye doctor for more thorough eye examinations, after a relative who also has RP recommended the doctor. After a series of eye examinations, my new eye doctor further confirmed that I not only have RP, but have also entered the advanced stage of RP. During my initial diagnosis, my previous eye doctor did not clarify how far my RP condition has progressed.

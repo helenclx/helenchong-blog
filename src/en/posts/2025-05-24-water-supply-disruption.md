@@ -4,6 +4,7 @@ desc: I just experienced the longest unexpected water supply disruption in my li
 date: 2025-05-24T19:18:38+0800
 topics: ["water cut"]
 ---
+
 Recently, my home went through the longest unexpected water supply disruption in my life.
 
 On May 20 Tuesday night, the water pressure of my home saw a noticeable drop, enough that my shower's water heater would not heat up the water, so I ended up taking a cold shower.
@@ -20,8 +21,8 @@ As if the disruption to our daily routing caused by the unexpected water cut was
 
 Came May 23 Friday morning, my home still did not get water back, and we started to get anxious, especially since our water reserve was also running out. We could not wait to let days of unclean clothes piled up for any longer, so we had to bring our clothes to a laundry shop and wash our clothes there. The last time I visited a laundry shop was during my university school years when I stayed in a condominium that served as our student hostel. While waiting for our clothes to finish washing, we had lunch at a mixed rice restaurant that provided free drinking water.
 
-After going back home and hang our washed clothes outside our house, I took another whole tablet of runny nose medicine instead of just half, and had a nap to let my nose recover. When I was napping, my home's water supply *finally* began to come back, enough for my father to brew coffee again. Therefore, I decided to take the opportunity to enjoy coffee at home again to celebrate the return of our water supply, and my nose recovering. My home's water pressure was still yet to return to normal, but at least it was enough for us to cook again, and to have a proper shower and wash our hair.
+After going back home and hang our washed clothes outside our house, I took another whole tablet of runny nose medicine instead of just half, and had a nap to let my nose recover. When I was napping, my home's water supply _finally_ began to come back, enough for my father to brew coffee again. Therefore, I decided to take the opportunity to enjoy coffee at home again to celebrate the return of our water supply, and my nose recovering. My home's water pressure was still yet to return to normal, but at least it was enough for us to cook again, and to have a proper shower and wash our hair.
 
 As of today, on May 24 Saturday morning, the water pressure of my home returned to normal at long last.
 
-Unexpected water supply disruption already causes inconvenience even if it lasts only a day, but one that lasts more than a day is even worse, and absolutely *not* an experience I want to relive ever again.
+Unexpected water supply disruption already causes inconvenience even if it lasts only a day, but one that lasts more than a day is even worse, and absolutely _not_ an experience I want to relive ever again.

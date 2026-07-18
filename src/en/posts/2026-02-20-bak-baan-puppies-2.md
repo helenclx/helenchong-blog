@@ -4,6 +4,7 @@ desc: My uncle's dog, Bak Baan, gave birth again in December 2025, and we got th
 date: 2026-02-20T22:23:33+0800
 topics: [dogs, Bak Baan the dog, Lunar New Year]
 ---
+
 One of my uncles is taking care of our family durian plantation, with a dog he rescued as a stray a year ago and named Bak Baan after the mahjong tile [白板]{lang=zh}.
 
 My parents and I met Bak Baan for the first time in [2025's Lunar New Year](2025-02-06-my-2025-lunar-new-year.md). When we saw Bak Baan the next time in [2025's Qingming Festival in early April](2025-04-06-my-2025-qingming.md), Bak Ban was pregnant with her first litter of puppies, then she gave birth in late April. We got the opportunity to see Bak Baan's children ourselves in [August 2025](2025-08-16-bak-baan-puppies.md).

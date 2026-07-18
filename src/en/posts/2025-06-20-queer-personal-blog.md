@@ -4,13 +4,14 @@ desc: In the first Pride Month after the launch of Galaxy Garden, I want to take
 date: 2025-06-20T20:02:36+0800
 topics: ['LGBTQ', 'blogging', 'Pride Month']
 ---
+
 Happy Pride Month! 🏳️‍🌈
 
 June 2025 marked the first Pride Month since Galaxy Garden was [officially launched in October 2024](2024-10-08-welcome-to-galaxy-garden.md), so I would like to take this opportunity to celebrate my queerness in the context of personal blogging.
 
 When I blogged for the first time in the later half of the 2000s as a teenager and secondary school student, I did not know I was queer, and I never even considered the possibility that I was queer. I live in a country where LGBTQ+ rights remain non-existent; I was not aware of any queer person among the people I knew before adulthood; there was a severe lack of positive representation of LGBTQ+ people in the media I grew up with; one of my teachers during secondary school was one of those "love the sinner, hate the sin" type of Christians regarding LGBTQ+ people and identities who openly expressed the sentiment during one of the classes.
 
-Without positivity for LGBTQ+ identities and people around me growing up, it was virtually impossible for my child and teenage self to figure out that I was queer, despite the signs being present in retrospect. I had always disliked traditional gender roles, and I was told more than once that I was "unladylike". Even though I *did* experience attraction to women celebrities during secondary school, I dismissed it as a teenage phase and nothing more. While I did realiase even in secondary school that I had no romantic interest in boys, and in fact, I was utterly repulsed by any attempt made by classmates to suggest I was romantically interested in any boy, even as a joke, it never crossed my mind even once that it was because I was a lesbian.
+Without positivity for LGBTQ+ identities and people around me growing up, it was virtually impossible for my child and teenage self to figure out that I was queer, despite the signs being present in retrospect. I had always disliked traditional gender roles, and I was told more than once that I was "unladylike". Even though I _did_ experience attraction to women celebrities during secondary school, I dismissed it as a teenage phase and nothing more. While I did realiase even in secondary school that I had no romantic interest in boys, and in fact, I was utterly repulsed by any attempt made by classmates to suggest I was romantically interested in any boy, even as a joke, it never crossed my mind even once that it was because I was a lesbian.
 
 That started to change after I graduated from secondary school and started attending university since 2010.
 

@@ -4,6 +4,7 @@ desc: After waiting for months, I finally got the chance to watch 'The Way We Ta
 date: 2025-08-06T23:33:10+0800
 topics: ['films']
 ---
+
 On August 1st afternoon, I finally watched the Hong Kong film "The Way We Talk" ([看我今天怎麼說]{lang=zh}) in the cinema.
 
 "The Way We Talk" was a film I had been wanting to see for months. I had heard of the film since the late 2024, including the news about the leading actress, Chung Suet Ying, won Best Leading Actress in the 61st Golden Horse Awards (the Chinese-language films' equivalent to the Oscars) for her role, and I got interested in the film after reading good reviews praising the film's portrayal of the deaf community. Although I am not deaf or heard-of-hearing, I am disabled myself (specifically autistic and [visually impaired](2024-12-21-living-with-retinitis-pigmentosa.md)), not to mention Hong Kong films about the disabled community is indeed rare, thus I am curious to see a Hong Kong film with such unusual subject like "The Way We Talk".

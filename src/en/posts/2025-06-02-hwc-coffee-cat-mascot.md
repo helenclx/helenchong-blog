@@ -4,6 +4,7 @@ desc: I love HWC Coffee and its cat mascot.
 date: 2025-06-02T15:06:06+0800
 topics: ['coffee', 'mascots']
 ---
+
 I am a sucker for coffee and adorable mascots, so combining these two things together is a surefire way to get my attention.
 
 For example, the coffee brand of HWC Coffee.

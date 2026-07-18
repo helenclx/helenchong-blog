@@ -9,7 +9,11 @@ pageLangOptions: false
 eleventyComputed:
   title: '{{ collections["posts_" + page.lang] |> filterByTopic(topic) |> itemCount }} Posts Filed Under "{{ topic }}"'
 ---
-{{ set postList = collections["posts_" + page.lang] |> filterByTopic(topic) |> toReversed }}
+{{
+	set postList = collections["posts_" + page.lang]
+	|> filterByTopic(topic)
+	|> toReversed
+}}
 {{ include "partials/postlist.vto" }}
 
 <p>See <a href="topics.vto">all blog post topics</a>.</p>

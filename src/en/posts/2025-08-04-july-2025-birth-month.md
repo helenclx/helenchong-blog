@@ -4,7 +4,8 @@ desc: July is my birth month, and I had a good birth month in 2025.
 date: 2025-08-04T20:30:46+0800
 topics: ['birthday', 'plushies']
 ---
- July is the birth month of both my father and I. We both had nice birthday celebration at home in this July.
+
+July is the birth month of both my father and I. We both had nice birthday celebration at home in this July.
 
 In my case, I got to enjoy [roti canai](https://en.wikipedia.org/wiki/Roti_canai) as lunch in a local café, buy a cute banana plushie as my birthday present this year, and then enjoy tiramisu as my birthday cake at home.
 

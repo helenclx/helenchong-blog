@@ -5,6 +5,7 @@ updated: 2026-06-15T18:21:06+0800
 eleventyComputed:
   desc: "{{ sitemeta[page.lang].siteName }}'s licence notice."
 ---
+
 This website, {{ sitemeta.siteDomain }}, its source code and its content are licensed under a dual licence model. This means different licences apply to different parts of this website.
 
 ## Code Licence
@@ -28,6 +29,7 @@ Under the following conditions:
 - The authors are not liable for any damages.
 
 The complete source code and licence text of this website can be found on:
+
 - [My self-hosted Forgejo instance](https://git.helenchong.dev/helenchong/helenchong-blog)
 - [SourceTube](https://source.tube/helenchong/helenchong-blog)
 - [Codeberg](https://codeberg.org/helenchong/helenchong-blog)
@@ -48,4 +50,3 @@ Under the following terms:
 1. **Attribution** — You must give [appropriate credit](https://creativecommons.org/licenses/by-sa/4.0/#ref-appropriate-credit), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by-sa/4.0/#ref-indicate-changes). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 2. **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-sa/4.0/#ref-same-license) as the original.
 3. **No additional restrictions** — You may not apply legal terms or [technological measures](https://creativecommons.org/licenses/by-sa/4.0/#ref-technological-measures) that legally restrict others from doing anything the license permits.
-

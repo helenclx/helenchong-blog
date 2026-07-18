@@ -4,6 +4,7 @@ desc: "June 8 to 14, 2026: 'Cassette Beasts 2002' announced, briefly trying out 
 date: 2026-06-14T19:52:44+0800
 topics: [weekly recap, Cassette Beasts, Pokemon]
 ---
+
 Happy Pride Month! 🏳️‍🌈
 
 ## {{ cite "Cassette Beasts 2002" }} Announced
@@ -14,7 +15,7 @@ An [announcement trailer for {{ cite "Cassette Beasts 2002" }}](https://www.yout
 
 After Bytten Sudio announced {{ cite "Cassette Beasts 2002" }}, Jay Baylis, the Art Director of Bytten Sudio, [posted](https://blacksky.community/profile/did:plc:6zljxgeoquzinjuwrbotx57b/post/3mnpxr2ygs22v) on Bluesky:
 
-> To get to make your own RPG is one thing, but to get to make your own *RPG series* is something else.
+> To get to make your own RPG is one thing, but to get to make your own _RPG series_ is something else.
 >
 > To every kind word, helping hand, and word of mouth recommendation - thank you all, sincerely. This has been a true privilege to get to work on.
 >

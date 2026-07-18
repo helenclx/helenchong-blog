@@ -4,6 +4,7 @@ desc: "May 18 to 24, 2026: maternal uncle's funeral, farewell potluck at my loca
 date: 2026-05-24T21:05:47+0800
 topics: [weekly recap, relatives, 42 the school, moving house]
 ---
+
 ## Maternal Uncle's Funeral
 
 On 21 May 2026, we received the news that my maternal uncle, who had cancer, passed away on May 20th evening. While I was not very close to my maternal uncle because I typically only saw him during Lunar New Year — the last time I saw him alive was indeed during this year's Lunar New Year — his passing made him the first relative from my parents' generation I knew who died (all my grandparents are already dead).
@@ -28,7 +29,7 @@ On 20 May 2026, the staff of my local campus of 42 the computer science school a
 
 To have one last chance for students and staff of my 42 campus to gather together before the campus transition, we had a potluck dinner at the campus on May 21st. I brought pizza, which unsurprisingly became the first food to be finished during the potluck.
 
- Coincidentally, the announcement of my 42 campus' transition to a satellite campus took place on the same day my maternal uncle passed away, which we then learned of on the next day. In other words, I had to bid two major farewells in the same week — first to my 42 campus and to [my journey at 42](2026-05-21-farewell-42-school.md), then to my maternal uncle.
+Coincidentally, the announcement of my 42 campus' transition to a satellite campus took place on the same day my maternal uncle passed away, which we then learned of on the next day. In other words, I had to bid two major farewells in the same week — first to my 42 campus and to [my journey at 42](2026-05-21-farewell-42-school.md), then to my maternal uncle.
 
 ## Kitchen Cabinets for New House
 

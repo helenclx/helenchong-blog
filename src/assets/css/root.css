@@ -2,7 +2,9 @@
 	Based on SmolCSS Document Style:
 	https://smolcss.dev/#smol-document-styles
  */
- html { color-scheme: light dark; }
+html {
+	color-scheme: light dark;
+}
 
 :root {
 	--clr-body-txt: light-dark(#222, #fff);
@@ -12,7 +14,9 @@
 	--clr-footer-txt: light-dark(#767676, #bebebe);
 	--fs-body: 1.2rem;
 	--fs-footer: 0.9rem;
-	--ff-body: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+	--ff-body:
+		Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro,
+		sans-serif;
 }
 
 * {

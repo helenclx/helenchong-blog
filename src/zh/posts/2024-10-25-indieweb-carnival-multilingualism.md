@@ -44,7 +44,7 @@ Riccardo 为 2024 年 10 月的 IndieWeb Carnival 撰写了一篇[综述文章](
 
 > Thank you, [Helen](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/), for posting from the part of the world I know less about. If my old friend Hai Xin read my blog, I would tell him to check the [Chinese](https://blog.helenchong.omg.lol/zh/posts/2024-10-25-indieweb-carnival-multilingualism/) version.
 >
-> > Galaxy Garden also marked my first time building a multilingual website, so setting up this blog has been quite a learning experience on the technical side too.
+>> Galaxy Garden also marked my first time building a multilingual website, so setting up this blog has been quite a learning experience on the technical side too.
 >
 > I, too, noticed that maintaining a multi-language site isn’t trivial; in addition, many site generators don’t help at all, or at most provide some rudimentary tool.
 
@@ -52,7 +52,7 @@ Riccardo 为 2024 年 10 月的 IndieWeb Carnival 撰写了一篇[综述文章](
 
 > [Helen](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/)，谢谢你从这世界里我所知较少的一个地方的观点分享这篇文章。如果我的老朋友 Hai Xin 看到我的部落格，我会告诉他去阅读此文章的[中文](https://blog.helenchong.omg.lol/zh/posts/2024-10-25-indieweb-carnival-multilingualism/)版本。
 >
-> > 银河花园也是我第一次建立多语言网站，因此建立这个部落格也是一次技术方面的学习经历。
+>> 银河花园也是我第一次建立多语言网站，因此建立这个部落格也是一次技术方面的学习经历。
 >
 > 我也注意到，维护一个多语种网站并非易事；此外，许多网站生成器在这方面根本帮不上忙，或者最多提供一些初级的工具。
 
