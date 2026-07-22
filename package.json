@@ -31,7 +31,7 @@
 		"pinyin": "^4.0.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.4",
+		"@biomejs/biome": "2.5.5",
 		"dprint": "^0.55.2"
 	}
 }
