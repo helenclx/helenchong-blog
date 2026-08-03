@@ -13,7 +13,7 @@ Then social media began to take off. Jim Mitchell wrote:
 
 > Personal blogs didn’t just disappear in one big poof. It was more like a slow fade. As Facebook, Instagram, and Twitter took off, people – me included – found it easier to share bite-sized pieces of life. Why write a long, reflective post to publish on your personal site when you could sum it up in a quick status update that some “friend” you don’t really even know could give you a mindless like?
 
-I can attest to that, because I was there when bloggers began to use social media, and how social media platforms gradually replaced their personal blogs as means share their thoughts and life updates. I was introduced to Facebook in the late 2000s by other Malaysian Chinese bloggers. As more of us bloggers use Facebook, updates of our personal blogs have gradually decreased.
+I can attest to that, because I was there when bloggers began to use social media, and how social media platforms gradually replaced their personal blogs as means share their thoughts and life updates. I was introduced to Facebook in the late 2000s by other Chinese Malaysian bloggers. As more of us bloggers use Facebook, updates of our personal blogs have gradually decreased.
 
 Jim Mitchell's post talked about the shift to niche or professional blogging, which is a phenomenon I have noticed as well. I do not think blogs ever died, and in fact, even before discovering the indie web and learning to code my own website from scratch for the first time in 2022, I still found niche blogs to follow and subscribed to their RSS feeds, but social media and search engine optimization (SEO) have made personal blogs obscure and more difficult to find than niche and professional blogs.
 

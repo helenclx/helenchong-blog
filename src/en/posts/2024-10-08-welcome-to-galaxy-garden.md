@@ -10,7 +10,7 @@ Hello, welcome to Galaxy Garden, my new personal blog!
 
 ## About the Blogger
 
-I am Helen Chong, a Millennial queer, autistic Malaysian Chinese person who goes by [they/them or she/her pronouns](https://en.pronouns.page/@helenchong).
+I am Helen Chong, a Millennial queer, autistic Chinese Malaysian person who goes by [they/them or she/her pronouns](https://en.pronouns.page/@helenchong).
 
 Professionally, I am a web developer with 8 years of experience as a graphic designer. My hobbies include coding, reading, video games, drawing and crocheting.
 
